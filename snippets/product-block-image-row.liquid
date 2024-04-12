@@ -1,0 +1,31 @@
+<div
+  class="{{ block_base_classes }} {{ color_class }}"
+  {{ block.shopify_attributes }}
+>
+  <ul class="pb-2 flex gap-4">
+    {%- for i in (1..5) -%}
+      {%- capture image %}image_{{ i }}{%- endcapture -%}
+      {%- capture text %}text_{{ i }}{%- endcapture -%}
+      {%- liquid
+        assign image = block.settings[image]
+        assign text = block.settings[text]
+      -%}
+      {%- if text != '' -%}
+        <li class="text-center flex flex-col items-center">
+          <div class="mb-2 w-8 flex-grow flex items-center justify-center">
+            {%- if image != blank -%}
+              {{ image | image_url: width: 72 | image_tag }}
+            {%- else -%}
+              <div class="media-style-container media-style-no-shadow">
+                <div class="media-style overflow-hidden">
+                  {{ 'image' | placeholder_svg_tag: 'w-full h-full fill-current text-scheme-text bg-neutral-100' }}
+                </div>
+              </div>
+            {%- endif -%}
+          </div>
+          <span class="block text-sm flex-shrink-0">{{- text | escape | strip -}}</span>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</div>

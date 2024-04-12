@@ -1,0 +1,113 @@
+{% liquid
+  unless text
+    assign text = section.settings.text
+  endunless
+
+  assign speed = section.settings.speed
+  assign min_speed_setting = 20
+  assign max_speed_setting = 400
+  assign speed_number = min_speed_setting | plus: max_speed_setting | minus: speed
+  assign speed_number = speed_number | divided_by: 2 | divided_by: 10
+  assign link = section.settings.link
+  assign font = section.settings.font | default: 'body'
+  assign section_color = section.settings.color_scheme
+  assign direction = section.settings.direction
+  assign repeat_text = section.settings.repeat_text
+  assign content_class = 'shrink-0 pl-[100vw]'
+  if repeat_text
+    assign content_class = 'grow-0 shrink-0'
+  endif
+%}
+
+{%- capture scrolling_text -%}
+  <div class="flex items-center grow-0 shrink-0 {{ font }}">
+    {%- if repeat_text -%}
+      <span class="{% render 'type-scale-classes', mobile_text_scale: section.settings.mobile_text_scale, desktop_text_scale: section.settings.desktop_text_scale %} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">{{ text }}</span>
+      {%- if section.settings.shape_between_text != 'none' -%}
+        <span class="flex-shrink-0 px-2 text-current">
+          <svg class="w-4 h-4 {% if section.settings.animate_shape_between_text %}rotate-anim{% endif %}{% if section.settings.shape_between_text == 'triangle' %} origin-[50%_66.66%]{% endif %}" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {%- case section.settings.shape_between_text -%}
+              {%- when 'circle' -%}
+                <circle cx="100" cy="100" r="95" fill="currentColor"/>
+              {%- when 'diamond' -%}
+                <path d="M100.5 2L198 99.5L100.5 197L3 99.5L100.5 2Z" fill="currentColor"/>
+              {%- when 'triangle' -%}
+                <path d="M100.5 16L198 184.875H3L100.5 16Z" fill="currentColor"/>
+              {%- when 'star' -%}
+                <path d="M43.3846 187.385L100.308 12L157.231 187.385L8 78.9231H192.615" fill="currentColor"/>
+              {%- when '10_point_star' -%}
+                <path d="M100.5 3L114.058 58.7724L157.809 21.6208L135.996 74.7109L193.228 70.3708L144.375 100.5L193.228 130.629L135.996 126.289L157.809 179.379L114.058 142.228L100.5 198L86.9419 142.228L43.1909 179.379L65.0044 126.289L7.77197 130.629L56.625 100.5L7.77197 70.3708L65.0044 74.7109L43.1909 21.6208L86.9419 58.7724L100.5 3Z" fill="currentColor"/>
+              {%- when 'flower' -%}
+                <path d="M172.01 105.408C168.411 103.281 163.994 101.645 159.087 100.5C163.994 99.3549 168.411 97.719 172.01 95.5923C187.388 86.7584 192.623 67.1275 183.789 51.75C174.955 36.3725 155.324 31.1376 139.946 39.9715C136.347 42.0982 132.748 45.0428 129.313 48.6418C130.785 43.8977 131.603 39.1535 131.603 35.0638C131.603 17.396 117.207 3 99.5396 3C81.8718 3 67.4758 17.396 67.4758 35.0638C67.4758 39.1535 68.2938 43.8977 69.7661 48.6418C66.3307 45.0428 62.5681 41.9346 59.1327 39.9715C43.7552 31.1376 24.1243 36.3725 15.2904 51.75C6.45651 67.1275 11.6914 86.7584 27.0689 95.5923C30.6679 97.719 35.0849 99.3549 39.9926 100.5C35.0849 101.645 30.6679 103.281 27.0689 105.408C11.6914 114.242 6.45651 133.872 15.2904 149.25C24.1243 164.628 43.7552 169.862 59.1327 161.029C62.7317 158.902 66.3307 155.957 69.7661 152.358C68.2938 157.102 67.4758 161.846 67.4758 165.936C67.4758 183.604 81.8718 198 99.5396 198C117.207 198 131.603 183.604 131.603 165.936C131.603 161.846 130.785 157.102 129.313 152.358C132.748 155.957 136.511 159.065 139.946 161.029C155.324 169.862 174.955 164.628 183.789 149.25C192.459 133.872 187.224 114.242 172.01 105.408Z" fill="currentColor"/>
+            {%- endcase -%}
+          </svg>
+        </span>
+      {%- else -%}
+        <span class="inline-block px-2">&nbsp;</span>
+      {%- endif -%}
+    {%- else -%}
+      <span class="{% render 'type-scale-classes', mobile_text_scale: section.settings.mobile_text_scale, desktop_text_scale: section.settings.desktop_text_scale %} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">{{ text }}</span>
+    {%- endif -%}
+  </div>
+{%- endcapture -%}
+
+<div id="marquee-{{ section.id }}" class="marquee overflow-hidden {{ class }}">
+  {%- if link != blank -%}
+  <a href="{{ link }}" class="text-{{ section_color }}-text hover:text-{{ section_color }}-accent-1">
+  {%- endif -%}
+    <scrolling-items-container class="block">
+      <scrolling-items
+        style="
+          --base-scrolling-items-speed: {{ speed_number }}s;
+          --local-scrolling-items-speed-multiplier: 1;
+          --scrolling-items-speed: calc(
+          var(--base-scrolling-items-speed) * var(--global-scrolling-items-speed-multiplier) *
+          var(--local-scrolling-items-speed-multiplier)
+          );
+          --scrolling-items-direction: {{ direction }};
+          "
+        class="block w-max whitespace-nowrap motion-safe:animate-[scrolling-items_var(--scrolling-items-speed)_linear_infinite_var(--scrolling-items-direction)] motion-safe:hover:[animation-play-state:paused] {{ font }} {{ text_size_class }} motion-reduce:block motion-reduce:-translate-x-1/4 motion-reduce:whitespace-normal motion-reduce:px-section-horizontal-spacing motion-reduce:text-center"
+      >
+        <scrolling-items-surface class="flex flex-nowrap items-center">
+          <scrolling-items-content class="{{ content_class }}">
+            {{- scrolling_text -}}
+          </scrolling-items-content>
+
+          <noscript>
+            {% liquid
+              if repeat_text
+                assign fallback_repeat_limit = 11
+              else
+                assign fallback_repeat_limit = 1
+              endif
+            %}
+            <div class="flex flex-nowrap items-center">
+            {% for i in (1..fallback_repeat_limit) %}
+              <div class="motion-reduce:hidden {{ content_class }}">{{ scrolling_text }}</div>
+            {% endfor %}
+            </div>
+          </noscript>
+        </scrolling-items-surface>
+      </scrolling-items>
+    </scrolling-items-container>
+  {%- if link != blank -%}
+  </a>
+  {% endif %}
+</div>
+
+<style>
+  {% if section.settings.animate_shape_between_text %}
+  @media (prefers-reduced-motion: no-preference) {
+    #marquee-{{ section.id }} .rotate-anim {
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-name: rotate;
+      animation-duration: 3s;
+    }
+  }
+  {% endif %}
+</style>
+
+{% unless request.design_mode %}
+  <script src="{{ 'scrolling-items.js' | asset_url }}" type="module"></script>
+{% endunless %}

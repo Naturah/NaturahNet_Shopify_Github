@@ -1,0 +1,106 @@
+<section
+  class="text-scheme-text bg-scheme-background relative overflow-hidden {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %} "
+  data-color-scheme="{{ section.settings.color_scheme | default: 'primary' }}"
+>
+  <div class="section-content{% if section.settings.apply_vertical_spacing %} py-section-vertical-spacing{% endif %}{% if section.settings.apply_horizontal_spacing %} px-section{% endif %}">
+    <div class="max-w-site mx-auto {{ section.settings.content_width_desktop }} {% if section.settings.display_on_card %}card-container{% endif %}">
+      <div class="{% if section.settings.display_on_card %}card p-5 lg:p-10{% endif %}">
+        {% for block in section.blocks %}
+          {%- render block -%}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.apps.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "apply_vertical_spacing",
+      "label": "t:sections.apps.settings.apply_vertical_spacing.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "apply_horizontal_spacing",
+      "label": "t:sections.apps.settings.apply_horizontal_spacing.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "display_on_card",
+      "label": "t:common.settings.display_on_card.label",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "content_width_desktop",
+      "label": "t:sections.apps.settings.content_width_desktop.label",
+      "default": "lg:w-full",
+      "options": [
+        {
+          "value": "lg:w-1/3",
+          "label": "t:common.options.one_third.label"
+        },
+        {
+          "value": "lg:w-1/2",
+          "label": "t:common.options.one_half.label"
+        },
+        {
+          "value": "lg:w-2/3",
+          "label": "t:common.options.two_thirds.label"
+        },
+        {
+          "value": "lg:w-full",
+          "label": "t:common.options.full_width.label"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "t:common.settings.header_color"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "t:common.settings.color_scheme.label",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:common.options.primary.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:common.options.secondary.label"
+        },
+        {
+          "value": "tertiary",
+          "label": "t:common.options.tertiary.label"
+        },
+        {
+          "value": "quaternary",
+          "label": "t:common.options.quaternary.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "use_gradient_background",
+      "label": "t:common.settings.use_gradient_background.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.apps.presets.name"
+    }
+  ]
+}
+{% endschema %}

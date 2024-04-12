@@ -1,0 +1,121 @@
+{%- liquid
+  comment
+    Threshold
+  endcomment
+
+  for threshold_rule in localization.market.metafields.switch.free_shipping_threshold.value
+    unless threshold_rule contains ':'
+      assign market_threshold = threshold_rule | strip
+    else
+      assign country_code = threshold_rule | split: ':' | first | strip
+
+      if localization.country.iso_code == country_code
+        assign country_threshold = threshold_rule | split: ':' | last | strip
+        break
+      endif
+    endunless
+  endfor
+
+  unless country_threshold == blank and market_threshold == blank
+    assign threshold = country_threshold | default: market_threshold | times: 100
+  else
+    assign threshold = settings.free_shipping_threshold | times: 100
+  endunless
+
+  comment
+    Subtotal and percentage
+  endcomment
+
+  assign subtotal = cart.items_subtotal_price
+
+  if subtotal < threshold
+    assign percentage = subtotal | times: 1.00 | divided_by: threshold | times: 100
+  else
+    assign percentage = 100
+  endif
+
+  comment
+    Color and layout
+  endcomment
+  assign same_as_background = false
+  if settings.shipping_bar_color_scheme == 'automatic'
+    assign same_as_background = true
+    assign color_scheme = settings.drawer_color_scheme
+  else
+    assign color_scheme = settings.shipping_bar_color_scheme
+  endif
+
+  assign color = settings.free_shipping_progress_in_cart_color
+
+  assign background_classes = 'bg-scheme-background'
+  assign text_color_classes = 'text-scheme-text'
+  assign progress_color_classes = settings.shipping_progress_bar_color
+
+  if settings.card_border_radius == '2rem'
+    assign background_border_radius_class = 'rounded-[1rem]'
+  else
+    assign background_border_radius_class = 'rounded-card'
+  endif
+
+  assign center_text = true
+
+  if same_as_background and template != 'cart'
+    assign center_text = false
+  endif
+
+  if same_as_background and template == 'cart'
+    assign background_classes = 'transparent'
+  endif
+
+  if template == 'cart'
+    assign progress_max_width_class = 'max-w-md'
+  else
+    unless same_as_background
+      assign progress_max_width_class = 'max-w-sm'
+    else
+      assign progress_max_width_class = 'max-w-full'
+    endunless
+  endif
+-%}
+
+{%- if cart.item_count > 0 and threshold != 0 and threshold != blank -%}
+  {% capture shipping_progress_content %}
+    <div class="{{ text_color_classes }}{% if center_text %} [text-wrap:balance] text-center{% endif %} text-sm">
+      {% if subtotal < threshold %}
+        {% assign amount = threshold | minus: subtotal | money %}
+        {{ 'free_shipping_progress.not_achieved_html' | t: amount: amount }}
+      {% else %}
+        {{ 'free_shipping_progress.achieved' | t }}
+      {% endif %}
+    </div>
+
+    <div class="mt-4 w-full {{ progress_max_width_class }} mx-auto{% if template == 'cart' and color == 'background' %} px-4{% endif %}">
+      <div
+        class="h-2 w-full rounded-button bg-scheme-text border-scheme-text border-input"
+      >
+        <div
+          class="h-full transition-[width] duration-75 ease-in rounded-button {{ progress_color_classes }}"
+          style="width: {{ percentage }}%;"
+        ></div>
+      </div>
+    </div>
+  {% endcapture %}
+
+  {% liquid
+    if same_as_background
+      if template == 'cart'
+        assign padding_classes = 'pt-3 lg:pt-0 pb-3'
+      else
+        assign padding_classes = 'pt-1 lg:pt-2 pb-2'
+      endif
+    else
+      assign padding_classes = 'p-5'
+    endif
+  %}
+  <div
+    class="{{ background_classes }} mx-auto w-full max-w-xl {% if template == 'cart' %}mb-6 lg:mb-12{% else %}mb-6 lg:mb-4{% endif %} {{ padding_classes }} {{ background_border_radius_class }}"
+    {% unless template == 'cart' and same_as_background %}data-color-scheme="{{ color_scheme }}"{% endunless %}
+  >
+    {{ shipping_progress_content }}
+  </div>
+{%- endif -%}

@@ -1,0 +1,63 @@
+<div class="sticker-{{ id }} z-20 origin-top-left pointer-events-none absolute">
+  {%- if shape == 'fit_to_text' -%}
+  <div class="sticker-default {{ color }} whitespace-nowrap">
+    {{ text }}
+  </div>
+  {%- else -%}
+  <div class="sticker-container relative rotate-anim">
+
+    <div class="relative max-w-none">
+      <div class="absolute inset-0 {{ color }}" style="clip-path: url(#clip-{{ static_id }})">
+        <div class="sticker-text sticker-text-{{ static_id }} absolute inset-0 flex items-center justify-center text-center">
+          <div>{{ text | newline_to_br }}</div>
+        </div>
+      </div>
+      <svg class="sticker-width-container relative max-w-none {{ color | split: ' ' | last }}" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use class="sticker-svg fill-transparent" href="#outline-{{ static_id }}" />
+      </svg>
+      {%- if settings.sticker_drop_shadow_size > 0 -%}
+        {%- if settings.sticker_shadow_color == 'color-scheme-gradient' -%}
+          <div class="sticker-svg sticker-drop-shadow relative max-w-none inset-0">
+            <div class="aspect-w-1 aspect-h-1 w-full h-full bg-scheme-gradient absolute" style="clip-path: url(#clip-{{ static_id }})"></div>
+          </div>
+          <svg class="sticker-svg sticker-drop-shadow relative max-w-none inset-0" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            {% if settings.sticker_show_border_on_shadow %}
+            <use class="sticker-drop-shadow-border-only"  href="#outline-{{ static_id }}" />
+            {% endif %}
+          </svg>
+        {%- else -%}
+          <svg class="sticker-svg sticker-drop-shadow relative max-w-none inset-0" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <use class="sticker-drop-shadow-path"  href="#outline-{{ static_id }}" />
+          </svg>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+    
+  </div>
+  {%- endif -%}
+</div>
+{{ 'block-sticker.css' | asset_url | stylesheet_tag }}
+<style>
+  .sticker-{{ id }} {
+    top: {{ vertical_position }}%;
+    left: {{ horizontal_position }}%;
+    transform: rotate({{ rotate }}deg) translate(-50%, -50%);
+  }
+
+  .sticker-{{ id }} img,
+  .sticker-{{ id }} svg,
+  .sticker-{{ id }} .sticker-text-container {
+    width: {{ width }}px;
+  }
+
+  .sticker-text-{{ static_id }} {
+    padding: calc(2rem * {{ width }} / 300);
+  }
+
+  .sticker-text-{{ static_id }},
+  .sticker-{{ id }} .sticker-default  {
+    --adjusted-sticker-font-size: calc({{ font_size }} * 1.5);
+    font-size: calc(var(--adjusted-sticker-font-size) * {{ width }} / 300);
+    line-height: 1;
+  }
+</style>

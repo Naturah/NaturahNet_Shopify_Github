@@ -1,0 +1,299 @@
+{%- liquid
+  comment
+    Threshold
+  endcomment
+
+  for threshold_rule in localization.market.metafields.switch.free_shipping_threshold.value
+    unless threshold_rule contains ':'
+      assign market_threshold = threshold_rule | strip
+    else
+      assign country_code = threshold_rule | split: ':' | first | strip
+
+      if localization.country.iso_code == country_code
+        assign country_threshold = threshold_rule | split: ':' | last | strip
+        break
+      endif
+    endunless
+  endfor
+
+  unless country_threshold == blank and market_threshold == blank
+    assign threshold = country_threshold | default: market_threshold | times: 100
+  else
+    assign threshold = settings.free_shipping_threshold | times: 100
+  endunless
+
+  comment
+    Subtotal and percentage
+  endcomment
+
+  assign subtotal = cart.items_subtotal_price
+
+  if subtotal < threshold
+    assign percentage = subtotal | times: 1.00 | divided_by: threshold | times: 100
+    assign amount = threshold | minus: subtotal | money
+
+    if cart.item_count > 0
+      assign content_html = 'free_shipping_progress.not_achieved_html' | t: amount: amount
+    else
+      assign content_html = 'free_shipping_progress.not_started_html' | t: amount: amount
+    endif
+  else
+    assign percentage = 100
+
+    assign content_html = 'free_shipping_progress.achieved' | t
+  endif
+-%}
+
+{%- if threshold != 0 and threshold != blank -%}
+  {%- capture content -%}
+    <span data-content x-html-if-set="contentHTML">{{ content_html }}</span>
+  {%- endcapture -%}
+
+  {%- capture free_shipping_bar_output -%}
+    {%- if section.settings.display == 'static' -%}
+      <div
+        class="text-sm text-current text-center py-1 lg:py-2"
+      >
+        <p class="px-5 lg:px-0">{{ content }}</p>
+      </div>
+    {%- else -%}
+      {%- render 'text-marquee',
+        text: content,
+        section: section,
+        class: 'py-1 lg:py-2'
+      %}
+      {{ 'section-marquee.css' | asset_url | stylesheet_tag }}
+    {%- endif -%}
+  {%- endcapture -%}
+
+  <section
+    class="relative text-center min-h-12 border-b-section border-border"
+    data-color-scheme="{{ section.settings.color_scheme | default: 'primary' }}"
+    id="{{ section.id }}"
+    x-data="FreeShippingBar"
+    {% if section.settings.show_progress_bar %}
+      style="--progress: {{ percentage }}%;"
+      :style="styleString"
+    {% endif %}
+  >
+    <div class="bg-scheme-background text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}">
+      {{ free_shipping_bar_output }}
+    </div>
+    {% if section.settings.show_progress_bar %}
+      <div
+        class="absolute inset-0 {{ section.settings.progress_bar_color }} transition-[clip-path_150ms_cubic-bezier(0.4,_0,_1,_1)]"
+        style="clip-path: inset(0% calc(100% - var(--progress)) 0% 0%);"
+        aria-hidden="true"
+      >
+        {{ free_shipping_bar_output }}
+      </div>
+    {% endif %}
+  </section>
+
+  {% unless request.design_mode %}
+    <script
+      src="{{ 'free-shipping-bar.js' | asset_url }}"
+      type="module"
+    ></script>
+  {% endunless %}
+{%- endif -%}
+
+{%- if section.settings.show_bottom_border -%}
+<style>
+  #{{ section.id }} {
+    --section-border-thickness: {{ settings.section_border_thickness }}px;
+  }
+</style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.free_shipping_bar.name",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.free_shipping_bar.settings.paragraph_configure_the_threshold"
+    },
+    {
+      "type": "radio",
+      "id": "display",
+      "label": "t:sections.announcement_bar.settings.display.label",
+      "options": [
+        {
+          "value": "marquee",
+          "label": "t:sections.announcement_bar.settings.display.options.marquee.label"
+        },
+        {
+          "value": "static",
+          "label": "t:sections.announcement_bar.settings.display.options.static.label"
+        }
+      ],
+      "default": "static"
+    },
+    {
+      "type": "header",
+      "content": "t:common.settings.header_color"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "t:common.settings.color_scheme.label",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:common.options.primary.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:common.options.secondary.label"
+        },
+        {
+          "value": "tertiary",
+          "label": "t:common.options.tertiary.label"
+        },
+        {
+          "value": "quaternary",
+          "label": "t:common.options.quaternary.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "use_gradient_background",
+      "label": "t:common.settings.use_gradient_background.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_bottom_border",
+      "default": true,
+      "label": "t:sections.free_shipping_bar.settings.show_bottom_border.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.free_shipping_bar.settings.header_progress_bar"
+    },
+    {
+      "type": "select",
+      "id": "progress_bar_color",
+      "label": "t:sections.free_shipping_bar.settings.progress_bar_color.label",
+      "default": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+      "options": [
+        {
+          "value": "bg-scheme-text text-scheme-text-overlay",
+          "label": "t:common.options.text.label"
+        },
+        {
+          "value": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+          "label": "t:common.options.accent_1.label"
+        },
+        {
+          "value": "bg-scheme-accent-2 text-scheme-accent-2-overlay",
+          "label": "t:common.options.accent_2.label"
+        },
+        {
+          "value": "bg-scheme-card text-scheme-text",
+          "label": "t:common.options.card.label"
+        },
+        {
+          "value": "bg-scheme-gradient text-scheme-text",
+          "label": "t:common.options.gradient.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_progress_bar",
+      "default": true,
+      "label": "t:sections.free_shipping_bar.settings.show_progress_bar.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.announcement_bar.settings.header_marquee"
+    },
+    {
+      "type": "checkbox",
+      "id": "repeat_text",
+      "default": true,
+      "label": "t:common.settings.repeat_text.label",
+      "info": "t:common.settings.repeat_text.info"
+    },
+    {
+      "type": "select",
+      "id": "shape_between_text",
+      "label": "t:common.settings.shape_between_text.label",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:common.options.none.label"
+        },
+        {
+          "value": "circle",
+          "label": "t:common.options.circle.label"
+        },
+        {
+          "value": "diamond",
+          "label": "t:common.options.diamond.label"
+        },
+        {
+          "value": "triangle",
+          "label": "t:common.options.triangle.label"
+        },
+        {
+          "value": "star",
+          "label": "t:common.options.star.label"
+        },
+        {
+          "value": "10_point_star",
+          "label": "t:common.options.10_point_star.label"
+        },
+        {
+          "value": "flower",
+          "label": "t:common.options.flower.label"
+        }
+      ],
+      "default": "10_point_star"
+    },
+    {
+      "type": "checkbox",
+      "id": "animate_shape_between_text",
+      "default": true,
+      "label": "t:common.settings.animate_shape_between_text.label"
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 10,
+      "max": 400,
+      "step": 10,
+      "label": "t:common.settings.speed.label",
+      "default": 120
+    },
+    {
+      "type": "radio",
+      "id": "direction",
+      "label": "t:common.settings.direction.label",
+      "options": [
+        {
+          "value": "",
+          "label": "t:common.options.right_to_left.label"
+        },
+        {
+          "value": "reverse",
+          "label": "t:common.options.left_to_right.label"
+        }
+      ],
+      "default": ""
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.free_shipping_bar.name"
+    }
+  ],
+  "enabled_on": {
+    "groups": [
+      "header"
+    ]
+  }
+}
+{% endschema %}

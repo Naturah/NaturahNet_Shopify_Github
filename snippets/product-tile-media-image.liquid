@@ -1,0 +1,139 @@
+{%- liquid
+  assign media_id = container_id | append: '-' | append: media.id | append: '-' | append: index
+
+  assign hover_image_background = 'bg-scheme-background'
+
+  if is_card
+    assign hover_image_background = 'bg-scheme-card'
+  endif
+
+  assign hover_image_class = 'absolute w-full h-full inset-0 object-cover ' | append: hover_image_background
+
+  assign media_style_class = 'media-style overflow-hidden '
+  assign media_class = ''
+  assign foreign_object_class = 'foreign-object-img w-full h-full object-cover '
+  if settings.media_drop_shadow_size > 0
+    assign foreign_object_class = foreign_object_class | append: hover_image_background
+    assign media_class = media_class | append: hover_image_background
+  endif
+  if quick_buy and product != blank
+    assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
+    if variant_images.size > 1
+      assign variant_images_enabled = true
+      assign hover_image = blank
+    endif
+  endif
+  unless crop == '' or crop == blank or crop == 'natural'
+    assign crop_class = 'object-wrapper ' | append: crop
+    assign media_style_class = media_style_class | append: 'w-full h-full '
+  endunless
+-%}
+
+{%- if shape contains 'default' or shape == '' or shape == blank -%}
+<div class="media-{{ media_id }} media-style-container {% if settings.media_drop_shadow_size == 0 %}media-no-shadow{% endif %} {% if disable_media_style %}media-style-none{% endif %} {% if is_card %}media-style-is-card{% endif %} {{ shape | split: '_' | last }}">
+  <div class="{{ crop_class }} media-content ">
+    <div
+      class="{{ media_style_class }} relative overflow-hidden z-0"
+    > 
+      {{ media | image_url: width: 2000 | image_tag: class: media_class, loading: 'lazy', sizes: sizes, onerror: 'this.style.color="currentColor"', onload: 'this.style.color="currentColor"' }}
+      
+      {%- if hover_image != blank -%}
+        <div
+          class="absolute group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:opacity-100 group-focus-within:pointer-events-auto w-full h-full inset-0 z-10 opacity-0 pointer-events-none transition-opacity will-change-[opacity]"
+        >
+          {{ hover_image | image_url: width: 2000 | image_tag: class: hover_image_class, loading: 'lazy', onerror: 'this.style.color="currentColor"', onload: 'this.style.color="currentColor"' }}
+        </div>
+      {%- endif -%}
+
+      {%- if variant_images_enabled -%}
+        {%- for media in product.media -%}
+          {%- if variant_images contains media.src -%}
+            <div
+              :class="{ 'opacity-100 pointer-events-auto' : current_media_id === {{ media.id }}, 'opacity-0 pointer-events-none' : current_media_id !== {{ media.id }} }"
+              class="absolute inset-0 w-full h-full opacity-0 pointer-events-none transition-opacity will-change-[opacity]"
+            >
+              {{ media | image_url: width: 2000 | image_tag: class: 'absolute w-full h-full inset-0 object-cover', loading: 'lazy', onerror: 'this.style.color="currentColor"', onload: 'this.style.color="currentColor"' }}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    </div>
+  </div>
+  {%- if settings.media_drop_shadow_size > 0 and is_card == false and settings.media_show_border_on_shadow -%}
+  <div class="media-drop-shadow-container">
+    <div class="media-drop-shadow-border w-full h-full"></div>
+  </div>
+  {%- endif -%}
+</div>
+{%- else -%}
+<div class="media-{{ media_id }}">
+  <div class="media-shape-container relative z-10">
+    <div class="media-image-container">
+      {%- comment -%}
+        Image shape
+      {%- endcomment -%}
+      <div class="aspect-w-1 aspect-h-1 w-full h-full overflow-hidden" style="clip-path:url(#clip-{{ shape_id }})">
+        {{ media | image_url: width: 2000 | image_tag: class: foreign_object_class, loading: 'lazy', sizes: sizes, onerror: 'this.style.color="currentColor"', onload: 'this.style.color="currentColor"' }}
+
+        {%- if hover_image != blank -%}
+          <div 
+            class="absolute group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:opacity-100 group-focus-within:pointer-events-auto w-full h-full inset-0 z-10 opacity-0 pointer-events-none transition-opacity will-change-[opacity]"
+          >
+            {{ hover_image | image_url: width: 2000 | image_tag: class: hover_image_class, loading: 'lazy', onerror: 'this.style.color="currentColor"', onload: 'this.style.color="currentColor"' }}
+          </div>
+        {%- endif -%}
+
+        {%- if variant_images_enabled -%}
+          {%- for media in product.media -%}
+            {%- if variant_images contains media.src -%}
+              <div
+                :class="{ 'opacity-100 pointer-events-auto' : current_media_id === {{ media.id }}, 'opacity-0 pointer-events-none' : current_media_id !== {{ media.id }} }"
+                class="absolute inset-0 w-full h-full opacity-0 pointer-events-none transition-opacity will-change-[opacity]"
+              >
+                {{ media | image_url: width: 2000 | image_tag: class: hover_image_class, loading: 'lazy', onerror: 'this.style.color="currentColor"', onload: 'this.style.color="currentColor"' }}
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </div>
+
+      {%- comment -%}
+        Image shape outline
+      {%- endcomment -%}
+      <svg class="media-svg absolute inset-0 w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        {%- unless disable_media_style -%}
+          <use style="fill: none;" href="#outline-{{ shape_id }}" />
+        {%- endunless -%}
+      </svg>
+    </div>
+
+    {%- comment -%}
+      Drop shadow and border
+    {%- endcomment -%}
+    {%- if settings.media_drop_shadow_size > 0 and is_card == false -%}
+    <div class="media-drop-shadow-container">
+      {%- unless settings.media_shadow_color == 'color-scheme-gradient' -%}
+      <svg class="media-svg media-drop-shadow media-shape-drop-shadow relative w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="presentation" aria-hidden="true" focusable="false">
+        <use class="media-drop-shadow-path stroke-none"  href="#outline-{{ shape_id }}" />
+      </svg>
+      {%- else -%}
+      <div class="media-svg media-drop-shadow media-shape-drop-shadow relative w-full h-full overflow-hidden">
+        <div class="aspect-w-1 aspect-h-1 w-full h-full bg-scheme-gradient absolute" style="clip-path:url(#clip-{{ shape_id }})"></div>
+      </div>
+      {%- endunless -%}
+
+      {%- if settings.media_show_border_on_shadow -%}
+      <svg class="media-svg media-drop-shadow-stroke relative w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use class="media-drop-shadow-stroke-path"  href="#outline-{{ shape_id }}" />
+      </svg>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+{%- endif -%}
+<style>
+  .media-{{ media_id }}) {
+    transform: rotate({{ rotate }}deg);
+  }
+</style>
