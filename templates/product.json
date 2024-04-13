@@ -1,1 +1,128 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{"display_on_card":false,"text_align":"text-center"}},"90af58a9-82a7-4fc7-8480-6d674bbd0d57":{"type":"shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327","disabled":true,"settings":{}},"price":{"type":"price","disabled":true,"settings":{"display_on_card":false,"show_on_sale_sticker":false,"text_align":"text-center"}},"variant_picker":{"type":"variant_picker","settings":{"display_on_card":false,"option_style":"drop_down","hide_option_labels":true,"enable_color_swatches":false}},"quantity_selector":{"type":"quantity_selector","disabled":true,"settings":{"display_on_card":false,"show_label":false}},"baf3083e-d14d-435d-bca3-100d6ac490ce":{"type":"buy_buttons","settings":{"display_on_card":true,"show_price":true,"enable_payment_button":true,"show_pickup_availability":false,"show_gift_card_recipient":false}},"a17e90c4-acc9-4f1d-af84-828ae4cb2289":{"type":"description","settings":{"display_on_card":false,"truncate_description":true,"text_align":"text-center"}},"6fa4b975-1107-4f0b-96a3-9a47120c94d7":{"type":"liquid","settings":{"display_on_card":false,"liquid":""}}},"block_order":["title","90af58a9-82a7-4fc7-8480-6d674bbd0d57","price","variant_picker","quantity_selector","baf3083e-d14d-435d-bca3-100d6ac490ce","a17e90c4-acc9-4f1d-af84-828ae4cb2289","6fa4b975-1107-4f0b-96a3-9a47120c94d7"],"settings":{"crop":"","image_shape":"default","desktop_media_width":"lg:col-span-7_lg:col-span-5","show_slideshow_arrows_on_desktop":false,"enable_image_zoom":false,"enable_video_looping":true,"autoplay_videos_on_desktop":true,"media_mobile_width":"w-4\/5","thumbnails_position":"left","thumbnail_crop":"aspect-w-1 aspect-h-1","thumbnail_shape":"default","hide_media_shadow":true,"thumbnail_size":"standard","show_thumbnails_on_mobile":false,"color_scheme":"primary","use_gradient_background":false}},"140ca071-5b86-4d0e-9f9b-6ae724281780":{"type":"custom-liquid","settings":{"title":"","custom_liquid":"<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>","full_width":true,"color_scheme":"primary"}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"display_on_card":false,"enable_quick_buy":false,"product_recommendations_heading":"You may also like","max_products":"3","product_tiles_aspect_ratio":"","image_shape":"","color_scheme":"primary","use_gradient_background":false}}},"order":["main","140ca071-5b86-4d0e-9f9b-6ae724281780","product-recommendations"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-center"
+          }
+        },
+        "90af58a9-82a7-4fc7-8480-6d674bbd0d57": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-center"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "display_on_card": false,
+            "option_style": "drop_down",
+            "hide_option_labels": true,
+            "enable_color_swatches": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "show_label": false
+          }
+        },
+        "baf3083e-d14d-435d-bca3-100d6ac490ce": {
+          "type": "buy_buttons",
+          "settings": {
+            "display_on_card": true,
+            "show_price": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "a17e90c4-acc9-4f1d-af84-828ae4cb2289": {
+          "type": "description",
+          "settings": {
+            "display_on_card": false,
+            "truncate_description": true,
+            "text_align": "text-center"
+          }
+        },
+        "6fa4b975-1107-4f0b-96a3-9a47120c94d7": {
+          "type": "liquid",
+          "settings": {
+            "display_on_card": false,
+            "liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "90af58a9-82a7-4fc7-8480-6d674bbd0d57",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "baf3083e-d14d-435d-bca3-100d6ac490ce",
+        "a17e90c4-acc9-4f1d-af84-828ae4cb2289",
+        "6fa4b975-1107-4f0b-96a3-9a47120c94d7"
+      ],
+      "settings": {
+        "crop": "",
+        "image_shape": "default",
+        "desktop_media_width": "lg:col-span-7_lg:col-span-5",
+        "show_slideshow_arrows_on_desktop": false,
+        "enable_image_zoom": false,
+        "enable_video_looping": true,
+        "autoplay_videos_on_desktop": true,
+        "media_mobile_width": "w-4\/5",
+        "thumbnails_position": "left",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "default",
+        "hide_media_shadow": true,
+        "thumbnail_size": "standard",
+        "show_thumbnails_on_mobile": false,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "140ca071-5b86-4d0e-9f9b-6ae724281780": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
+        "full_width": true,
+        "color_scheme": "primary"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "display_on_card": false,
+        "enable_quick_buy": false,
+        "product_recommendations_heading": "You may also like",
+        "max_products": "3",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "140ca071-5b86-4d0e-9f9b-6ae724281780",
+    "product-recommendations"
+  ]
+}
