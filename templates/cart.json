@@ -1,1 +1,39 @@
-{"wrapper":"div[data-color-scheme=primary].bg-scheme-background.text-scheme-text","sections":{"cart":{"type":"cart","settings":{"display_on_card":true,"color_scheme":"primary","use_gradient_background":true}}},"order":["cart"]}
+{
+  "wrapper": "div[data-color-scheme=primary].bg-scheme-background.text-scheme-text",
+  "sections": {
+    "cart": {
+      "type": "cart",
+      "settings": {
+        "display_on_card": true,
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
+    "1713023028c869dd98": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_fGd64g": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_fGd64g"
+      ],
+      "settings": {
+        "apply_vertical_spacing": true,
+        "apply_horizontal_spacing": true,
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-full",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "cart",
+    "1713023028c869dd98"
+  ]
+}
