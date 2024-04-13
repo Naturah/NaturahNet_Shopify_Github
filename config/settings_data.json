@@ -272,18 +272,6 @@
         "settings": {
         }
       },
-      "14710238943034738919": {
-        "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-embed\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "17275333509004181440": {
-        "type": "shopify:\/\/apps\/rt-page-speed-booster\/blocks\/app-embed\/4a6fa896-93b0-4e15-9d32-c2311aca53bb",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "17676059084223943535": {
         "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
