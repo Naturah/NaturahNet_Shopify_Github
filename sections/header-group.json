@@ -1,1 +1,71 @@
-{"type":"header","name":"Header","sections":{"announcement-bar":{"type":"announcement-bar","settings":{"home_page_only":true,"display":"static","text":"Spring Sale is here! 10% off at checkout :D","link":"","color_scheme":"secondary","use_gradient_background":false,"repeat_text":true,"shape_between_text":"10_point_star","animate_shape_between_text":true,"speed":120,"direction":""}},"header":{"type":"header","settings":{"logo":"shopify:\/\/shop_images\/Naturah_Logo_type_2.png","logo_max_width":280,"main_linklist":"main-menu","show_all_navigation_links":true,"showcase_second_level_links":false,"showcase_first_level_collections":true,"show_collection_images":false,"crop":"","header_layout":"navigation_left_logo_center","header_show_search":true,"sticky_header":true,"show_icons":true,"enable_overlay_on_homepage":true,"enable_overlay_on_collection_pages":true,"enable_overlay_on_product_pages":true,"overlay_text_color":"same_as_section","transparent_when_overlaid_and_stuck":false,"overlay_show_separator_border":true,"overlay_first_section_padding_top_desktop":3,"overlay_first_section_padding_top_mobile":4,"color_scheme":"primary","use_gradient_background":false,"dropdown_bg":"accent-1","sidebar_show_footer_menu":true,"sidebar_show_social_icons":true}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "home_page_only": true,
+        "display": "static",
+        "text": "Spring Sale is here! 10% off at checkout :D",
+        "link": "",
+        "color_scheme": "secondary",
+        "use_gradient_background": false,
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "speed": 120,
+        "direction": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "feature_desktop_link_JwJTgi": {
+          "type": "feature_desktop_link",
+          "disabled": true,
+          "settings": {
+            "button_link": "",
+            "button_label": "Take me straight to the Holiday Deal!",
+            "position": "first_item_in_navigation",
+            "hide_button_shadow": false
+          }
+        }
+      },
+      "block_order": [
+        "feature_desktop_link_JwJTgi"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Naturah_Logo_type_2.png",
+        "logo_max_width": 280,
+        "main_linklist": "main-menu",
+        "show_all_navigation_links": true,
+        "showcase_second_level_links": false,
+        "showcase_first_level_collections": true,
+        "show_collection_images": false,
+        "crop": "",
+        "header_layout": "navigation_left_logo_center",
+        "header_show_search": true,
+        "sticky_header": true,
+        "show_icons": true,
+        "enable_overlay_on_homepage": true,
+        "enable_overlay_on_collection_pages": true,
+        "enable_overlay_on_product_pages": true,
+        "overlay_text_color": "same_as_section",
+        "transparent_when_overlaid_and_stuck": false,
+        "overlay_show_separator_border": true,
+        "overlay_first_section_padding_top_desktop": 3,
+        "overlay_first_section_padding_top_mobile": 4,
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "dropdown_bg": "accent-1",
+        "sidebar_show_footer_menu": true,
+        "sidebar_show_social_icons": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

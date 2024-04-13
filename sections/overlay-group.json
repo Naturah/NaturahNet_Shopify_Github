@@ -1,1 +1,48 @@
-{"type":"aside","name":"Overlay","sections":{"call-to-action":{"type":"call-to-action","disabled":true,"settings":{"home_page_only":true,"animate_in":true,"text":"","url":"","shape":"star_1","width":150,"sticker_position":"right","sticker_font_size":"1.25rem","rotate":0,"animate_rotation":false,"show_sticker_on_mobile":true,"color":"bg-scheme-accent-2 text-scheme-accent-2-overlay","color_scheme":"tertiary"}},"age-check":{"type":"age-check","settings":{"enable":false,"logo_max_width":100,"title":"Age verification","text":"<p>Are you over 21 years of age?<\/p>","display_on_card":true,"mode":"buttons","yes_button_text":"Yes","no_button_text":"No","date_format":"mm-dd-yyyy","minimum_age":18,"redirect_link":"","color_scheme":"primary","use_gradient_background":false}}},"order":["call-to-action","age-check"]}
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "call-to-action": {
+      "type": "call-to-action",
+      "disabled": true,
+      "settings": {
+        "home_page_only": true,
+        "animate_in": true,
+        "text": "",
+        "url": "",
+        "shape": "star_1",
+        "width": 150,
+        "sticker_position": "right",
+        "sticker_font_size": "1.25rem",
+        "rotate": 0,
+        "animate_rotation": false,
+        "show_sticker_on_mobile": true,
+        "color": "bg-scheme-accent-2 text-scheme-accent-2-overlay",
+        "color_scheme": "tertiary"
+      }
+    },
+    "age-check": {
+      "type": "age-check",
+      "disabled": true,
+      "settings": {
+        "enable": false,
+        "logo_max_width": 100,
+        "title": "Age verification",
+        "text": "<p>Are you over 21 years of age?<\/p>",
+        "display_on_card": true,
+        "mode": "buttons",
+        "yes_button_text": "Yes",
+        "no_button_text": "No",
+        "date_format": "mm-dd-yyyy",
+        "minimum_age": 18,
+        "redirect_link": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "call-to-action",
+    "age-check"
+  ]
+}
