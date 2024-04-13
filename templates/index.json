@@ -1,1 +1,729 @@
-{"sections":{"1650891033bae15b05":{"type":"image-with-text","blocks":{"fd63bf46-7b83-450b-9205-e98d3bb15657":{"type":"background_shape","settings":{"shape":"scalloped_circle_1","blob_type":1,"size":170,"opacity":70,"blur":0,"horizontal_position":80,"vertical_position":58,"rotate":-12,"enable_parallax":true,"parallax_speed":3,"color":"gradient","color_scheme":"same_as_section"}},"7de8f682-42c1-4705-b9ea-207f66e0c04e":{"type":"shape_divider","settings":{"target_section":"below","target_section_color_scheme":"secondary","style":"waves-1-asymmetrical_1440x261","flip_horizontal":true,"enable_animation":true,"animation_direction":""}},"175e66d3-20ec-47c8-b628-6580300f4f5f":{"type":"sticker","disabled":true,"settings":{"text":"wow!","shape":"star_1","width":200,"sticker_font_size":"1.563rem","half_image_width_on_mobile":true,"horizontal_position":73,"vertical_position":60,"rotate":0,"show_sticker_on_mobile":false,"show_sticker_on_desktop":true,"rotation_animation":"rotate_when_scrolling","enable_parallax":true,"parallax_speed":6,"color":"bg-scheme-accent-1 text-scheme-accent-1-overlay","color_scheme":"same_as_section"}},"140e7989-8375-45bf-b75f-61897a50b73a":{"type":"sticker","disabled":true,"settings":{"text":"Sticker\nholy moly!","shape":"star_1","width":170,"sticker_font_size":"1.25rem","image":"shopify:\/\/shop_images\/Emma-ProfilePic-Round.png","half_image_width_on_mobile":true,"horizontal_position":78,"vertical_position":31,"rotate":0,"show_sticker_on_mobile":true,"show_sticker_on_desktop":true,"rotation_animation":"rotate_when_scrolling","enable_parallax":true,"parallax_speed":6,"color":"bg-scheme-accent-1 text-scheme-accent-1-overlay","color_scheme":"same_as_section"}},"77d85abd-2e78-4c3b-b043-e3e914d6c7e8":{"type":"sticker","settings":{"text":"Kits","shape":"star_1","width":150,"sticker_font_size":"1.953rem","half_image_width_on_mobile":true,"horizontal_position":80,"vertical_position":98,"rotate":0,"show_sticker_on_mobile":true,"show_sticker_on_desktop":true,"rotation_animation":"rotate_when_scrolling","enable_parallax":true,"parallax_speed":3,"color":"bg-scheme-accent-1 text-scheme-accent-1-overlay","color_scheme":"secondary"}},"3cc21ad0-99ae-4edb-afe1-f64f2c9cba74":{"type":"sticker","settings":{"text":"Art","shape":"star_1","width":150,"sticker_font_size":"1.953rem","half_image_width_on_mobile":true,"horizontal_position":20,"vertical_position":98,"rotate":0,"show_sticker_on_mobile":true,"show_sticker_on_desktop":true,"rotation_animation":"rotate_when_scrolling","enable_parallax":true,"parallax_speed":3,"color":"bg-scheme-accent-1 text-scheme-accent-1-overlay","color_scheme":"same_as_section"}}},"block_order":["fd63bf46-7b83-450b-9205-e98d3bb15657","7de8f682-42c1-4705-b9ea-207f66e0c04e","175e66d3-20ec-47c8-b628-6580300f4f5f","140e7989-8375-45bf-b75f-61897a50b73a","77d85abd-2e78-4c3b-b043-e3e914d6c7e8","3cc21ad0-99ae-4edb-afe1-f64f2c9cba74"],"settings":{"display_on_card":false,"image":"shopify:\/\/shop_images\/BirdsWaterColorKitDOF.jpg","crop":"aspect-w-1 aspect-h-1","image_shape":"scalloped_circle_2","blob_type":2,"rotate_image":0,"image_position":"right","image_size":"half","disable_media_style":false,"title":"WaterColor Kits","heading_size":"heading-feature","richtext":"<p><strong>Postcard-Sized Kits Inlcude:<\/strong><\/p><p>🌈 Select Paint Themes on Embossed Color Palettes<\/p><p>🖼️ Fine Prints of designs on 300gsm Paper<\/p><p>🎨 Original Mini-Palette<\/p><p>🖌️ Fillable Watercolor Brush<\/p><p>📜 Color Mixing Chart & Watercolor Techniques Guid<\/p><p><\/p>","text_alignment":"text-center","button_link":"shopify:\/\/collections\/watercolor-kits","button_label":"Check em' out","color_scheme":"primary","use_gradient_background":false}},"852d0437-810a-4b86-bef2-40621a019a33":{"type":"custom-liquid","settings":{"title":"","custom_liquid":"<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>","full_width":true,"color_scheme":"secondary"}},"16508912994a26e8bf":{"type":"rich-text","settings":{"title":"Art Kits & adventures!","heading_size":"heading-feature","rich_text":"<p>Each art kit is a hand-made adventure pack ready for you to bring to life! <\/p>","display_on_card":false,"content_width_desktop":"lg:w-full","button_link":"","button_label":"Shop Now","color_scheme":"secondary","use_gradient_background":false}},"1650891303c44cb2d2":{"type":"icon-list","blocks":{"16508913039d58ab55-0":{"type":"icon","settings":{"icon":"check-mark","text":""}},"16508913039d58ab55-1":{"type":"icon","settings":{"icon":"price-tag","text":""}},"16508913039d58ab55-2":{"type":"icon","settings":{"icon":"heart","text":""}},"2d49c667-6651-4aec-9f2e-b5b01b310ecd":{"type":"icon","settings":{"icon":"eye","text":""}},"2eb4a361-85df-445d-a708-84d7e4173322":{"type":"icon","settings":{"icon":"chat-bubble","text":""}},"eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6":{"type":"icon","settings":{"icon":"recycle","text":""}},"7f2265e7-4734-46f9-a3c4-cec407d5a2d3":{"type":"icon","settings":{"icon":"box","text":""}},"f3086909-a9d2-48be-ab4f-01abd112ac9c":{"type":"icon","settings":{"icon":"star","text":""}}},"block_order":["16508913039d58ab55-0","16508913039d58ab55-1","16508913039d58ab55-2","2d49c667-6651-4aec-9f2e-b5b01b310ecd","2eb4a361-85df-445d-a708-84d7e4173322","eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6","7f2265e7-4734-46f9-a3c4-cec407d5a2d3","f3086909-a9d2-48be-ab4f-01abd112ac9c"],"settings":{"title":"","max_width":50,"text_style":"body","color_scheme":"tertiary","use_gradient_background":false}},"165089147572b58f85":{"type":"image-with-text-overlay","blocks":{"e407a37c-5b97-486d-99d1-d1ff54c6cb41":{"type":"shape_divider","settings":{"target_section":"above","target_section_color_scheme":"tertiary","style":"medium-waves_1200x43","flip_horizontal":false,"enable_animation":true,"animation_direction":""}},"d3fd69d6-0368-49b2-a1c4-1f8f4b2c46ba":{"type":"shape_divider","settings":{"target_section":"below","target_section_color_scheme":"quaternary","style":"small-waves_1200x20","flip_horizontal":false,"enable_animation":true,"animation_direction":""}}},"block_order":["e407a37c-5b97-486d-99d1-d1ff54c6cb41","d3fd69d6-0368-49b2-a1c4-1f8f4b2c46ba"],"settings":{"image":"shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg","image_mobile":"shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg","display_on_card":false,"display_content_below_image_on_mobile":false,"style":"full","height":"pt-two-thirds-screen-height","place_content":"place-content-center-center","text_align":"text-center","title":"~WaterColor Kits~","heading_size":"heading-feature","richtext":"","cta_url":"shopify:\/\/collections\/watercolor-kits","cta_text":"Shop Now","color_scheme":"primary","use_gradient_background":true,"text_overlay_color":"same_as_section"}},"16508915343a7fad54":{"type":"text-columns-with-images","blocks":{"1650891534cc32a736-0":{"type":"column","settings":{"show_image":false,"title":"","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","cta_link":"","cta_text":"","color_scheme":"same_as_section"}},"1650891534cc32a736-1":{"type":"column","settings":{"show_image":false,"title":"","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","cta_link":"","cta_text":"","color_scheme":"same_as_section"}},"1650891534cc32a736-2":{"type":"column","settings":{"show_image":false,"title":"","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","cta_link":"","cta_text":"","color_scheme":"same_as_section"}}},"block_order":["1650891534cc32a736-0","1650891534cc32a736-1","1650891534cc32a736-2"],"disabled":true,"settings":{"display_on_card":false,"slideshow_on_mobile":false,"title":"","crop":"","image_shape":"default","show_index_on_blocks":false,"index_shape":"star_1","color_scheme":"quaternary","use_gradient_background":false}},"1650891615011511eb":{"type":"text-marquee","settings":{"text":"Watercolor Kits, Mini-watercolor Kits, bags, tattoo stickers, home-made, original creations","repeat_text":true,"shape_between_text":"10_point_star","animate_shape_between_text":true,"link":"","font":"font-heading heading-secondary","apply_effects":false,"mobile_text_scale":2,"desktop_text_scale":4,"speed":240,"direction":"","color_scheme":"tertiary","use_gradient_background":false}},"16508916022eba9802":{"type":"video-with-text-overlay","settings":{"video_url":"https:\/\/youtu.be\/jnkAP8yjvYg?si=TkHhfxN2yCBSnlra","crop":"cinematic","crop_desktop":"same","display_on_card":false,"style":"full","place_content":"place-content-center-center","text_align":"text-center","title":"Follow-Along video","heading_size":"heading-standard","richtext":"","cta_url":"","cta_text":"Shop Now","color_scheme":"primary","use_gradient_background":false,"text_overlay_color":"same_as_section"}},"1650891682f199a493":{"type":"featured-collection","blocks":{"e302ab1d-1e19-4716-9cd2-ea6fb36f4d20":{"type":"shape_divider","settings":{"target_section":"below","target_section_color_scheme":"primary","style":"large-waves_1200x84","flip_horizontal":false,"enable_animation":true,"animation_direction":"reverse"}}},"block_order":["e302ab1d-1e19-4716-9cd2-ea6fb36f4d20"],"settings":{"title":"Mini~Watercolor Kits","subheading":"Mini-Kit; Mega Fun","collection":"mini-watercolor-kits","no_products":3,"show_view_all":false,"enable_quick_buy":true,"display_on_card":false,"layout":"grid","products_per_row_mobile":"2","products_per_row_desktop":3,"slideshow_focus":"center","mobile_slide_width":"three_fifths","desktop_slide_width":40,"autoscroll_mode":"1","product_tiles_aspect_ratio":"","image_shape":"scalloped_circle_1","color_scheme":"primary","use_gradient_background":false}},"16508916323f758a49":{"type":"testimonials","blocks":{"16508916326463ca2f-0":{"type":"testimonial","settings":{"rating":"5_stars","quote":"<p>SUBURB KIT! Very high quality, more than worth the price! Will be buying more!<\/p>","source":"-Heather"}},"16508916326463ca2f-1":{"type":"testimonial","settings":{"rating":"5_stars","quote":"<p>Amazing experience from purchase to delivery. This kit really does have everything you need and is great for beginners and seasoned watercolor artists and makes a great travel palette.<\/p>","source":"- Kim"}},"16508916326463ca2f-2":{"type":"testimonial","settings":{"rating":"5_stars","quote":"<p>Love it! So fun and has everything you need.<\/p>","source":"- Hlittlefield11"}},"d6438cfc-f50d-47ef-bfb1-505ed647b5c6":{"type":"testimonial","settings":{"rating":"5_stars","quote":"<p>This was a gift for my 10 year old niece on her birthday. Her eyes lit up and jaw dropped with joy when she opened the package. She painted all if the birds and fish by the next morning. She loves the bright and shiny colors. Such a great idea. Thank you!<\/p>","source":"lmichellemc"}},"eebb3a63-a165-4a2b-be61-c3aa09e2d2d9":{"type":"shape_divider","settings":{"target_section":"below","target_section_color_scheme":"primary","style":"large-waves_1200x84","flip_horizontal":false,"enable_animation":true,"animation_direction":"reverse"}}},"block_order":["16508916326463ca2f-0","16508916326463ca2f-1","16508916326463ca2f-2","d6438cfc-f50d-47ef-bfb1-505ed647b5c6","eebb3a63-a165-4a2b-be61-c3aa09e2d2d9"],"settings":{"display_on_card":true,"title":"~ What people are saying ~","max_width":120,"disable_media_style":false,"crop":"","image_shape":"default","desktop_slide_width":20,"autoscroll_mode":"-1","color_scheme":"primary","use_gradient_background":false}},"1650891638851a4ea4":{"type":"featured-product","blocks":{"99a8d3d7-4f9b-4058-ac6c-f35a7ee75887":{"type":"star_rating","settings":{"display_on_card":false,"type":"native"}},"1650891638bb403865-0":{"type":"title","settings":{"display_on_card":false,"text_align":"text-left"}},"1650891638bb403865-1":{"type":"price","settings":{"display_on_card":false,"show_on_sale_sticker":false,"text_align":"text-left"}},"1650891638bb403865-2":{"type":"variant_picker","settings":{"display_on_card":false,"option_style":"drop_down","hide_option_labels":true,"enable_color_swatches":false}},"1650891638bb403865-3":{"type":"buy_buttons","settings":{"display_on_card":false,"show_price":false,"enable_payment_button":true,"show_pickup_availability":true,"show_gift_card_recipient":false}},"4215e7be-64ae-43da-af25-1f112f70dccd":{"type":"description","settings":{"display_on_card":true,"truncate_description":true,"text_align":"text-left"}},"4951ae79-46b2-4826-a59f-25c01c44e6ca":{"type":"complementary","settings":{"block_heading":"Pairs well with","product_list_limit":10}}},"block_order":["99a8d3d7-4f9b-4058-ac6c-f35a7ee75887","1650891638bb403865-0","1650891638bb403865-1","1650891638bb403865-2","1650891638bb403865-3","4215e7be-64ae-43da-af25-1f112f70dccd","4951ae79-46b2-4826-a59f-25c01c44e6ca"],"settings":{"title":"","product":"birds-watercolor-kit","crop":"aspect-w-1 aspect-h-1","image_shape":"default","media_mobile_width":"w-full","desktop_media_width":"lg:col-span-7_lg:col-span-5","enable_video_looping":true,"thumbnails_position":"left","thumbnail_crop":"aspect-w-1 aspect-h-1","thumbnail_shape":"default","hide_media_shadow":true,"thumbnail_size":"standard","show_thumbnails_on_mobile":false,"color_scheme":"primary","use_gradient_background":false}},"1650891358fef95dd4":{"type":"featured-collection","blocks":{"7261f40b-41bf-4b48-8953-041e29fe35e4":{"type":"shape_divider","settings":{"target_section":"above","target_section_color_scheme":"primary","style":"tilt-1-asymmetrical_1440x101","flip_horizontal":false,"enable_animation":false,"animation_direction":""}},"7e5b844d-86a4-404a-b794-91e132f48d99":{"type":"shape_divider","settings":{"target_section":"below","target_section_color_scheme":"primary","style":"tilt-1-asymmetrical_1440x101","flip_horizontal":true,"enable_animation":false,"animation_direction":""}}},"block_order":["7261f40b-41bf-4b48-8953-041e29fe35e4","7e5b844d-86a4-404a-b794-91e132f48d99"],"settings":{"title":"Personalized Animal Portraits","subheading":"Pet portraits available for commission by Emma Qi","collection":"pet-portraits","no_products":4,"show_view_all":false,"enable_quick_buy":false,"display_on_card":false,"layout":"grid","products_per_row_mobile":"2","products_per_row_desktop":4,"slideshow_focus":"center","mobile_slide_width":"three_fifths","desktop_slide_width":40,"autoscroll_mode":"1","product_tiles_aspect_ratio":"","image_shape":"","color_scheme":"secondary","use_gradient_background":true}},"165089168609b8f684":{"type":"blog-posts","blocks":{"821c67ed-463f-43b1-8388-52f9db81567a":{"type":"shape_divider","settings":{"target_section":"above","target_section_color_scheme":"primary","style":"large-waves_1200x84","flip_horizontal":false,"enable_animation":false,"animation_direction":""}}},"block_order":["821c67ed-463f-43b1-8388-52f9db81567a"],"disabled":true,"settings":{"display_on_card":false,"title":"Blog posts","blog":"news","post_limit":3,"crop":"aspect-w-4 aspect-h-3","image_shape":"zig_zag_tear","blog_show_author":false,"blog_show_date":true,"show_post_excerpt":true,"show_view_all":true,"color_scheme":"quaternary","use_gradient_background":true}},"bd462ba7-d173-491a-a37f-eb671c8c3fa9":{"type":"image-with-text","settings":{"display_on_card":false,"image":"shopify:\/\/shop_images\/TemporaryTattooscollectionphoto.jpg","crop":"aspect-w-4 aspect-h-3","image_shape":"blob","blob_type":3,"rotate_image":0,"image_position":"left","image_size":"half","disable_media_style":false,"title":"And More!","heading_size":"heading-feature","richtext":"<p>&lt;- Check out Temporary Tattoos!<\/p>","text_alignment":"text-center","button_link":"shopify:\/\/products\/temporary-tattoos-set-of-14-animals","button_label":"Temp Tat Stickies","color_scheme":"primary","use_gradient_background":false}},"0ef63063-b9ab-4f20-91a5-4b641bd1e726":{"type":"custom-liquid","settings":{"title":"","custom_liquid":"<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>","full_width":true,"color_scheme":"primary"}}},"order":["1650891033bae15b05","852d0437-810a-4b86-bef2-40621a019a33","16508912994a26e8bf","1650891303c44cb2d2","165089147572b58f85","16508915343a7fad54","1650891615011511eb","16508916022eba9802","1650891682f199a493","16508916323f758a49","1650891638851a4ea4","1650891358fef95dd4","165089168609b8f684","bd462ba7-d173-491a-a37f-eb671c8c3fa9","0ef63063-b9ab-4f20-91a5-4b641bd1e726"]}
+{
+  "sections": {
+    "1650891033bae15b05": {
+      "type": "image-with-text",
+      "blocks": {
+        "fd63bf46-7b83-450b-9205-e98d3bb15657": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "scalloped_circle_1",
+            "blob_type": 1,
+            "size": 170,
+            "opacity": 70,
+            "blur": 0,
+            "horizontal_position": 80,
+            "vertical_position": 58,
+            "rotate": -12,
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "gradient",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "7de8f682-42c1-4705-b9ea-207f66e0c04e": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "secondary",
+            "style": "waves-1-asymmetrical_1440x261",
+            "flip_horizontal": true,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
+        "175e66d3-20ec-47c8-b628-6580300f4f5f": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "wow!",
+            "shape": "star_1",
+            "width": 200,
+            "sticker_font_size": "1.563rem",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 73,
+            "vertical_position": 60,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "140e7989-8375-45bf-b75f-61897a50b73a": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "text": "Sticker\nholy moly!",
+            "shape": "star_1",
+            "width": 170,
+            "sticker_font_size": "1.25rem",
+            "image": "shopify:\/\/shop_images\/Emma-ProfilePic-Round.png",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 78,
+            "vertical_position": 31,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 6,
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "77d85abd-2e78-4c3b-b043-e3e914d6c7e8": {
+          "type": "sticker",
+          "settings": {
+            "text": "Kits",
+            "shape": "star_1",
+            "width": 150,
+            "sticker_font_size": "1.953rem",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 80,
+            "vertical_position": 98,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+            "color_scheme": "secondary"
+          }
+        },
+        "3cc21ad0-99ae-4edb-afe1-f64f2c9cba74": {
+          "type": "sticker",
+          "settings": {
+            "text": "Art",
+            "shape": "star_1",
+            "width": 150,
+            "sticker_font_size": "1.953rem",
+            "half_image_width_on_mobile": true,
+            "horizontal_position": 20,
+            "vertical_position": 98,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "fd63bf46-7b83-450b-9205-e98d3bb15657",
+        "7de8f682-42c1-4705-b9ea-207f66e0c04e",
+        "175e66d3-20ec-47c8-b628-6580300f4f5f",
+        "140e7989-8375-45bf-b75f-61897a50b73a",
+        "77d85abd-2e78-4c3b-b043-e3e914d6c7e8",
+        "3cc21ad0-99ae-4edb-afe1-f64f2c9cba74"
+      ],
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/BirdsWaterColorKitDOF.jpg",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "scalloped_circle_2",
+        "blob_type": 2,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "WaterColor Kits",
+        "heading_size": "heading-feature",
+        "richtext": "<p><strong>Postcard-Sized Kits Inlcude:<\/strong><\/p><p>🌈 Select Paint Themes on Embossed Color Palettes<\/p><p>🖼️ Fine Prints of designs on 300gsm Paper<\/p><p>🎨 Original Mini-Palette<\/p><p>🖌️ Fillable Watercolor Brush<\/p><p>📜 Color Mixing Chart & Watercolor Techniques Guid<\/p><p><\/p>",
+        "text_alignment": "text-center",
+        "button_link": "shopify:\/\/collections\/watercolor-kits",
+        "button_label": "Check em' out",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "852d0437-810a-4b86-bef2-40621a019a33": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
+        "full_width": true,
+        "color_scheme": "secondary"
+      }
+    },
+    "16508912994a26e8bf": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Art Kits & adventures!",
+        "heading_size": "heading-feature",
+        "rich_text": "<p>Each art kit is a hand-made adventure pack ready for you to bring to life! <\/p>",
+        "display_on_card": true,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "secondary",
+        "use_gradient_background": false
+      }
+    },
+    "1650891303c44cb2d2": {
+      "type": "icon-list",
+      "blocks": {
+        "16508913039d58ab55-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "check-mark",
+            "text": ""
+          }
+        },
+        "16508913039d58ab55-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "price-tag",
+            "text": ""
+          }
+        },
+        "16508913039d58ab55-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "text": ""
+          }
+        },
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd": {
+          "type": "icon",
+          "settings": {
+            "icon": "eye",
+            "text": ""
+          }
+        },
+        "2eb4a361-85df-445d-a708-84d7e4173322": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat-bubble",
+            "text": ""
+          }
+        },
+        "eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6": {
+          "type": "icon",
+          "settings": {
+            "icon": "recycle",
+            "text": ""
+          }
+        },
+        "7f2265e7-4734-46f9-a3c4-cec407d5a2d3": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "text": ""
+          }
+        },
+        "f3086909-a9d2-48be-ab4f-01abd112ac9c": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16508913039d58ab55-0",
+        "16508913039d58ab55-1",
+        "16508913039d58ab55-2",
+        "2d49c667-6651-4aec-9f2e-b5b01b310ecd",
+        "2eb4a361-85df-445d-a708-84d7e4173322",
+        "eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6",
+        "7f2265e7-4734-46f9-a3c4-cec407d5a2d3",
+        "f3086909-a9d2-48be-ab4f-01abd112ac9c"
+      ],
+      "settings": {
+        "title": "",
+        "max_width": 50,
+        "text_style": "body",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "165089147572b58f85": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "e407a37c-5b97-486d-99d1-d1ff54c6cb41": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "tertiary",
+            "style": "medium-waves_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
+        "d3fd69d6-0368-49b2-a1c4-1f8f4b2c46ba": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "quaternary",
+            "style": "small-waves_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "e407a37c-5b97-486d-99d1-d1ff54c6cb41",
+        "d3fd69d6-0368-49b2-a1c4-1f8f4b2c46ba"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "pt-two-thirds-screen-height",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "~WaterColor Kits~",
+        "heading_size": "heading-feature",
+        "richtext": "",
+        "cta_url": "shopify:\/\/collections\/watercolor-kits",
+        "cta_text": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": true,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "16508915343a7fad54": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1650891534cc32a736-0": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "title": "",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "1650891534cc32a736-1": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "title": "",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "same_as_section"
+          }
+        },
+        "1650891534cc32a736-2": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "title": "",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "cta_link": "",
+            "cta_text": "",
+            "color_scheme": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "1650891534cc32a736-0",
+        "1650891534cc32a736-1",
+        "1650891534cc32a736-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_on_card": false,
+        "slideshow_on_mobile": false,
+        "title": "",
+        "crop": "",
+        "image_shape": "default",
+        "show_index_on_blocks": false,
+        "index_shape": "star_1",
+        "color_scheme": "quaternary",
+        "use_gradient_background": false
+      }
+    },
+    "1650891615011511eb": {
+      "type": "text-marquee",
+      "settings": {
+        "text": "Watercolor Kits, Mini-watercolor Kits, bags, tattoo stickers, home-made, original creations",
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "link": "",
+        "font": "font-heading heading-secondary",
+        "apply_effects": false,
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 4,
+        "speed": 240,
+        "direction": "",
+        "color_scheme": "tertiary",
+        "use_gradient_background": false
+      }
+    },
+    "16508916022eba9802": {
+      "type": "video-with-text-overlay",
+      "settings": {
+        "video_url": "https:\/\/youtu.be\/jnkAP8yjvYg?si=TkHhfxN2yCBSnlra",
+        "crop": "cinematic",
+        "crop_desktop": "same",
+        "display_on_card": false,
+        "style": "full",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "Follow-Along video",
+        "heading_size": "heading-standard",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "text_overlay_color": "same_as_section"
+      }
+    },
+    "1650891682f199a493": {
+      "type": "featured-collection",
+      "blocks": {
+        "e302ab1d-1e19-4716-9cd2-ea6fb36f4d20": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "primary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        }
+      },
+      "block_order": [
+        "e302ab1d-1e19-4716-9cd2-ea6fb36f4d20"
+      ],
+      "settings": {
+        "title": "Mini~Watercolor Kits",
+        "subheading": "Mini-Kit; Mega Fun",
+        "collection": "mini-watercolor-kits",
+        "no_products": 3,
+        "show_view_all": false,
+        "enable_quick_buy": true,
+        "display_on_card": false,
+        "layout": "grid",
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "scalloped_circle_1",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "16508916323f758a49": {
+      "type": "testimonials",
+      "blocks": {
+        "16508916326463ca2f-0": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "<p>SUBURB KIT! Very high quality, more than worth the price! Will be buying more!<\/p>",
+            "source": "-Heather"
+          }
+        },
+        "16508916326463ca2f-1": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "<p>Amazing experience from purchase to delivery. This kit really does have everything you need and is great for beginners and seasoned watercolor artists and makes a great travel palette.<\/p>",
+            "source": "- Kim"
+          }
+        },
+        "16508916326463ca2f-2": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "<p>Love it! So fun and has everything you need.<\/p>",
+            "source": "- Hlittlefield11"
+          }
+        },
+        "d6438cfc-f50d-47ef-bfb1-505ed647b5c6": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "<p>This was a gift for my 10 year old niece on her birthday. Her eyes lit up and jaw dropped with joy when she opened the package. She painted all if the birds and fish by the next morning. She loves the bright and shiny colors. Such a great idea. Thank you!<\/p>",
+            "source": "lmichellemc"
+          }
+        },
+        "eebb3a63-a165-4a2b-be61-c3aa09e2d2d9": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "primary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        }
+      },
+      "block_order": [
+        "16508916326463ca2f-0",
+        "16508916326463ca2f-1",
+        "16508916326463ca2f-2",
+        "d6438cfc-f50d-47ef-bfb1-505ed647b5c6",
+        "eebb3a63-a165-4a2b-be61-c3aa09e2d2d9"
+      ],
+      "settings": {
+        "display_on_card": true,
+        "title": "~ What people are saying ~",
+        "max_width": 120,
+        "disable_media_style": false,
+        "crop": "",
+        "image_shape": "default",
+        "desktop_slide_width": 20,
+        "autoscroll_mode": "-1",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "1650891638851a4ea4": {
+      "type": "featured-product",
+      "blocks": {
+        "99a8d3d7-4f9b-4058-ac6c-f35a7ee75887": {
+          "type": "star_rating",
+          "settings": {
+            "display_on_card": false,
+            "type": "native"
+          }
+        },
+        "1650891638bb403865-0": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-left"
+          }
+        },
+        "1650891638bb403865-1": {
+          "type": "price",
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-left"
+          }
+        },
+        "1650891638bb403865-2": {
+          "type": "variant_picker",
+          "settings": {
+            "display_on_card": false,
+            "option_style": "drop_down",
+            "hide_option_labels": true,
+            "enable_color_swatches": false
+          }
+        },
+        "1650891638bb403865-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "display_on_card": false,
+            "show_price": false,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "4215e7be-64ae-43da-af25-1f112f70dccd": {
+          "type": "description",
+          "settings": {
+            "display_on_card": true,
+            "truncate_description": true,
+            "text_align": "text-left"
+          }
+        },
+        "4951ae79-46b2-4826-a59f-25c01c44e6ca": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 10
+          }
+        },
+        "judge_me_reviews_featured_carousel_WzFLTw": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        },
+        "judge_me_reviews_all_reviews_text_ddyx7d": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "99a8d3d7-4f9b-4058-ac6c-f35a7ee75887",
+        "1650891638bb403865-0",
+        "1650891638bb403865-1",
+        "1650891638bb403865-2",
+        "1650891638bb403865-3",
+        "4215e7be-64ae-43da-af25-1f112f70dccd",
+        "4951ae79-46b2-4826-a59f-25c01c44e6ca",
+        "judge_me_reviews_featured_carousel_WzFLTw",
+        "judge_me_reviews_all_reviews_text_ddyx7d"
+      ],
+      "settings": {
+        "title": "",
+        "product": "birds-watercolor-kit",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "media_mobile_width": "w-full",
+        "desktop_media_width": "lg:col-span-7_lg:col-span-5",
+        "enable_video_looping": true,
+        "thumbnails_position": "left",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "default",
+        "hide_media_shadow": true,
+        "thumbnail_size": "standard",
+        "show_thumbnails_on_mobile": false,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "1650891358fef95dd4": {
+      "type": "featured-collection",
+      "blocks": {
+        "7261f40b-41bf-4b48-8953-041e29fe35e4": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "tilt-1-asymmetrical_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "7e5b844d-86a4-404a-b794-91e132f48d99": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "primary",
+            "style": "tilt-1-asymmetrical_1440x101",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "7261f40b-41bf-4b48-8953-041e29fe35e4",
+        "7e5b844d-86a4-404a-b794-91e132f48d99"
+      ],
+      "settings": {
+        "title": "Personalized Animal Portraits",
+        "subheading": "Pet portraits available for commission by Emma Qi",
+        "collection": "pet-portraits",
+        "no_products": 4,
+        "show_view_all": false,
+        "enable_quick_buy": false,
+        "display_on_card": false,
+        "layout": "grid",
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "secondary",
+        "use_gradient_background": true
+      }
+    },
+    "165089168609b8f684": {
+      "type": "blog-posts",
+      "blocks": {
+        "821c67ed-463f-43b1-8388-52f9db81567a": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "large-waves_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "821c67ed-463f-43b1-8388-52f9db81567a"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_on_card": false,
+        "title": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "crop": "aspect-w-4 aspect-h-3",
+        "image_shape": "zig_zag_tear",
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_post_excerpt": true,
+        "show_view_all": true,
+        "color_scheme": "quaternary",
+        "use_gradient_background": true
+      }
+    },
+    "bd462ba7-d173-491a-a37f-eb671c8c3fa9": {
+      "type": "image-with-text",
+      "settings": {
+        "display_on_card": false,
+        "image": "shopify:\/\/shop_images\/TemporaryTattooscollectionphoto.jpg",
+        "crop": "aspect-w-4 aspect-h-3",
+        "image_shape": "blob",
+        "blob_type": 3,
+        "rotate_image": 0,
+        "image_position": "left",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "And More!",
+        "heading_size": "heading-feature",
+        "richtext": "<p>&lt;- Check out Temporary Tattoos!<\/p>",
+        "text_alignment": "text-center",
+        "button_link": "shopify:\/\/products\/temporary-tattoos-set-of-14-animals",
+        "button_label": "Temp Tat Stickies",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "0ef63063-b9ab-4f20-91a5-4b641bd1e726": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
+        "full_width": true,
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "1650891033bae15b05",
+    "852d0437-810a-4b86-bef2-40621a019a33",
+    "16508912994a26e8bf",
+    "1650891303c44cb2d2",
+    "165089147572b58f85",
+    "16508915343a7fad54",
+    "1650891615011511eb",
+    "16508916022eba9802",
+    "1650891682f199a493",
+    "16508916323f758a49",
+    "1650891638851a4ea4",
+    "1650891358fef95dd4",
+    "165089168609b8f684",
+    "bd462ba7-d173-491a-a37f-eb671c8c3fa9",
+    "0ef63063-b9ab-4f20-91a5-4b641bd1e726"
+  ]
+}
