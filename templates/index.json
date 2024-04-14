@@ -134,7 +134,7 @@
         "image_size": "half",
         "disable_media_style": false,
         "title": "WaterColor Kits",
-        "heading_size": "heading-feature",
+        "heading_size": "heading-standard",
         "richtext": "<p><strong>Postcard-Sized Kits Inlcude:<\/strong><\/p><p>🌈 Select Paint Themes on Embossed Color Palettes<\/p><p>🖼️ Fine Prints of designs on 300gsm Paper<\/p><p>🎨 Original Mini-Palette<\/p><p>🖌️ Fillable Watercolor Brush<\/p><p>📜 Color Mixing Chart & Watercolor Techniques Guid<\/p><p><\/p>",
         "text_alignment": "text-center",
         "button_link": "shopify:\/\/collections\/watercolor-kits",
@@ -707,6 +707,28 @@
         "full_width": true,
         "color_scheme": "primary"
       }
+    },
+    "featured_product_variants_DaVUAQ": {
+      "type": "featured-product-variants",
+      "settings": {
+        "title": "Featured product variants",
+        "subheading": "Use this text to share information about your products.",
+        "product": "",
+        "variant_limit": 25,
+        "enable_quick_buy": false,
+        "display_on_card": true,
+        "layout": "grid",
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -724,6 +746,7 @@
     "1650891358fef95dd4",
     "165089168609b8f684",
     "bd462ba7-d173-491a-a37f-eb671c8c3fa9",
-    "0ef63063-b9ab-4f20-91a5-4b641bd1e726"
+    "0ef63063-b9ab-4f20-91a5-4b641bd1e726",
+    "featured_product_variants_DaVUAQ"
   ]
 }
