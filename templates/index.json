@@ -24,7 +24,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "secondary",
+            "target_section_color_scheme": "primary",
             "style": "waves-1-asymmetrical_1440x261",
             "flip_horizontal": true,
             "enable_animation": true,
