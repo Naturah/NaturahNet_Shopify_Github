@@ -624,7 +624,7 @@
       ],
       "settings": {
         "title": "Watercolor Kits",
-        "subheading": "Pet portraits available for commission by Emma Qi",
+        "subheading": "Home-made with passion, care, and love",
         "collection": "watercolor-kits",
         "no_products": 5,
         "show_view_all": true,
@@ -639,7 +639,7 @@
         "autoscroll_mode": "1",
         "product_tiles_aspect_ratio": "",
         "image_shape": "",
-        "color_scheme": "secondary",
+        "color_scheme": "primary",
         "use_gradient_background": true
       }
     },
