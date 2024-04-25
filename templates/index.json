@@ -420,6 +420,7 @@
     },
     "16508916022eba9802": {
       "type": "video-with-text-overlay",
+      "disabled": true,
       "settings": {
         "video_url": "https:\/\/youtu.be\/jnkAP8yjvYg?si=TkHhfxN2yCBSnlra",
         "crop": "cinematic",
