@@ -196,6 +196,7 @@
     },
     "852d0437-810a-4b86-bef2-40621a019a33": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "title": "",
         "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
@@ -292,7 +293,7 @@
         "title": "",
         "max_width": 50,
         "text_style": "body",
-        "color_scheme": "tertiary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },
@@ -303,7 +304,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "above",
-            "target_section_color_scheme": "tertiary",
+            "target_section_color_scheme": "secondary",
             "style": "medium-waves_1200x43",
             "flip_horizontal": false,
             "enable_animation": true,
@@ -314,7 +315,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "quaternary",
+            "target_section_color_scheme": "secondary",
             "style": "small-waves_1200x20",
             "flip_horizontal": false,
             "enable_animation": true,
@@ -327,12 +328,12 @@
         "d3fd69d6-0368-49b2-a1c4-1f8f4b2c46ba"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg",
+        "image": "shopify:\/\/shop_images\/PWK04-NaturahArt---Fish.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "style": "full",
-        "height": "pt-two-thirds-screen-height",
+        "height": "pt-half-screen-height",
         "place_content": "place-content-center-center",
         "text_align": "text-center",
         "title": "~WaterColor Kits~",
@@ -341,7 +342,7 @@
         "cta_url": "shopify:\/\/collections\/watercolor-kits",
         "cta_text": "Shop Now",
         "color_scheme": "primary",
-        "use_gradient_background": true,
+        "use_gradient_background": false,
         "text_overlay_color": "same_as_section"
       }
     },
@@ -414,7 +415,7 @@
         "desktop_text_scale": 4,
         "speed": 300,
         "direction": "",
-        "color_scheme": "tertiary",
+        "color_scheme": "secondary",
         "use_gradient_background": false
       }
     },
