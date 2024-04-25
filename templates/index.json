@@ -405,14 +405,14 @@
       "settings": {
         "text": "Watercolor Kits, Mini-watercolor Kits, bags, tattoo stickers, home-made, original creations",
         "repeat_text": true,
-        "shape_between_text": "10_point_star",
+        "shape_between_text": "flower",
         "animate_shape_between_text": true,
         "link": "",
         "font": "font-heading heading-secondary",
         "apply_effects": false,
         "mobile_text_scale": 2,
         "desktop_text_scale": 4,
-        "speed": 240,
+        "speed": 300,
         "direction": "",
         "color_scheme": "tertiary",
         "use_gradient_background": false
