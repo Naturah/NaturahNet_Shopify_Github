@@ -143,6 +143,57 @@
         "use_gradient_background": false
       }
     },
+    "1650891358fef95dd4": {
+      "type": "featured-collection",
+      "blocks": {
+        "7261f40b-41bf-4b48-8953-041e29fe35e4": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "primary",
+            "style": "tilt-1-asymmetrical_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "7e5b844d-86a4-404a-b794-91e132f48d99": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "primary",
+            "style": "tilt-1-asymmetrical_1440x101",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "7261f40b-41bf-4b48-8953-041e29fe35e4",
+        "7e5b844d-86a4-404a-b794-91e132f48d99"
+      ],
+      "settings": {
+        "title": "Watercolor Kits",
+        "subheading": "Each art kit is a hand-made adventure pack ready for you to bring to life!",
+        "collection": "watercolor-kits",
+        "no_products": 5,
+        "show_view_all": true,
+        "enable_quick_buy": true,
+        "display_on_card": true,
+        "layout": "grid",
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "primary",
+        "use_gradient_background": true
+      }
+    },
     "852d0437-810a-4b86-bef2-40621a019a33": {
       "type": "custom-liquid",
       "settings": {
@@ -154,6 +205,7 @@
     },
     "16508912994a26e8bf": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "Art Kits & Adventures!",
         "heading_size": "heading-feature",
@@ -592,57 +644,6 @@
         "use_gradient_background": false
       }
     },
-    "1650891358fef95dd4": {
-      "type": "featured-collection",
-      "blocks": {
-        "7261f40b-41bf-4b48-8953-041e29fe35e4": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "primary",
-            "style": "tilt-1-asymmetrical_1440x101",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        },
-        "7e5b844d-86a4-404a-b794-91e132f48d99": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "primary",
-            "style": "tilt-1-asymmetrical_1440x101",
-            "flip_horizontal": true,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        }
-      },
-      "block_order": [
-        "7261f40b-41bf-4b48-8953-041e29fe35e4",
-        "7e5b844d-86a4-404a-b794-91e132f48d99"
-      ],
-      "settings": {
-        "title": "Watercolor Kits",
-        "subheading": "Home-made with passion, care, and love",
-        "collection": "watercolor-kits",
-        "no_products": 5,
-        "show_view_all": true,
-        "enable_quick_buy": true,
-        "display_on_card": true,
-        "layout": "grid",
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "slideshow_focus": "center",
-        "mobile_slide_width": "three_fifths",
-        "desktop_slide_width": 40,
-        "autoscroll_mode": "1",
-        "product_tiles_aspect_ratio": "",
-        "image_shape": "",
-        "color_scheme": "primary",
-        "use_gradient_background": true
-      }
-    },
     "165089168609b8f684": {
       "type": "blog-posts",
       "blocks": {
@@ -711,6 +712,7 @@
   },
   "order": [
     "1650891033bae15b05",
+    "1650891358fef95dd4",
     "852d0437-810a-4b86-bef2-40621a019a33",
     "16508912994a26e8bf",
     "1650891303c44cb2d2",
@@ -721,7 +723,6 @@
     "1650891682f199a493",
     "16508916323f758a49",
     "1650891638851a4ea4",
-    "1650891358fef95dd4",
     "165089168609b8f684",
     "bd462ba7-d173-491a-a37f-eb671c8c3fa9",
     "0ef63063-b9ab-4f20-91a5-4b641bd1e726"
