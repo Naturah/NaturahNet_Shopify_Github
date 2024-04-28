@@ -163,7 +163,7 @@
     "bb58144c-e134-4505-bd61-8531aa47139f": {
       "type": "curved-text",
       "settings": {
-        "text": "These {{ collection.title }} are 🔥",
+        "text": "~ These 💦{{ collection.title }} are 🔥",
         "link": "",
         "wave_height": 200,
         "wave_width": 400,
