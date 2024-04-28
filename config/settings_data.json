@@ -114,7 +114,7 @@
     "open_modal_on_add_to_cart": false,
     "enable_free_shipping_progress_in_cart": false,
     "free_shipping_threshold": "30",
-    "favicon": "shopify:\/\/shop_images\/NaturahLogo_b93ed303-97ba-44d5-aa90-277c2bae4d4d.png",
+    "favicon": "shopify:\/\/shop_images\/NaturahIcon.svg",
     "checkout_logo_image": "shopify:\/\/shop_images\/NaturahLogo_type.png",
     "checkout_logo_position": "left",
     "checkout_input_background_color_mode": "white",
