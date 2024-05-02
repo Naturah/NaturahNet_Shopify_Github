@@ -189,7 +189,7 @@
         "desktop_slide_width": 40,
         "autoscroll_mode": "1",
         "product_tiles_aspect_ratio": "",
-        "image_shape": "",
+        "image_shape": "leaf",
         "color_scheme": "primary",
         "use_gradient_background": true
       }
