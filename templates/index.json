@@ -135,7 +135,7 @@
         "disable_media_style": false,
         "title": "WaterColor Kits",
         "heading_size": "heading-standard",
-        "richtext": "<p><strong>Postcard-Sized Kits Inlcude:<\/strong><\/p><p>🌈 Select Paint Themes on Embossed Color Palettes<\/p><p>🖼️ Fine Prints of designs on 300gsm Paper<\/p><p>🎨 Original Mini-Palette<\/p><p>🖌️ Fillable Watercolor Brush<\/p><p>📜 Color Mixing Chart & Watercolor Techniques Guid<\/p><p><\/p>",
+        "richtext": "<p><strong>Postcard-Sized Kits Include:<\/strong><\/p><p>🌈 Select Paint Themes on Embossed Color Palettes<\/p><p>🖼️ Fine Prints of designs on 300gsm Paper<\/p><p>🎨 Original Mini-Palette<\/p><p>🖌️ Fillable Watercolor Brush<\/p><p>📜 Color Mixing Chart & Watercolor Techniques Guide<\/p><p><\/p>",
         "text_alignment": "text-center",
         "button_link": "shopify:\/\/collections\/watercolor-kits",
         "button_label": "Check em' out",
@@ -288,6 +288,9 @@
         "eb42bfa2-e2b9-4bfe-8b67-b4e7b94efbf6",
         "7f2265e7-4734-46f9-a3c4-cec407d5a2d3",
         "f3086909-a9d2-48be-ab4f-01abd112ac9c"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "title": "",
