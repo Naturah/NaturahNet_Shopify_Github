@@ -124,10 +124,10 @@
         "3cc21ad0-99ae-4edb-afe1-f64f2c9cba74"
       ],
       "settings": {
-        "display_on_card": false,
+        "display_on_card": true,
         "image": "shopify:\/\/shop_images\/BirdsWaterColorKitDOF.jpg",
-        "crop": "aspect-w-1 aspect-h-1",
-        "image_shape": "scalloped_circle_2",
+        "crop": "",
+        "image_shape": "scalloped_circle_1",
         "blob_type": 2,
         "rotate_image": 0,
         "image_position": "right",
