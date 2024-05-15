@@ -713,6 +713,54 @@
         "full_width": true,
         "color_scheme": "primary"
       }
+    },
+    "hero_slideshow_PyxRyC": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "slide_XqA8DL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Naturah_Welcome_banner_-_Desktop_1600x600_4a72c8b1-206f-412e-a29c-1737af7af590.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Naturah_Welcome_Banner_800x1200_01b675c3-9ed7-494b-8319-59d029087662.jpg",
+            "title": "",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        },
+        "slide_RtM4jU": {
+          "type": "slide",
+          "settings": {
+            "title": "Hero slideshow",
+            "richtext": "",
+            "cta_url": "",
+            "cta_text": "Shop Now",
+            "place_content": "inherit",
+            "text_align": "inherit",
+            "text_overlay_color": "same_as_section"
+          }
+        }
+      },
+      "block_order": [
+        "slide_XqA8DL",
+        "slide_RtM4jU"
+      ],
+      "settings": {
+        "style": "full",
+        "height": "natural",
+        "display_on_card": true,
+        "display_content_below_image_on_mobile": true,
+        "auto_rotate": false,
+        "slide_speed": "5000",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "heading_size": "heading-standard",
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -730,6 +778,7 @@
     "1650891638851a4ea4",
     "165089168609b8f684",
     "bd462ba7-d173-491a-a37f-eb671c8c3fa9",
-    "0ef63063-b9ab-4f20-91a5-4b641bd1e726"
+    "0ef63063-b9ab-4f20-91a5-4b641bd1e726",
+    "hero_slideshow_PyxRyC"
   ]
 }
