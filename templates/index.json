@@ -16,6 +16,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/Naturah_Welcome_banner_-_Desktop_1600x600-optimized.jpg",
+        "image_link": "shopify:\/\/collections",
         "image_mobile": "shopify:\/\/shop_images\/Naturah_Welcome_banner_-_Desktop_1600x600-optimized.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": true,
@@ -341,6 +342,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/PWK04-NaturahArt---Fish.jpg",
+        "image_link": "",
         "image_mobile": "shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
