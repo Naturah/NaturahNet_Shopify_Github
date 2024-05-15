@@ -7,7 +7,7 @@
       "settings": {
         "home_page_only": true,
         "display": "static",
-        "text": "HAPPYMAMA At checkout for a 25%  discount 😍",
+        "text": "20% and Free shipping discount 😍",
         "link": "",
         "color_scheme": "primary",
         "use_gradient_background": true,
@@ -48,7 +48,7 @@
         "header_show_search": true,
         "sticky_header": true,
         "show_icons": true,
-        "enable_overlay_on_homepage": true,
+        "enable_overlay_on_homepage": false,
         "enable_overlay_on_collection_pages": true,
         "enable_overlay_on_product_pages": true,
         "overlay_text_color": "same_as_section",
@@ -62,10 +62,38 @@
         "sidebar_show_footer_menu": true,
         "sidebar_show_social_icons": true
       }
+    },
+    "free_shipping_bar_BNEXrc": {
+      "type": "free-shipping-bar",
+      "disabled": true,
+      "settings": {
+        "display": "static",
+        "color_scheme": "primary",
+        "use_gradient_background": false,
+        "show_bottom_border": true,
+        "progress_bar_color": "bg-scheme-accent-1 text-scheme-accent-1-overlay",
+        "show_progress_bar": true,
+        "repeat_text": true,
+        "shape_between_text": "10_point_star",
+        "animate_shape_between_text": true,
+        "speed": 120,
+        "direction": ""
+      }
+    },
+    "custom_liquid_ggJrWr": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "custom_liquid": "",
+        "full_width": true,
+        "color_scheme": "primary"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "free_shipping_bar_BNEXrc",
+    "custom_liquid_ggJrWr"
   ]
 }
