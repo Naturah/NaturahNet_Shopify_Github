@@ -20,7 +20,7 @@
         "display_on_card": false,
         "display_content_below_image_on_mobile": true,
         "style": "full",
-        "height": "pt-700",
+        "height": "natural",
         "place_content": "place-content-center-center",
         "text_align": "text-center",
         "title": "",
@@ -156,6 +156,7 @@
         "77d85abd-2e78-4c3b-b043-e3e914d6c7e8",
         "3cc21ad0-99ae-4edb-afe1-f64f2c9cba74"
       ],
+      "disabled": true,
       "settings": {
         "display_on_card": true,
         "image": "shopify:\/\/shop_images\/BirdsWaterColorKitDOF.jpg",
