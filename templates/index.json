@@ -725,9 +725,9 @@
             "title": "",
             "richtext": "",
             "cta_url": "shopify:\/\/collections",
-            "cta_text": "Shop Now",
-            "place_content": "inherit",
-            "text_align": "inherit",
+            "cta_text": "shop now",
+            "place_content": "place-content-end-end",
+            "text_align": "text-center",
             "text_overlay_color": "same_as_section"
           }
         },
