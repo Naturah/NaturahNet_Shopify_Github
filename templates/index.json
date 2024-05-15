@@ -724,7 +724,7 @@
             "image_mobile": "shopify:\/\/shop_images\/Naturah_Welcome_Banner_800x1200_01b675c3-9ed7-494b-8319-59d029087662.jpg",
             "title": "",
             "richtext": "",
-            "cta_url": "",
+            "cta_url": "shopify:\/\/collections",
             "cta_text": "Shop Now",
             "place_content": "inherit",
             "text_align": "inherit",
