@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "custom_liquid_w3z6iQ": {
@@ -15,9 +24,9 @@
     "image_with_text_overlay_pUXEPr": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Naturah_Welcome_banner_-_Desktop_1600x600-optimized.jpg",
+        "image": "shopify:\/\/shop_images\/Website_BannersWebsite_Desktop_1600x600_-_optimized.jpg",
         "image_link": "shopify:\/\/collections\/watercolor-kits",
-        "image_mobile": "shopify:\/\/shop_images\/Naturah_Website_Mobile_Banner_800x1200_-optimized.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Website_BannersWebsite_Mobile_800x1200_-_optimized.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "style": "full",
