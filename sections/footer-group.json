@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer",
@@ -33,13 +42,13 @@
         "newsletter-0"
       ],
       "settings": {
-        "logo": "shopify:\/\/shop_images\/Naturah_logo.png",
-        "logo_max_width": 280,
+        "logo": "shopify:\/\/shop_images\/Naturah_Logo_Stack.svg",
+        "logo_max_width": 370,
         "show_payment_icons": true,
-        "show_country_selector": true,
-        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_locale_selector": false,
         "color_scheme": "primary",
-        "use_gradient_background": true
+        "use_gradient_background": false
       }
     }
   },
