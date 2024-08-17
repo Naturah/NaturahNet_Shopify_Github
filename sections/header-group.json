@@ -45,8 +45,8 @@
         "feature_desktop_link_JwJTgi"
       ],
       "settings": {
-        "logo": "shopify:\/\/shop_images\/Naturah_Logo_1024x422_90eea646-80a6-4528-8739-ef752994fdd8.svg",
-        "logo_max_width": 250,
+        "logo": "shopify:\/\/shop_images\/Naturah_Logo_Stack.svg",
+        "logo_max_width": 400,
         "main_linklist": "main-menu",
         "show_all_navigation_links": true,
         "showcase_second_level_links": false,
