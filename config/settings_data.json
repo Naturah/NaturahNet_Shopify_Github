@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_primary_text": "#272727",
@@ -49,7 +58,7 @@
     "section_border_thickness": 2,
     "apply_to_standard_headings": true,
     "apply_to_feature_headings": true,
-    "heading_color": "color-scheme-accent-1",
+    "heading_color": "color-scheme-background",
     "heading_stroke_thickness": 1,
     "heading_stroke_color": "color-scheme-text",
     "heading_drop_shadow_style": "drop_shadow",
