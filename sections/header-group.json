@@ -46,7 +46,7 @@
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/Naturah-Logo-1024x422.png",
-        "logo_max_width": 400,
+        "logo_max_width": 200,
         "main_linklist": "main-menu",
         "show_all_navigation_links": true,
         "showcase_second_level_links": false,
