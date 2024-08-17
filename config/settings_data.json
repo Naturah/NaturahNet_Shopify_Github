@@ -98,6 +98,7 @@
     "product_tiles_aspect_ratio": "aspect-w-1 aspect-h-1",
     "product_tile_media_shape": "convex_square",
     "product_tiles_second_image_on_hover": true,
+    "hover_effect_enlarge_shape": true,
     "hover_effect_rotate_shape": false,
     "hover_effect_lift_shape": false,
     "on_sale_badge_shape": "ticket_stub",
