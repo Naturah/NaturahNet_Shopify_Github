@@ -431,7 +431,7 @@
       "close_menu": "Close menu"
     },
     "cart": {
-      "title": "Cart",
+      "title": "Art Cart",
       "items_count": {
         "one": "item",
         "other": "items"
