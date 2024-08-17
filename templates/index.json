@@ -423,7 +423,7 @@
         "product_tiles_aspect_ratio": "",
         "image_shape": "scalloped_circle_1",
         "color_scheme": "primary",
-        "use_gradient_background": false
+        "use_gradient_background": true
       }
     },
     "16508916323f758a49": {
@@ -590,7 +590,7 @@
         "thumbnail_size": "standard",
         "show_thumbnails_on_mobile": false,
         "color_scheme": "primary",
-        "use_gradient_background": false
+        "use_gradient_background": true
       }
     },
     "bd462ba7-d173-491a-a37f-eb671c8c3fa9": {
