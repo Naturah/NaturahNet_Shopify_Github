@@ -67,7 +67,7 @@
     "button_border_radius": "0.375rem",
     "button_border_width": 1,
     "button_drop_shadow_size": 3,
-    "button_shadow_color": "transparent",
+    "button_shadow_color": "color-scheme-text",
     "button_shadow_direction": "bottom_right",
     "button_show_border_on_shadow": true,
     "sticker_border_radius": "0",
