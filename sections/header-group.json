@@ -53,7 +53,7 @@
         "showcase_first_level_collections": true,
         "show_collection_images": false,
         "crop": "",
-        "header_layout": "navigation_left_logo_center",
+        "header_layout": "logo_left_navigation_center",
         "header_show_search": true,
         "sticky_header": true,
         "show_icons": true,
