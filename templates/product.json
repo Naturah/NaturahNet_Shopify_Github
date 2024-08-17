@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -35,18 +44,17 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
-            "display_on_card": false,
-            "show_label": false
+            "display_on_card": true,
+            "show_label": true
           }
         },
         "baf3083e-d14d-435d-bca3-100d6ac490ce": {
           "type": "buy_buttons",
           "settings": {
             "display_on_card": true,
-            "show_price": true,
-            "enable_payment_button": true,
+            "show_price": false,
+            "enable_payment_button": false,
             "show_pickup_availability": false,
             "show_gift_card_recipient": false
           }
