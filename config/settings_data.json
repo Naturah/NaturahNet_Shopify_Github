@@ -62,7 +62,7 @@
     "heading_stroke_thickness": 1,
     "heading_stroke_color": "color-scheme-text",
     "heading_drop_shadow_style": "drop_shadow",
-    "heading_drop_shadow_size": 3,
+    "heading_drop_shadow_size": 2,
     "heading_drop_shadow_color": "color-scheme-text",
     "button_border_radius": "0.375rem",
     "button_border_width": 1,
