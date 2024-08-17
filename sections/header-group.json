@@ -54,7 +54,7 @@
         "show_collection_images": false,
         "crop": "",
         "header_layout": "logo_left_navigation_center",
-        "header_show_search": true,
+        "header_show_search": false,
         "sticky_header": true,
         "show_icons": true,
         "enable_overlay_on_homepage": false,
@@ -63,11 +63,11 @@
         "overlay_text_color": "same_as_section",
         "transparent_when_overlaid_and_stuck": false,
         "overlay_show_separator_border": true,
-        "overlay_first_section_padding_top_desktop": 3,
+        "overlay_first_section_padding_top_desktop": 6,
         "overlay_first_section_padding_top_mobile": 4,
         "color_scheme": "primary",
         "use_gradient_background": false,
-        "dropdown_bg": "accent-1",
+        "dropdown_bg": "card",
         "sidebar_show_footer_menu": true,
         "sidebar_show_social_icons": true
       }
