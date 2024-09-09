@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -79,12 +88,12 @@
       "login_form_submit": "Entrar",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Vamos enviar um e-mail para você antes de inaugurarmos!",
-      "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link border-b border-scheme-text \">Entre aqui</a>",
+      "admin_link_html": "Você é o dono da loja? <a href=\"\/admin\" class=\"text-link border-b border-scheme-text \">Entre aqui<\/a>",
       "password_link": "Entrar usando a senha",
       "powered_by_shopify_html": "Esta loja será distribuída por {{ shopify }}"
     },
     "country": {
-      "dropdown_label": "País/região"
+      "dropdown_label": "País\/região"
     },
     "language": {
       "dropdown_label": "Idioma"
@@ -133,12 +142,12 @@
       "checkout": "Finalizar Compra",
       "empty": "Seu carrinho está vazio no momento.",
       "taxes_and_shipping_at_checkout": "Impostos e envio são calculados na finalização da compra",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">envio</a> calculados na finalização da compra",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">envio<\/a> calculados na finalização da compra",
       "taxes_included_but_shipping_at_checkout": "Impostos inclusos e envio calculado na finalização da compra",
-      "taxes_included_and_shipping_policy_html": "Impostos inclusos. <a href=\"{{ link }}\">Envio</a> calculado na finalização da compra.",
+      "taxes_included_and_shipping_policy_html": "Impostos inclusos. <a href=\"{{ link }}\">Envio<\/a> calculado na finalização da compra.",
       "cookies_required": "Habilite os cookies para usar o carrinho de compras",
       "continue_shopping": "Continuar comprando",
-      "continue_browsing_html": "Continuar navegando <a href=\"{{ link_url }}\">aqui</a>.",
+      "continue_browsing_html": "Continuar navegando <a href=\"{{ link_url }}\">aqui<\/a>.",
       "close_cart": "Fechar Carrinho",
       "cart_error": "Houve um erro ao atualizar seu carrinho. Por favor, tente novamente.",
       "cart_add_error": "Todos {{ title }} estão no seu carrinho.",
@@ -197,7 +206,7 @@
   },
   "facets": {
     "filters": {
-      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar todos</a>",
+      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar todos<\/a>",
       "title_tags": "Filtrar",
       "clear": "Limpar",
       "all_tags": "Todos os produtos",
@@ -356,14 +365,14 @@
     },
     "onboarding": {
       "modal_title": "Quase lá...",
-      "no_products_html": "Você não tem produtos na sua coleção da Primeira Página. Este marcador aparecerá até você <a href=\"/admin/collections?tutorial=Frontpage\">adicionar um produto a esta coleção</a>.",
+      "no_products_html": "Você não tem produtos na sua coleção da Primeira Página. Este marcador aparecerá até você <a href=\"\/admin\/collections?tutorial=Frontpage\">adicionar um produto a esta coleção<\/a>.",
       "add_product": "Adicionar um Produto",
       "product_title": "Exemplo de Título do Produto",
-      "no_collections_html": "Você não tem nenhuma coleção para aparecer aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para acompanhar a Primeira Página padrão.",
+      "no_collections_html": "Você não tem nenhuma coleção para aparecer aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para acompanhar a Primeira Página padrão.",
       "add_collection": "Adicionar uma Coleção",
       "collection_title": "Título da Coleção",
       "collection_cta": "Comprar Agora",
-      "complete_setup_html": "Vá até sua página de<a href=\"/admin/themes/{{ theme_id }}/settings\">Customização de Tema</a> para completar a configuração.",
+      "complete_setup_html": "Vá até sua página de<a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Customização de Tema<\/a> para completar a configuração.",
       "blog_section-title": "Blog",
       "blog_title": "Título da sua publicação",
       "blog_excerpt": "Sua loja ainda não fez nenhuma publicação de blog ainda. Um blog pode ser usado para falar de novos lançamentos de produtos, dicas ou outras notícias que você queira compartilhar com seus clientes. Você pode conferir o blog do e-commerce da Shopify para inspiração ou dica para sua própria loja e blog.",
@@ -375,7 +384,7 @@
     "map": {
       "address_error": "Erro ao procurar esse endereço",
       "address_no_results": "Nenhum resultado para esse endereço",
-      "address_query_limit_html": "Você excedeu seu limite de uso do Google API.  Considere fazer o upgrade para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a>.",
+      "address_query_limit_html": "Você excedeu seu limite de uso do Google API.  Considere fazer o upgrade para um <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plano Premium<\/a>.",
       "auth_error_html": "Houve um problema ao autenticar sua conta do Google Maps."
     }
   },
@@ -389,14 +398,14 @@
     },
     "onboarding": {
       "modal_title": "Quase lá...",
-      "no_products_html": "Você não tem produtos na sua coleção da Primeira Página. Este marcador aparecerá até você <a href=\"/admin/collections?tutorial=Frontpage\">adicionar um produto a esta coleção</a>.",
+      "no_products_html": "Você não tem produtos na sua coleção da Primeira Página. Este marcador aparecerá até você <a href=\"\/admin\/collections?tutorial=Frontpage\">adicionar um produto a esta coleção<\/a>.",
       "add_product": "Adicionar um Produto",
       "product_title": "Exemplo de Título do Produto",
-      "no_collections_html": "Você não tem nenhuma coleção para aparecer aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para acompanhar a Primeira Página padrão.",
+      "no_collections_html": "Você não tem nenhuma coleção para aparecer aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para acompanhar a Primeira Página padrão.",
       "add_collection": "Adicionar uma Coleção",
       "collection_title": "Título da Coleção",
       "collection_cta": "Comprar Agora",
-      "complete_setup_html": "Vá até sua página de<a href=\"/admin/themes/{{ theme_id }}/settings\">Customizar Tema</a> para completar a configuração.",
+      "complete_setup_html": "Vá até sua página de<a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Customizar Tema<\/a> para completar a configuração.",
       "blog_section-title": "Blog",
       "blog_title": "Título da sua publicação",
       "blog_excerpt": "Sua loja ainda não fez nenhuma publicação de blog. Um blog pode ser usado para falar de novos lançamentos de produtos, dicas ou outras notícias que você queira compartilhar com seus clientes. Você pode conferir o blog do e-commerce da Shopify para inspiração ou dica para sua própria loja e blog.",
@@ -408,7 +417,7 @@
     "map": {
       "address_error": "Erro ao procurar esse endereço",
       "address_no_results": "Nenhum resultado para esse endereço",
-      "address_query_limit_html": "Você excedeu seu limite de uso do Google API.  Considere fazer o upgrade para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a>.",
+      "address_query_limit_html": "Você excedeu seu limite de uso do Google API.  Considere fazer o upgrade para um <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plano Premium<\/a>.",
       "auth_error_html": "Houve um problema ao autenticar sua conta do Google Maps."
     }
   },
@@ -455,7 +464,7 @@
     "product": {
       "sold_out": "Esgotado",
       "on_sale": "Em promoção",
-      "on_sale_from_html": "<strong>Em Promoção</strong> a partir de {{ price }}",
+      "on_sale_from_html": "<strong>Em Promoção<\/strong> a partir de {{ price }}",
       "unavailable": "Indisponível",
       "unit_price_label": "Preço unitário",
       "compare_at": "Comparar em",
@@ -464,7 +473,7 @@
       "preorder": "Encomendar",
       "adding_to_cart": "Adicionando",
       "added_to_cart": "Adicionado ao Carrinho",
-      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">Ver carrinho</a> ou <a href=\"{{ link_url }}\">continuar comprando</a>",
+      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">Ver carrinho<\/a> ou <a href=\"{{ link_url }}\">continuar comprando<\/a>",
       "color_swatch_trigger": "Cor",
       "read_more": "Ler mais",
       "in_stock": "Em Estoque",
@@ -495,8 +504,8 @@
       "check_other_stores": "Verificar disponibilidade em outras lojas",
       "pick_up_available": "Retirada disponível",
       "pick_up_currently_unavailable": "Retirada indisponível no momento",
-      "pick_up_available_at_html": "Retirada disponível em<strong>{{ location_name }}</strong>",
-      "pick_up_unavailable_at_html": "Retirada indisponível no momento em <strong>{{ location_name }}</strong>"
+      "pick_up_available_at_html": "Retirada disponível em<strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Retirada indisponível no momento em <strong>{{ location_name }}<\/strong>"
     }
   },
   "gift_cards": {

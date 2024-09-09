@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -79,12 +88,12 @@
       "login_form_submit": "Invoeren",
       "signup_form_email_label": "E-mailadres",
       "signup_form_success": "We zullen je net voordat we openen een e-mail sturen!",
-      "admin_link_html": "Ben je de eigenaar van de winkel? <a href=\"/admin\" class=\"text-link border-b border-scheme-text \">Log hier in</a>",
+      "admin_link_html": "Ben je de eigenaar van de winkel? <a href=\"\/admin\" class=\"text-link border-b border-scheme-text \">Log hier in<\/a>",
       "password_link": "Betreden met wachtwoord",
       "powered_by_shopify_html": "Deze winkel zal worden aangestuurd door {{ shopify }}"
     },
     "country": {
-      "dropdown_label": "Land/regio"
+      "dropdown_label": "Land\/regio"
     },
     "language": {
       "dropdown_label": "Taal"
@@ -133,12 +142,12 @@
       "checkout": "Afrekenen",
       "empty": "Je mandje is momenteel leeg.",
       "taxes_and_shipping_at_checkout": "Belasting en verzendkosten worden berekend bij het afrekenen",
-      "taxes_and_shipping_policy_at_checkout_html": "Belasting en <a href=\"{{ link }}\">verzendkosten</a> worden berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belasting en <a href=\"{{ link }}\">verzendkosten<\/a> worden berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Belasting inbegrepen, verzendkosten worden berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Belasting inbegrepen. <a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij het afrekenen.",
+      "taxes_included_and_shipping_policy_html": "Belasting inbegrepen. <a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij het afrekenen.",
       "cookies_required": "Geef toestemming voor cookies om het winkelmandje te gebruiken",
       "continue_shopping": "Doorgaan met winkelen",
-      "continue_browsing_html": "Surf <a href=\"{{ link_url }}\">hier</a> verder.",
+      "continue_browsing_html": "Surf <a href=\"{{ link_url }}\">hier<\/a> verder.",
       "close_cart": "Mandje sluiten",
       "cart_error": "Er was een fout bij het updaten van je mandje. Probeer het nog een keer.",
       "cart_add_error": "Alle {{ title }} zijn in je mandje.",
@@ -197,7 +206,7 @@
   },
   "facets": {
     "filters": {
-      "use_fewer_filters_html": "Gebruik minder zoekfilters of <a class=\"{{ class }}\" href=\"{{ link }}\">wis alle</a>",
+      "use_fewer_filters_html": "Gebruik minder zoekfilters of <a class=\"{{ class }}\" href=\"{{ link }}\">wis alle<\/a>",
       "title_tags": "Zoekfilter",
       "clear": "Wissen",
       "all_tags": "Alle producten",
@@ -343,7 +352,7 @@
       "pause_slideshow": "Presentatie pauzeren",
       "rotate_slideshow": "Presentatie afspelen",
       "load_slide": "Afbeelding {{ slide_number }} laden",
-      "navigation_instructions": "Gebruik links-/rechtspijltjes om de presentatie te navigeren, of veeg links/rechts op een mobiel apparaat",
+      "navigation_instructions": "Gebruik links-\/rechtspijltjes om de presentatie te navigeren, of veeg links\/rechts op een mobiel apparaat",
       "play_slideshow": "Presentatie afspelen"
     },
     "tour": {
@@ -356,14 +365,14 @@
     },
     "onboarding": {
       "modal_title": "Bijna klaar...",
-      "no_products_html": "Je hebt geen producten in je startpagina collectie. Deze plaatshouder zal zichtbaar zijn tot <a href=\"/admin/collections?tutorial=Frontpage\">je een product aan deze collectie toevoegt</a>.",
+      "no_products_html": "Je hebt geen producten in je startpagina collectie. Deze plaatshouder zal zichtbaar zijn tot <a href=\"\/admin\/collections?tutorial=Frontpage\">je een product aan deze collectie toevoegt<\/a>.",
       "add_product": "Voeg een product toe",
       "product_title": "Voorbeeld Product Titel",
-      "no_collections_html": "Je hebt geen collecties om hier te tonen. <a href=\"/admin/custom_collections\">Voeg wat collecties toe</a> aan de standaard Startpagina.",
+      "no_collections_html": "Je hebt geen collecties om hier te tonen. <a href=\"\/admin\/custom_collections\">Voeg wat collecties toe<\/a> aan de standaard Startpagina.",
       "add_collection": "Voeg een Collectie toe",
       "collection_title": "Naam Collectie",
       "collection_cta": "Nu Winkelen",
-      "complete_setup_html": "Ga naar je <a href=\"/admin/themes/{{ theme_id }}/settings\">Thema </a>pagina om de instelling te voltooien.",
+      "complete_setup_html": "Ga naar je <a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Thema <\/a>pagina om de instelling te voltooien.",
       "blog_section-title": "Blog",
       "blog_title": "Titel van je bericht",
       "blog_excerpt": "Je winkel heeft nog geen blogberichten gepubliceerd. Een blog kan worden gebruikt om te praten over nieuwe productlanceringen, tips, of ander nieuws dat je wilt delen met je klanten. Je kunt de e-commerceblog van Shopify bekijken voor inspiratie en advies voor je eigen winkel en blog.",
@@ -375,7 +384,7 @@
     "map": {
       "address_error": "Fout bij het opzoeken van dat adres",
       "address_no_results": "Geen resultaten voor dat adres",
-      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
+      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
       "auth_error_html": "Er is een probleem opgetreden bij de verificatie van je Google Maps account."
     }
   },
@@ -389,14 +398,14 @@
     },
     "onboarding": {
       "modal_title": "Bijna klaar...",
-      "no_products_html": "Je hebt geen producten in je startpagina collectie. Deze plaatshouder zal zichtbaar zijn tot <a href=\"/admin/collections?tutorial=Frontpage\">je een product aan deze collectie toevoegt</a>.",
+      "no_products_html": "Je hebt geen producten in je startpagina collectie. Deze plaatshouder zal zichtbaar zijn tot <a href=\"\/admin\/collections?tutorial=Frontpage\">je een product aan deze collectie toevoegt<\/a>.",
       "add_product": "Voeg een product toe",
       "product_title": "Voorbeeld Product Titel",
-      "no_collections_html": "Je hebt geen collecties om hier te tonen. <a href=\"/admin/custom_collections\">Voeg wat collecties toe</a> aan de standaard Startpagina.",
+      "no_collections_html": "Je hebt geen collecties om hier te tonen. <a href=\"\/admin\/custom_collections\">Voeg wat collecties toe<\/a> aan de standaard Startpagina.",
       "add_collection": "Voeg een Collectie toe",
       "collection_title": "Naam Collectie",
       "collection_cta": "Nu Winkelen",
-      "complete_setup_html": "Ga naar je <a href=\"/admin/themes/{{ theme_id }}/settings\">Thema </a>pagina om de instelling te voltooien.",
+      "complete_setup_html": "Ga naar je <a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Thema <\/a>pagina om de instelling te voltooien.",
       "blog_section-title": "Blog",
       "blog_title": "Titel van je bericht",
       "blog_excerpt": "Je winkel heeft nog geen blogberichten gepubliceerd. Een blog kan worden gebruikt om te praten over nieuwe productlanceringen, tips, of ander nieuws dat je wilt delen met je klanten. Je kunt de e-commerceblog van Shopify bekijken voor inspiratie en advies voor je eigen winkel en blog.",
@@ -408,7 +417,7 @@
     "map": {
       "address_error": "Fout bij het opzoeken van dat adres",
       "address_no_results": "Geen resultaten voor dat adres",
-      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
+      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
       "auth_error_html": "Er is een probleem opgetreden bij de verificatie van je Google Maps account."
     }
   },
@@ -455,7 +464,7 @@
     "product": {
       "sold_out": "Uitverkocht",
       "on_sale": "In de Uitverkoop",
-      "on_sale_from_html": "<strong>In de Uitverkoop</strong> vanaf {{ price }}",
+      "on_sale_from_html": "<strong>In de Uitverkoop<\/strong> vanaf {{ price }}",
       "unavailable": "Niet beschikbaar",
       "unit_price_label": "Eenheidsprijs",
       "compare_at": "Vergelijken met",
@@ -464,7 +473,7 @@
       "preorder": "Vooraf bestellen",
       "adding_to_cart": "Toevoegen",
       "added_to_cart": "Aan je mandje toegevoegd",
-      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">Mandje bekijken</a> of <a href=\"{{ link_url }}\">doorgaan met winkelen</a>",
+      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">Mandje bekijken<\/a> of <a href=\"{{ link_url }}\">doorgaan met winkelen<\/a>",
       "color_swatch_trigger": "Kleur",
       "read_more": "Meer lezen",
       "in_stock": "Op Voorraad",
@@ -495,8 +504,8 @@
       "check_other_stores": "Beschikbaarheid in andere winkels bekijken",
       "pick_up_available": "Ophalen is mogelijk",
       "pick_up_currently_unavailable": "Ophalen is momenteel niet mogelijk",
-      "pick_up_available_at_html": "Ophalen is mogelijk in <strong>{{ location_name }}</strong>",
-      "pick_up_unavailable_at_html": "Ophalen is momenteel niet mogelijk in <strong>{{ location_name }}</strong>"
+      "pick_up_available_at_html": "Ophalen is mogelijk in <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Ophalen is momenteel niet mogelijk in <strong>{{ location_name }}<\/strong>"
     }
   },
   "gift_cards": {

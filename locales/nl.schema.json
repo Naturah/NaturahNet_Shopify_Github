@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "common": {
     "settings": {
@@ -17,7 +26,7 @@
       },
       "display_on_card": {
         "label": "Weergeven op kaart",
-        "info": "Aangrenzende productblokken die zijn ingesteld om op de kaart te worden weergegeven, worden samengevoegd tot één kaart. [Meer informatie](https://help.switchthemes.co/shapes/guides/display-product-blocks-on-cards.html)"
+        "info": "Aangrenzende productblokken die zijn ingesteld om op de kaart te worden weergegeven, worden samengevoegd tot één kaart. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/display-product-blocks-on-cards.html)"
       },
       "home_page_only": {
         "label": "Alleen startpagina"
@@ -46,11 +55,11 @@
       },
       "image_shape": {
         "label": "Afbeelding vorm",
-        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "video_shape": {
         "label": "Videovorm",
-        "info": "Door bepaalde vormen te selecteren wordt de video bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-and-videos-with-shapes.html)"
+        "info": "Door bepaalde vormen te selecteren wordt de video bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-and-videos-with-shapes.html)"
       },
       "blog_show_author": {
         "label": "Toon auteur"
@@ -178,7 +187,7 @@
       },
       "enable_quick_buy": {
         "label": "Snel kopen mogelijk maken",
-        "info": "Als een product slechts twee varianten heeft worden knoppen getoond. [Meer informatie](https://help.switchthemes.co/shapes/guides/show-quick-buy.html)"
+        "info": "Als een product slechts twee varianten heeft worden knoppen getoond. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/show-quick-buy.html)"
       },
       "layout": "Lay-out",
       "header_grid": "Rooster",
@@ -226,7 +235,7 @@
       },
       "thumbnail_shape": {
         "label": "Vorm",
-        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "hide_media_shadow": {
         "label": "Mediaschaduw verbergen"
@@ -240,7 +249,7 @@
       "logo_max_width": {
         "label": "Aangepaste logo-breedte"
       },
-      "paragraph_customers_who_subscribe": "Klanten die zich abonneren, krijgen hun e-mailadres toegevoegd aan de \"accepteert marketing\" [klantenlijst](/admin/customers?query=&accepts_marketing=1).",
+      "paragraph_customers_who_subscribe": "Klanten die zich abonneren, krijgen hun e-mailadres toegevoegd aan de \"accepteert marketing\" [klantenlijst](\/admin\/customers?query=&accepts_marketing=1).",
       "logo_image": {
         "label": "Logo afbeelding"
       },
@@ -366,7 +375,7 @@
       "header_filtering_and_sorting": "Filteren en sorteren",
       "enable_filtering": {
         "label": "Schakel filteren in",
-        "info": "[Filters aanpassen](/admin/menus)"
+        "info": "[Filters aanpassen](\/admin\/menus)"
       },
       "enable_sorting": {
         "label": "Sorteren inschakelen"
@@ -379,7 +388,7 @@
       },
       "enable_color_swatch_filters": {
         "label": "Schakel kleurstaalfilters in",
-        "info": "[Leer hoe u stalen instelt](https://support.switchthemes.co/article/232-color-swatches)"
+        "info": "[Leer hoe u stalen instelt](https:\/\/support.switchthemes.co\/article\/232-color-swatches)"
       },
       "collection_menu": {
         "label": "Verzamelmenu",
@@ -387,7 +396,7 @@
       },
       "default_image_shape": {
         "label": "Standaard afbeeldingsvorm",
-        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "number_of_products": {
         "label": "Aantal producten"
@@ -403,7 +412,7 @@
       "position": "Positie",
       "shape": {
         "label": "Vorm",
-        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "filtering_and_sorting": "Filteren en sorteren",
       "expand_filters_by_default": {
@@ -412,7 +421,7 @@
       "show_filter_counts": {
         "label": "Toon filteraantallen"
       },
-      "customers_who_subscribe_will_have_their_email_address_added_to_the_accepts_marketing_customer_listadmincustomersqueryaccepts_marketing1": "Klanten die zich abonneren, krijgen hun e-mailadres toegevoegd aan de \"accepteert marketing\" [klantenlijst](/admin/customers?query=&accepts_marketing=1).",
+      "customers_who_subscribe_will_have_their_email_address_added_to_the_accepts_marketing_customer_listadmincustomersqueryaccepts_marketing1": "Klanten die zich abonneren, krijgen hun e-mailadres toegevoegd aan de \"accepteert marketing\" [klantenlijst](\/admin\/customers?query=&accepts_marketing=1).",
       "height": {
         "label": "Hoogte"
       },
@@ -1281,7 +1290,7 @@
             "label": "Optie-etiketten verbergen"
           },
           "header_color_swatches": "Kleurstalen",
-          "paragraph_learn_how_to": "[Leer hoe u stalen instelt](https://help.switchthemes.co/)",
+          "paragraph_learn_how_to": "[Leer hoe u stalen instelt](https:\/\/help.switchthemes.co\/)",
           "enable_color_swatches": {
             "label": "Kleurstalen inschakelen"
           }
@@ -1295,15 +1304,15 @@
           },
           "enable_payment_button": {
             "label": "Toon dynamische afrekenknop",
-            "info": "Elke klant ziet de betaalmethode van zijn voorkeur uit de beschikbare betaalmethoden in uw winkel, zoals PayPal of Apple Pay. [Meer informatie](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+            "info": "Elke klant ziet de betaalmethode van zijn voorkeur uit de beschikbare betaalmethoden in uw winkel, zoals PayPal of Apple Pay. [Meer informatie](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
           },
           "header_pickup_availability": "Beschikbaarheid afhalen",
           "show_pickup_availability": {
-            "label": "Toon afhaalmogelijkheden [Meer informatie](https://help.shopify.com/en/manual/sell-in-person/pos-classic/shopify-pos-from-admin/buy-online-pickup-in-store#show-pickup-availability-to-your-customers)"
+            "label": "Toon afhaalmogelijkheden [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/sell-in-person\/pos-classic\/shopify-pos-from-admin\/buy-online-pickup-in-store#show-pickup-availability-to-your-customers)"
           },
           "show_gift_card_recipient": {
             "label": "Formulier voor gegevens van ontvanger weergeven voor cadeaubonnen",
-            "info": "Klanten kunnen cadeaubonnen rechtstreeks naar de ontvanger laten sturen met een persoonlijk bericht. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+            "info": "Klanten kunnen cadeaubonnen rechtstreeks naar de ontvanger laten sturen met een persoonlijk bericht. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
           }
         }
       },
@@ -1474,7 +1483,7 @@
           },
           "information": {
             "label": "Informatie",
-            "info": "Scheid label en waarde met een komma. Gebruik regeleinden om een nieuwe rij toe te voegen. Gebruik een koppelteken om rijen te laten inspringen. [Meer informatie](https://help.switchthemes.co/shapes/guides/nutritional-information.html)"
+            "info": "Scheid label en waarde met een komma. Gebruik regeleinden om een nieuwe rij toe te voegen. Gebruik een koppelteken om rijen te laten inspringen. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/nutritional-information.html)"
           }
         }
       },
@@ -1489,7 +1498,7 @@
           },
           "value_alt": {
             "label": "Dynamische waarde",
-            "info": "Overschrijf bovenstaande instelling met dynamische bronnen. [Meer informatie](https://help.switchthemes.co/shapes/guides/add-bar-charts.html#add-dynamic-sources-to-bar-charts)"
+            "info": "Overschrijf bovenstaande instelling met dynamische bronnen. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/add-bar-charts.html#add-dynamic-sources-to-bar-charts)"
           }
         }
       },
@@ -1507,14 +1516,14 @@
           },
           "marker_position_alt": {
             "label": "Dynamische markeringspositie",
-            "info": "Overschrijf bovenstaande instelling met dynamische bronnen. [Meer informatie](https://help.switchthemes.co/shapes/guides/add-comparative-scales.html#add-dynamic-sources-to-comparative-scales)"
+            "info": "Overschrijf bovenstaande instelling met dynamische bronnen. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/add-comparative-scales.html#add-dynamic-sources-to-comparative-scales)"
           }
         }
       },
       "complementary_products": {
         "name": "Complementaire producten",
         "settings": {
-          "paragraph_to_select_complementary": "Voeg de Search & Discovery-app toe om aanvullende producten te selecteren. [Meer informatie](https://shopify.dev/themes/product-merchandising/recommendations)",
+          "paragraph_to_select_complementary": "Voeg de Search & Discovery-app toe om aanvullende producten te selecteren. [Meer informatie](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)",
           "block_heading": {
             "label": "Rubriek"
           },
@@ -1528,7 +1537,7 @@
         "settings": {
           "target_section": {
             "label": "Doelsectie",
-            "info": "Dit is het gedeelte dat aansluit op de rechte kant van de verdeler. Het is het beste om secties met een effen achtergrondkleur te gebruiken. [Meer informatie](https://help.switchthemes.co/shapes/style-blocks/shape-divider.html)",
+            "info": "Dit is het gedeelte dat aansluit op de rechte kant van de verdeler. Het is het beste om secties met een effen achtergrondkleur te gebruiken. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/style-blocks\/shape-divider.html)",
             "options": {
               "section_above": {
                 "label": "Section above"
@@ -2062,7 +2071,7 @@
         },
         "product_tile_media_shape": {
           "label": "Afbeelding vorm",
-          "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)",
+          "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)",
           "options": {
             "blobs": {
               "label": "Blobs"
@@ -2085,7 +2094,7 @@
         "header_metafield_badge": "Metafield-badge",
         "product_tile_metafield_badge": {
           "label": "metaveld sleutel",
-          "info": "Voeg een metaveldsleutel toe met de naamruimte shapes_theme. [Meer informatie](https://help.switchthemes.co/shapes/guides/show-custom-badges.html)"
+          "info": "Voeg een metaveldsleutel toe met de naamruimte shapes_theme. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/show-custom-badges.html)"
         },
         "metafield_badge_shape": {
           "label": "Metafield-badgevorm"
@@ -2113,7 +2122,7 @@
       "settings": {
         "parallax_intensity": {
           "label": "Parallax-intensiteit",
-          "info": "Pas het niveau van parallax-animaties aan. [Meer informatie](https://help.switchthemes.co/)"
+          "info": "Pas het niveau van parallax-animaties aan. [Meer informatie](https:\/\/help.switchthemes.co\/)"
         }
       }
     },
@@ -2175,63 +2184,63 @@
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "social_twitter_link": {
           "label": "X (voorheen Twitter)",
-          "info": "https://www.twitter.com/shopify"
+          "info": "https:\/\/www.twitter.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         },
         "social_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://www.linkedin.com/in/shopify"
+          "info": "https:\/\/www.linkedin.com\/in\/shopify"
         },
         "social_threads_link": {
           "label": "Threads",
-          "info": "https://www.threads.net/@shopify"
+          "info": "https:\/\/www.threads.net\/@shopify"
         },
         "social_whatsapp_link": {
           "label": "WhatsApp",
-          "info": "https://wa.me/"
+          "info": "https:\/\/wa.me\/"
         },
         "social_discord_link": {
           "label": "Discord",
-          "info": "https://discord.com/"
+          "info": "https:\/\/discord.com\/"
         },
         "social_twitch_link": {
           "label": "Twitch",
-          "info": "https://www.twitch.tv/shopifydevs"
+          "info": "https:\/\/www.twitch.tv\/shopifydevs"
         },
         "social_messenger_link": {
           "label": "Messenger",
-          "info": "https://www.messenger.com/"
+          "info": "https:\/\/www.messenger.com\/"
         },
         "social_email_link": {
           "label": "E-mailadres",
@@ -2258,7 +2267,7 @@
         },
         "enable_accelerated_checkout": {
           "label": "Knoppen voor versneld afrekenen inschakelen",
-          "info": "Schakel dit uit als u wilt dat de knoppen op uw afrekenpagina verschijnen. [Meer informatie](https://help.shopify.com/en/manual/payments/accelerated-checkouts)"
+          "info": "Schakel dit uit als u wilt dat de knoppen op uw afrekenpagina verschijnen. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/payments\/accelerated-checkouts)"
         },
         "cart_vendor_enable": {
           "label": "Toon productleverancier"
@@ -2279,13 +2288,13 @@
           "info": "Gedrag toevoegen aan winkelwagen wanneer type winkelwagen is ingesteld op modaal"
         },
         "header_free_shipping_progress": "Gratis verzendvoortgang",
-        "paragraph_free_shipping_progress": "Deze functie is slechts een visueel hulpmiddel. Zorg ervoor dat je [je verzendtarieven instelt](/admin/settings/shipping) om de onderstaande drempel te weerspiegelen.",
+        "paragraph_free_shipping_progress": "Deze functie is slechts een visueel hulpmiddel. Zorg ervoor dat je [je verzendtarieven instelt](\/admin\/settings\/shipping) om de onderstaande drempel te weerspiegelen.",
         "enable_free_shipping_progress_in_cart": {
           "label": "Toon gratis verzendvoortgang"
         },
         "free_shipping_threshold": {
           "label": "Drempel gratis verzending",
-          "info": "Om de drempel aan te passen voor specifieke markten, [raadpleeg onze gids](https://help.switchthemes.co/shapes/guides/free-shipping-progress-bar.html)"
+          "info": "Om de drempel aan te passen voor specifieke markten, [raadpleeg onze gids](https:\/\/help.switchthemes.co\/shapes\/guides\/free-shipping-progress-bar.html)"
         }
       }
     },
@@ -2725,7 +2734,7 @@
         },
         "image_shape": {
           "label": "Afbeelding vorm",
-          "info": "Door het selecteren van sommige vormen worden afbeeldingen bijgesneden. Niet van toepassing op video's of modellen. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+          "info": "Door het selecteren van sommige vormen worden afbeeldingen bijgesneden. Niet van toepassing op video's of modellen. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
         }
       }
     },
@@ -2738,9 +2747,9 @@
         "show_payment_icons": {
           "label": "Betalingspictogrammen weergeven"
         },
-        "header_countryregion_selector": "Land-/regiokiezer",
+        "header_countryregion_selector": "Land-\/regiokiezer",
         "show_country_selector": {
-          "label": "Toon land-/regiokiezer"
+          "label": "Toon land-\/regiokiezer"
         },
         "header_language_selector": "Taalkiezer",
         "show_locale_selector": {
@@ -2807,11 +2816,11 @@
         },
         "showcase_second_level_links": {
           "label": "Breng links op het tweede niveau onder de aandacht",
-          "info": "Links op het tweede niveau naar producten of collecties worden getoond als ze geen onderliggende links hebben. [Kom meer te weten](https://docs.switchthemes.co)"
+          "info": "Links op het tweede niveau naar producten of collecties worden getoond als ze geen onderliggende links hebben. [Kom meer te weten](https:\/\/docs.switchthemes.co)"
         },
         "showcase_first_level_collections": {
           "label": "Breng collecties van het eerste niveau onder de aandacht",
-          "info": "Links op het eerste niveau naar collecties zonder onderliggende links tonen producten in een vervolgkeuzelijst. Geldt niet voor ladenavigatie. [Kom meer te weten](https://help.switchthemes.co/shapes/guides/feature-collections-in-navigation.html)"
+          "info": "Links op het eerste niveau naar collecties zonder onderliggende links tonen producten in een vervolgkeuzelijst. Geldt niet voor ladenavigatie. [Kom meer te weten](https:\/\/help.switchthemes.co\/shapes\/guides\/feature-collections-in-navigation.html)"
         },
         "show_collection_images": {
           "label": "Toon collectiebeelden",
@@ -3085,11 +3094,11 @@
       "preset_name": "Video (ingebed) met tekst",
       "settings": {
         "intro_paragraph": {
-          "content": "Voor meer opties, waaronder de mogelijkheid om video's in vormen te plaatsen, kun je overwegen een door Shopify gehoste video en het gedeelte Video met tekst te gebruiken [Meer informatie](https://help.switchthemes.co/shapes/sections/content/video-with-text.html)"
+          "content": "Voor meer opties, waaronder de mogelijkheid om video's in vormen te plaatsen, kun je overwegen een door Shopify gehoste video en het gedeelte Video met tekst te gebruiken [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/sections\/content\/video-with-text.html)"
         },
         "chromeless": {
           "label": "Vraag om te ontsleutelenr",
-          "info": "We zullen een insluiting met minder interface-elementen aanvragen. Het is aan de videoprovider om dit verzoek te honoreren. Voor volledige controle over de elementen die zichtbaar zijn in de video, kun je overwegen een door Shopify gehoste video en het gedeelte Video met tekst te gebruiken [Meer informatie](https://help.switchthemes.co/shapes/sections/content/video-with-text.html)"
+          "info": "We zullen een insluiting met minder interface-elementen aanvragen. Het is aan de videoprovider om dit verzoek te honoreren. Voor volledige controle over de elementen die zichtbaar zijn in de video, kun je overwegen een door Shopify gehoste video en het gedeelte Video met tekst te gebruiken [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/sections\/content\/video-with-text.html)"
         },
         "poster_image": {
           "label": "Poster afbeelding"
@@ -3175,7 +3184,7 @@
           "label": "Laat deellinks zien"
         },
         "show_next_previous_links": {
-          "label": "Toon links naar volgende/vorige artikelen"
+          "label": "Toon links naar volgende\/vorige artikelen"
         }
       }
     },
@@ -3235,7 +3244,7 @@
         },
         "newsletter_form_heading": {
           "label": "Titel van het inschrijfformulier voor de nieuwsbrief",
-          "info": "[Vertel uw bezoekers over een lanceringsdagkorting](https://www.shopify.com/blog/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
+          "info": "[Vertel uw bezoekers over een lanceringsdagkorting](https:\/\/www.shopify.com\/blog\/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
         }
       }
     },
@@ -3244,7 +3253,7 @@
       "settings": {
         "image_shape": {
           "label": "Afbeelding vorm",
-          "info": "Door het selecteren van sommige vormen worden afbeeldingen bijgesneden. Niet van toepassing op video's of modellen. [Meer informatie](https://help.switchthemes.co/)"
+          "info": "Door het selecteren van sommige vormen worden afbeeldingen bijgesneden. Niet van toepassing op video's of modellen. [Meer informatie](https:\/\/help.switchthemes.co\/)"
         },
         "show_slideshow_arrows_on_desktop": {
           "label": "Toon pijlen voor diavoorstellingen op het bureaublad"
@@ -3318,7 +3327,7 @@
           "settings": {
             "image_shape": {
               "label": "Afbeelding vorm",
-              "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)",
+              "info": "Als u enkele vormen selecteert, wordt de afbeelding bijgesneden. [Meer informatie](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)",
               "options": {
                 "same_as_section": {
                   "label": "Zelfde als sectie"
@@ -3379,7 +3388,7 @@
       "settings": {
         "show_product_recommendations": {
           "label": "Toon dynamische aanbevelingen",
-          "info": "Dynamische aanbevelingen veranderen en verbeteren met de tijd. [Kom meer te weten](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "Dynamische aanbevelingen veranderen en verbeteren met de tijd. [Kom meer te weten](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "product_recommendations_heading": {
           "label": "Titel"
@@ -3584,7 +3593,7 @@
         "show_progress_bar": {
           "label": "Toon voortgangsbalk"
         },
-        "paragraph_configure_the_threshold": "Configureer de drempel in de [thema-instellingen](/editor?context=theme&category=cart)."
+        "paragraph_configure_the_threshold": "Configureer de drempel in de [thema-instellingen](\/editor?context=theme&category=cart)."
       }
     }
   }

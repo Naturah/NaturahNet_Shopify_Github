@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "404": {
@@ -79,12 +88,12 @@
       "login_form_submit": "Gå til",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Vi sender dig en e-mail, lige inden vi åbner!",
-      "admin_link_html": "Er du butiksejeren? <a href=\"/admin\" class=\"text-link border-b border-scheme-text \">Log ind her</a>",
+      "admin_link_html": "Er du butiksejeren? <a href=\"\/admin\" class=\"text-link border-b border-scheme-text \">Log ind her<\/a>",
       "password_link": "Gå ind med adgangskode",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
     },
     "country": {
-      "dropdown_label": "Land/region"
+      "dropdown_label": "Land\/region"
     },
     "language": {
       "dropdown_label": "Sprog"
@@ -133,12 +142,12 @@
       "checkout": "Betal",
       "empty": "Din kurv er tom.",
       "taxes_and_shipping_at_checkout": "Skatter og forsendelse beregnes ved betaling",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">forsendelse</a> beregnes ved betaling",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">forsendelse<\/a> beregnes ved betaling",
       "taxes_included_but_shipping_at_checkout": "Skatter er inkluderet og forsendelse beregnes ved betaling",
-      "taxes_included_and_shipping_policy_html": "Skatter er inkluderet. <a href=\"{{ link }}\">Forsendelse</a> beregnes ved betaling.",
+      "taxes_included_and_shipping_policy_html": "Skatter er inkluderet. <a href=\"{{ link }}\">Forsendelse<\/a> beregnes ved betaling.",
       "cookies_required": "Aktiver cookies for at bruge indkøbskurven",
       "continue_shopping": "Fortsæt med at shoppe",
-      "continue_browsing_html": " Fortsæt med at kigge <a href=\"{{ link_url }}\">her</a>.",
+      "continue_browsing_html": " Fortsæt med at kigge <a href=\"{{ link_url }}\">her<\/a>.",
       "close_cart": "Luk kurv",
       "cart_error": "Der opstod en fejl under opdateringen af din indkøbskurv. Prøv venligst igen.",
       "cart_add_error": "Alle {{ title }} er i din kurv.",
@@ -197,7 +206,7 @@
   },
   "facets": {
     "filters": {
-      "use_fewer_filters_html": "Brug færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">ryd alt</a>",
+      "use_fewer_filters_html": "Brug færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">ryd alt<\/a>",
       "title_tags": "Filter",
       "clear": "Ryd",
       "all_tags": "Alle produkter",
@@ -343,7 +352,7 @@
       "pause_slideshow": "Pause diasshow",
       "rotate_slideshow": "Afspil diasshow",
       "load_slide": "Indlæs dias {{ slide_number }}",
-      "navigation_instructions": "Brug venstre/højre piletaster til at navigere i diasshowet eller swipe til venstre/højre, hvis du bruger en mobil enhed",
+      "navigation_instructions": "Brug venstre\/højre piletaster til at navigere i diasshowet eller swipe til venstre\/højre, hvis du bruger en mobil enhed",
       "play_slideshow": "Afspil diasshow"
     },
     "tour": {
@@ -356,14 +365,14 @@
     },
     "onboarding": {
       "modal_title": "Du er der næsten...",
-      "no_products_html": "Du har ingen produkter i din forside-samling. Denne placering vil blive vist indtil du <a href=\"/admin/collections?tutorial=Frontpage\">tilføj¸jer et produkt til denne samling</a>.",
+      "no_products_html": "Du har ingen produkter i din forside-samling. Denne placering vil blive vist indtil du <a href=\"\/admin\/collections?tutorial=Frontpage\">tilføj¸jer et produkt til denne samling<\/a>.",
       "add_product": "Tilføj et produkt",
       "product_title": "Eksempel på produkttitel",
-      "no_collections_html": "Du har ingen samlinger at vise her. <a href=\"/admin/custom_collections\">Tilføj nogle samlinger,</a> som kan vises på standardforsiden.",
+      "no_collections_html": "Du har ingen samlinger at vise her. <a href=\"\/admin\/custom_collections\">Tilføj nogle samlinger,<\/a> som kan vises på standardforsiden.",
       "add_collection": "Tilføj en samling",
       "collection_title": "Titel på samling",
       "collection_cta": "Køb nu",
-      "complete_setup_html": "Gå til din <a href=\"/admin/themes/{{ theme_id }}/settings\">Brugerdefineret team</a>-side for at gennemføre opsætningen.",
+      "complete_setup_html": "Gå til din <a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Brugerdefineret team<\/a>-side for at gennemføre opsætningen.",
       "blog_section-title": "Blog",
       "blog_title": "Din posts titel",
       "blog_excerpt": "Din butik har ikke udgivet nogle blogindlæg endnu. En blog kan bruges til at fortælle om nye produktlanceringer, råd eller andre nyheder, du gerne vil dele med dine kunder. Du kan tjekke Shopify's e-handelsblog ud for at få inspiration og råd til din egen butik og blog.",
@@ -375,7 +384,7 @@
     "map": {
       "address_error": "Der opstod en fejl med at slå adressen op",
       "address_no_results": "Ingen resultater på den adresse",
-      "address_query_limit_html": "Du har oversteget Google API-brugsgrænse. Overvej at opgradere til et <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-abonnement</a>.",
+      "address_query_limit_html": "Du har oversteget Google API-brugsgrænse. Overvej at opgradere til et <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-abonnement<\/a>.",
       "auth_error_html": "Der opstod et problem med at verificere din Google Maps-konto."
     }
   },
@@ -389,14 +398,14 @@
     },
     "onboarding": {
       "modal_title": "Du er der næsten...",
-      "no_products_html": "Du har ingen produkter i din forside-samling. Denne placeholder vil blive vist indtil du <a href=\"/admin/collections?tutorial=Frontpage\">tilføj et produkt til denne samling</a>.",
+      "no_products_html": "Du har ingen produkter i din forside-samling. Denne placeholder vil blive vist indtil du <a href=\"\/admin\/collections?tutorial=Frontpage\">tilføj et produkt til denne samling<\/a>.",
       "add_product": "Tilføj et produkt",
       "product_title": "Eksempel på produkttitel",
-      "no_collections_html": "Du har ingen samlinger, der kan vises her. <a href=\"/admin/custom_collections\">Tilføj nogle samlinger,</a> som kan vises på standardforsiden.",
+      "no_collections_html": "Du har ingen samlinger, der kan vises her. <a href=\"\/admin\/custom_collections\">Tilføj nogle samlinger,<\/a> som kan vises på standardforsiden.",
       "add_collection": "Tilføj en samling",
       "collection_title": "Titel på samling",
       "collection_cta": "Køb nu",
-      "complete_setup_html": "Gå til din <a href=\"/admin/themes/{{ theme_id }}/settings\">Brugerdefineret team</a>-side for at gennemfør opsætningen.",
+      "complete_setup_html": "Gå til din <a href=\"\/admin\/themes\/{{ theme_id }}\/settings\">Brugerdefineret team<\/a>-side for at gennemfør opsætningen.",
       "blog_section-title": "Blog",
       "blog_title": "Dit indlægs titel",
       "blog_excerpt": "Din butik har ikke udgivet nogle blogindlæg endnu. En blog kan bruges til at fortælle om nye produktlanceringer, råd eller andre nyheder, du gerne vil dele med dine kunder. Du kan tjekke Shopify's e-handelsblog ud for at få inspiration og råd til din egen butik og blog.",
@@ -408,7 +417,7 @@
     "map": {
       "address_error": "Der opstod en fejl med at slå adressen op",
       "address_no_results": "Ingen resultater på den adresse",
-      "address_query_limit_html": "Du har oversteget Google API-brugsgrÃ¦nsen. Overvej at opgradere til et <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-abonnement</a>.",
+      "address_query_limit_html": "Du har oversteget Google API-brugsgrÃ¦nsen. Overvej at opgradere til et <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-abonnement<\/a>.",
       "auth_error_html": "Der opstod et problem med at verificere din Google Maps-konto."
     }
   },
@@ -455,7 +464,7 @@
     "product": {
       "sold_out": "Udsolgt",
       "on_sale": "På udsalg",
-      "on_sale_from_html": "<strong>På udsalg</strong> fra {{ price }}",
+      "on_sale_from_html": "<strong>På udsalg<\/strong> fra {{ price }}",
       "unavailable": "Ikke tilgængelig",
       "unit_price_label": "Enhedspris",
       "compare_at": "Sammenlign ved",
@@ -464,7 +473,7 @@
       "preorder": "Forudbestil",
       "adding_to_cart": "Tilføjer",
       "added_to_cart": "Tilføjet til kurv",
-      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">Vis kurv</a> or <a href=\"{{ link_url }}\">fortsæt med at shoppe</a>",
+      "add_to_cart_confirm_html": "<a href=\"{{ cart_url }}\">Vis kurv<\/a> or <a href=\"{{ link_url }}\">fortsæt med at shoppe<\/a>",
       "color_swatch_trigger": "Farve",
       "read_more": "Læs mere",
       "in_stock": "På lager",
@@ -495,8 +504,8 @@
       "check_other_stores": "Tjek lagerstatus hos andre butikker",
       "pick_up_available": "Kan afhentes",
       "pick_up_currently_unavailable": "Kan ikke afhentes i øjeblikket",
-      "pick_up_available_at_html": "Kan afhentes hos <strong>{{ location_name }}</strong>",
-      "pick_up_unavailable_at_html": "Kan ikke afhentes i øjeblikket hos <strong>{{ location_name }}</strong>"
+      "pick_up_available_at_html": "Kan afhentes hos <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Kan ikke afhentes i øjeblikket hos <strong>{{ location_name }}<\/strong>"
     }
   },
   "gift_cards": {

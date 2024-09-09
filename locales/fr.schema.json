@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "common": {
     "settings": {
@@ -17,7 +26,7 @@
       },
       "display_on_card": {
         "label": "Affichage sur carte",
-        "info": "Les blocs de produits adjacents définis pour être affichés sur la carte fusionneront en une seule carte. [En savoir plus](https://help.switchthemes.co/shapes/guides/display-product-blocks-on-cards.html)"
+        "info": "Les blocs de produits adjacents définis pour être affichés sur la carte fusionneront en une seule carte. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/display-product-blocks-on-cards.html)"
       },
       "home_page_only": {
         "label": "Page d'accueil uniquement"
@@ -46,11 +55,11 @@
       },
       "image_shape": {
         "label": "Forme de l'image",
-        "info": "La sélection de certaines formes permet de recadrer l'image.[En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "La sélection de certaines formes permet de recadrer l'image.[En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "video_shape": {
         "label": "Forme de la vidéo",
-        "info": "La sélection de certaines formes permet de recadrer la vidéo. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-and-videos-with-shapes.html)"
+        "info": "La sélection de certaines formes permet de recadrer la vidéo. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-and-videos-with-shapes.html)"
       },
       "blog_show_author": {
         "label": "Afficher l'auteur"
@@ -178,7 +187,7 @@
       },
       "enable_quick_buy": {
         "label": "Activer l'achat rapide",
-        "info": "Si un produit n'a que deux variantes, des boutons seront affichés. [En savoir plus](https://help.switchthemes.co/shapes/guides/show-quick-buy.html)"
+        "info": "Si un produit n'a que deux variantes, des boutons seront affichés. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/show-quick-buy.html)"
       },
       "layout": "Conception",
       "header_grid": "Grille",
@@ -226,7 +235,7 @@
       },
       "thumbnail_shape": {
         "label": "Forme",
-        "info": "La sélection de certaines formes recadrera l'image. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "La sélection de certaines formes recadrera l'image. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "hide_media_shadow": {
         "label": "Masquer l'ombre des médias"
@@ -240,7 +249,7 @@
       "logo_max_width": {
         "label": "Largeur du logo personnalisé"
       },
-      "paragraph_customers_who_subscribe": "Les clients qui s'abonnent verront leur adresse e-mail ajoutée à la [liste de clients](/admin/customers?query=&accepts_marketing=1).",
+      "paragraph_customers_who_subscribe": "Les clients qui s'abonnent verront leur adresse e-mail ajoutée à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1).",
       "logo_image": {
         "label": "Image logo"
       },
@@ -366,7 +375,7 @@
       "header_filtering_and_sorting": "Filtrage et tri",
       "enable_filtering": {
         "label": "Activer le filtrage",
-        "info": "[Personnaliser les filtres](/admin/menus)"
+        "info": "[Personnaliser les filtres](\/admin\/menus)"
       },
       "enable_sorting": {
         "label": "Activer le tri"
@@ -379,7 +388,7 @@
       },
       "enable_color_swatch_filters": {
         "label": "Activer les filtres d'échantillons de couleur",
-        "info": "[Apprenez à configurer des nuances](https://support.switchthemes.co/article/232-color-swatches)"
+        "info": "[Apprenez à configurer des nuances](https:\/\/support.switchthemes.co\/article\/232-color-swatches)"
       },
       "collection_menu": {
         "label": "Carte de collecte",
@@ -387,7 +396,7 @@
       },
       "default_image_shape": {
         "label": "Forme d'image par défaut",
-        "info": "La sélection de certaines formes permet de recadrer l'image. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "La sélection de certaines formes permet de recadrer l'image. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "number_of_products": {
         "label": "Nombre de produits"
@@ -403,7 +412,7 @@
       "position": "Position",
       "shape": {
         "label": "Forme",
-        "info": "La sélection de certaines formes recadrera l'image. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "La sélection de certaines formes recadrera l'image. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "filtering_and_sorting": "Filtrage et tri",
       "expand_filters_by_default": {
@@ -412,7 +421,7 @@
       "show_filter_counts": {
         "label": "Afficher le nombre de filtres"
       },
-      "customers_who_subscribe_will_have_their_email_address_added_to_the_accepts_marketing_customer_listadmincustomersqueryaccepts_marketing1": "Les clients qui s'abonnent verront leur adresse e-mail ajoutée à la [liste de clients](/admin/customers?query=&accepts_marketing=1).",
+      "customers_who_subscribe_will_have_their_email_address_added_to_the_accepts_marketing_customer_listadmincustomersqueryaccepts_marketing1": "Les clients qui s'abonnent verront leur adresse e-mail ajoutée à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1).",
       "height": {
         "label": "Hauteur"
       },
@@ -1281,7 +1290,7 @@
             "label": "Masquer les étiquettes d'option"
           },
           "header_color_swatches": "Couleur swatches",
-          "paragraph_learn_how_to": "[Apprenez à configurer des nuances](https://help.switchthemes.co/)",
+          "paragraph_learn_how_to": "[Apprenez à configurer des nuances](https:\/\/help.switchthemes.co\/)",
           "enable_color_swatches": {
             "label": "Farbfelder aktivieren"
           }
@@ -1295,15 +1304,15 @@
           },
           "enable_payment_button": {
             "label": "Afficher le bouton de paiement dynamique",
-            "info": "Chaque client verra son mode de paiement préféré parmi ceux disponibles sur votre boutique, comme PayPal ou Apple Pay. [Apprendre encore plus](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+            "info": "Chaque client verra son mode de paiement préféré parmi ceux disponibles sur votre boutique, comme PayPal ou Apple Pay. [Apprendre encore plus](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
           },
           "header_pickup_availability": "Disponibilité de ramassage",
           "show_pickup_availability": {
-            "label": "Afficher la disponibilité du ramassage [En savoir plus](https://help.shopify.com/en/manual/sell-in-person/pos-classic/shopify-pos-from-admin/buy-online-pickup-in-store#show-pickup-availability-to-your-customers)"
+            "label": "Afficher la disponibilité du ramassage [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/sell-in-person\/pos-classic\/shopify-pos-from-admin\/buy-online-pickup-in-store#show-pickup-availability-to-your-customers)"
           },
           "show_gift_card_recipient": {
             "label": "Afficher le formulaire d’information sur le destinataire pour les cartes‑cadeaux en tant que produit",
-            "info": "Les cartes‑cadeaux en tant que produits peuvent être envoyées directement au destinataire, accompagnées d’un message personnel. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+            "info": "Les cartes‑cadeaux en tant que produits peuvent être envoyées directement au destinataire, accompagnées d’un message personnel. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
           }
         }
       },
@@ -1474,7 +1483,7 @@
           },
           "information": {
             "label": "Information",
-            "info": "Séparez le libellé et la valeur par une virgule. Utilisez des sauts de ligne pour ajouter une nouvelle ligne. Utilisez un trait d'union pour mettre en retrait les lignes. [En savoir plus](https://help.switchthemes.co/shapes/guides/nutritional-information.html)"
+            "info": "Séparez le libellé et la valeur par une virgule. Utilisez des sauts de ligne pour ajouter une nouvelle ligne. Utilisez un trait d'union pour mettre en retrait les lignes. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/nutritional-information.html)"
           }
         }
       },
@@ -1489,7 +1498,7 @@
           },
           "value_alt": {
             "label": "Valeur dynamique",
-            "info": "Remplacer le paramètre ci-dessus par des sources dynamiques. [En savoir plus](https://help.switchthemes.co/shapes/guides/add-bar-charts.html#add-dynamic-sources-to-bar-charts)"
+            "info": "Remplacer le paramètre ci-dessus par des sources dynamiques. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/add-bar-charts.html#add-dynamic-sources-to-bar-charts)"
           }
         }
       },
@@ -1507,14 +1516,14 @@
           },
           "marker_position_alt": {
             "label": "Position du marqueur dynamique",
-            "info": "Remplacer le paramètre ci-dessus par des sources dynamiques. [En savoir plus](https://help.switchthemes.co/shapes/guides/add-comparative-scales.html#add-dynamic-sources-to-comparative-scales)"
+            "info": "Remplacer le paramètre ci-dessus par des sources dynamiques. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/add-comparative-scales.html#add-dynamic-sources-to-comparative-scales)"
           }
         }
       },
       "complementary_products": {
         "name": "Produits complémentaires",
         "settings": {
-          "paragraph_to_select_complementary": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https://shopify.dev/themes/product-merchandising/recommendations)",
+          "paragraph_to_select_complementary": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)",
           "block_heading": {
             "label": "Titre"
           },
@@ -1528,7 +1537,7 @@
         "settings": {
           "target_section": {
             "label": "Rubrique cible",
-            "info": "Ce sera la section qui se connecte au côté droit du diviseur. Il est préférable d'utiliser des sections avec une couleur d'arrière-plan unie. [En savoir plus](https://help.switchthemes.co/shapes/style-blocks/shape-divider.html)",
+            "info": "Ce sera la section qui se connecte au côté droit du diviseur. Il est préférable d'utiliser des sections avec une couleur d'arrière-plan unie. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/style-blocks\/shape-divider.html)",
             "options": {
               "section_above": {
                 "label": "Section above"
@@ -2062,7 +2071,7 @@
         },
         "product_tile_media_shape": {
           "label": "Forme de l'image",
-          "info": "La sélection de certaines formes permet de recadrer l'image. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)",
+          "info": "La sélection de certaines formes permet de recadrer l'image. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)",
           "options": {
             "blobs": {
               "label": "Blobs"
@@ -2085,7 +2094,7 @@
         "header_metafield_badge": "Badge métachamp",
         "product_tile_metafield_badge": {
           "label": "Clé de champ méta",
-          "info": "Ajoutez une clé de champ méta avec l'espace de noms shapes_theme. [En savoir plus](https://help.switchthemes.co/shapes/guides/show-custom-badges.html)"
+          "info": "Ajoutez une clé de champ méta avec l'espace de noms shapes_theme. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/show-custom-badges.html)"
         },
         "metafield_badge_shape": {
           "label": "Forme du badge Metafield"
@@ -2113,7 +2122,7 @@
       "settings": {
         "parallax_intensity": {
           "label": "Intensité de parallaxe",
-          "info": "Ajustez le niveau des animations de parallaxe. [En savoir plus](https://help.switchthemes.co/)"
+          "info": "Ajustez le niveau des animations de parallaxe. [En savoir plus](https:\/\/help.switchthemes.co\/)"
         }
       }
     },
@@ -2175,63 +2184,63 @@
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "social_twitter_link": {
           "label": "X (anciennement Twitter)",
-          "info": "https://www.twitter.com/shopify"
+          "info": "https:\/\/www.twitter.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         },
         "social_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://www.linkedin.com/in/shopify"
+          "info": "https:\/\/www.linkedin.com\/in\/shopify"
         },
         "social_threads_link": {
           "label": "Threads",
-          "info": "https://www.threads.net/@shopify"
+          "info": "https:\/\/www.threads.net\/@shopify"
         },
         "social_whatsapp_link": {
           "label": "WhatsApp",
-          "info": "https://wa.me/"
+          "info": "https:\/\/wa.me\/"
         },
         "social_discord_link": {
           "label": "Discord",
-          "info": "https://discord.com/"
+          "info": "https:\/\/discord.com\/"
         },
         "social_twitch_link": {
           "label": "Twitch",
-          "info": "https://www.twitch.tv/shopifydevs"
+          "info": "https:\/\/www.twitch.tv\/shopifydevs"
         },
         "social_messenger_link": {
           "label": "Messenger",
-          "info": "https://www.messenger.com/"
+          "info": "https:\/\/www.messenger.com\/"
         },
         "social_email_link": {
           "label": "Adresse e-mail",
@@ -2258,7 +2267,7 @@
         },
         "enable_accelerated_checkout": {
           "label": "Activer les boutons de paiement accéléré",
-          "info": "Désactivez cette option si vous souhaitez que les boutons apparaissent sur votre page de paiement. [En savoir plus](https://help.shopify.com/en/manual/payments/accelerated-checkouts)"
+          "info": "Désactivez cette option si vous souhaitez que les boutons apparaissent sur votre page de paiement. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/payments\/accelerated-checkouts)"
         },
         "cart_vendor_enable": {
           "label": "Afficher le fournisseur du produit"
@@ -2279,13 +2288,13 @@
           "info": "Comportement d'ajout au panier lorsque le type de panier est défini sur modal"
         },
         "header_free_shipping_progress": "Progression de la livraison gratuite",
-        "paragraph_free_shipping_progress": "Cette fonctionnalité est uniquement une aide visuelle. Assurez-vous de [configurer vos tarifs d'expédition](/admin/settings/shipping) pour refléter le seuil défini ci-dessous.",
+        "paragraph_free_shipping_progress": "Cette fonctionnalité est uniquement une aide visuelle. Assurez-vous de [configurer vos tarifs d'expédition](\/admin\/settings\/shipping) pour refléter le seuil défini ci-dessous.",
         "enable_free_shipping_progress_in_cart": {
           "label": "Afficher la progression de la livraison gratuite"
         },
         "free_shipping_threshold": {
           "label": "Seuil de livraison gratuite",
-          "info": "Pour personnaliser le seuil pour des marchés spécifiques, [consultez notre guide](https://help.switchthemes.co/shapes/guides/free-shipping-progress-bar.html)"
+          "info": "Pour personnaliser le seuil pour des marchés spécifiques, [consultez notre guide](https:\/\/help.switchthemes.co\/shapes\/guides\/free-shipping-progress-bar.html)"
         }
       }
     },
@@ -2725,7 +2734,7 @@
         },
         "image_shape": {
           "label": "Forme de l'image",
-          "info": "La sélection de certaines formes recadrera les images. Ne s'applique pas aux vidéos ou aux modèles. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+          "info": "La sélection de certaines formes recadrera les images. Ne s'applique pas aux vidéos ou aux modèles. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
         }
       }
     },
@@ -2738,9 +2747,9 @@
         "show_payment_icons": {
           "label": "Afficher les icônes de paiement"
         },
-        "header_countryregion_selector": "Sélecteur de pays/région",
+        "header_countryregion_selector": "Sélecteur de pays\/région",
         "show_country_selector": {
-          "label": "Afficher le sélecteur de pays/région"
+          "label": "Afficher le sélecteur de pays\/région"
         },
         "header_language_selector": "Sélecteur de langue",
         "show_locale_selector": {
@@ -2807,11 +2816,11 @@
         },
         "showcase_second_level_links": {
           "label": "Présenter les liens de second niveau",
-          "info": "Les liens de deuxième niveau vers des produits ou des collections seront affichés s'ils n'ont pas de liens enfants. [Apprendre encore plus](https://docs.switchthemes.co)"
+          "info": "Les liens de deuxième niveau vers des produits ou des collections seront affichés s'ils n'ont pas de liens enfants. [Apprendre encore plus](https:\/\/docs.switchthemes.co)"
         },
         "showcase_first_level_collections": {
           "label": "Présenter des collections de premier niveau",
-          "info": "Les liens de premier niveau vers des collections sans liens enfants présenteront les produits dans une liste déroulante. Ne s'applique pas à la navigation dans les tiroirs. [Apprendre encore plus](https://help.switchthemes.co/shapes/guides/feature-collections-in-navigation.html)"
+          "info": "Les liens de premier niveau vers des collections sans liens enfants présenteront les produits dans une liste déroulante. Ne s'applique pas à la navigation dans les tiroirs. [Apprendre encore plus](https:\/\/help.switchthemes.co\/shapes\/guides\/feature-collections-in-navigation.html)"
         },
         "show_collection_images": {
           "label": "Afficher les images de la collection",
@@ -3085,11 +3094,11 @@
       "preset_name": "Vidéo (intégrée) avec texte",
       "settings": {
         "intro_paragraph": {
-          "content": "Pour plus d'options, y compris la possibilité de placer des vidéos à l'intérieur des formes, envisagez d'utiliser une vidéo hébergée par Shopify et la section Vidéo avec texte [En savoir plus](https://help.switchthemes.co/shapes/sections/content/video-with-text.html)"
+          "content": "Pour plus d'options, y compris la possibilité de placer des vidéos à l'intérieur des formes, envisagez d'utiliser une vidéo hébergée par Shopify et la section Vidéo avec texte [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/sections\/content\/video-with-text.html)"
         },
         "chromeless": {
           "label": "Demander à désencombrer",
-          "info": "Nous demanderons une intégration avec moins d'éléments d'interface. Il appartient au fournisseur de la vidéo d'accéder à cette demande. Pour un contrôle total des éléments visibles dans la vidéo, envisagez d'utiliser une vidéo hébergée par Shopify et la section Vidéo avec texte [En savoir plus].(https://help.switchthemes.co/shapes/sections/content/video-with-text.html)"
+          "info": "Nous demanderons une intégration avec moins d'éléments d'interface. Il appartient au fournisseur de la vidéo d'accéder à cette demande. Pour un contrôle total des éléments visibles dans la vidéo, envisagez d'utiliser une vidéo hébergée par Shopify et la section Vidéo avec texte [En savoir plus].(https:\/\/help.switchthemes.co\/shapes\/sections\/content\/video-with-text.html)"
         },
         "poster_image": {
           "label": "Image de l'affiche"
@@ -3175,7 +3184,7 @@
           "label": "Afficher les liens de partage"
         },
         "show_next_previous_links": {
-          "label": "Afficher les liens vers les articles suivants/précédents"
+          "label": "Afficher les liens vers les articles suivants\/précédents"
         }
       }
     },
@@ -3235,7 +3244,7 @@
         },
         "newsletter_form_heading": {
           "label": "Titre du formulaire d'inscription à la newsletter",
-          "info": "[Parlez à vos visiteurs d'une remise le jour du lancement](https://www.shopify.com/blog/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
+          "info": "[Parlez à vos visiteurs d'une remise le jour du lancement](https:\/\/www.shopify.com\/blog\/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
         }
       }
     },
@@ -3244,7 +3253,7 @@
       "settings": {
         "image_shape": {
           "label": "Forme de l'image",
-          "info": "La sélection de certaines formes recadrera les images. Ne s'applique pas aux vidéos ou aux modèles. [En savoir plus](https://help.switchthemes.co/)"
+          "info": "La sélection de certaines formes recadrera les images. Ne s'applique pas aux vidéos ou aux modèles. [En savoir plus](https:\/\/help.switchthemes.co\/)"
         },
         "show_slideshow_arrows_on_desktop": {
           "label": "Afficher les flèches du diaporama sur le bureau"
@@ -3318,7 +3327,7 @@
           "settings": {
             "image_shape": {
               "label": "Forme de l'image",
-              "info": "La sélection de certaines formes recadrera l'image. [En savoir plus](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)",
+              "info": "La sélection de certaines formes recadrera l'image. [En savoir plus](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)",
               "options": {
                 "same_as_section": {
                   "label": "Identique à la section"
@@ -3379,7 +3388,7 @@
       "settings": {
         "show_product_recommendations": {
           "label": "Afficher les recommandations dynamiques",
-          "info": "Les recommandations dynamiques changent et s'améliorent avec le temps. [Apprendre encore plus](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "Les recommandations dynamiques changent et s'améliorent avec le temps. [Apprendre encore plus](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "product_recommendations_heading": {
           "label": "Titre"
@@ -3584,7 +3593,7 @@
         "show_progress_bar": {
           "label": "Afficher la barre de progression"
         },
-        "paragraph_configure_the_threshold": "Configurez le seuil dans les [paramètres de votre thème](/editor?context=theme&category=cart)."
+        "paragraph_configure_the_threshold": "Configurez le seuil dans les [paramètres de votre thème](\/editor?context=theme&category=cart)."
       }
     }
   }

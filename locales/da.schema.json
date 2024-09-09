@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "common": {
     "settings": {
@@ -17,7 +26,7 @@
       },
       "display_on_card": {
         "label": "Visning på kort",
-        "info": "Tilstødende produktblokke, der er indstillet til at blive vist på kortet, smelter sammen til et enkelt kort. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/display-product-blocks-on-cards.html)"
+        "info": "Tilstødende produktblokke, der er indstillet til at blive vist på kortet, smelter sammen til et enkelt kort. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/display-product-blocks-on-cards.html)"
       },
       "home_page_only": {
         "label": "Kun hjemmeside"
@@ -46,11 +55,11 @@
       },
       "image_shape": {
         "label": "Billedform",
-        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "video_shape": {
         "label": "Videoform",
-        "info": "Hvis du vælger nogle figurer, beskæres videoen. [Læs mere](https://help.switchthemes.co/shapes/guides/style-images-and-videos-with-shapes.html)"
+        "info": "Hvis du vælger nogle figurer, beskæres videoen. [Læs mere](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-and-videos-with-shapes.html)"
       },
       "blog_show_author": {
         "label": "Vis forfatter"
@@ -178,7 +187,7 @@
       },
       "enable_quick_buy": {
         "label": "Aktiver hurtigt køb",
-        "info": "Hvis et produkt kun har to varianter, vises der knapper. [Læs mere](https://help.switchthemes.co/shapes/guides/show-quick-buy.html)"
+        "info": "Hvis et produkt kun har to varianter, vises der knapper. [Læs mere](https:\/\/help.switchthemes.co\/shapes\/guides\/show-quick-buy.html)"
       },
       "layout": "Layout",
       "header_grid": "Gitter",
@@ -226,7 +235,7 @@
       },
       "thumbnail_shape": {
         "label": "Form",
-        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "hide_media_shadow": {
         "label": "Skjul medieskygge"
@@ -240,7 +249,7 @@
       "logo_max_width": {
         "label": "Brugerdefineret logobredde"
       },
-      "paragraph_customers_who_subscribe": "Kunder, der abonnerer, vil få deres e-mailadresse tilføjet til \"accepterer markedsføring\" [kundeliste](/admin/customers?query=&accepts_marketing=1).",
+      "paragraph_customers_who_subscribe": "Kunder, der abonnerer, vil få deres e-mailadresse tilføjet til \"accepterer markedsføring\" [kundeliste](\/admin\/customers?query=&accepts_marketing=1).",
       "logo_image": {
         "label": "Logo billede"
       },
@@ -366,7 +375,7 @@
       "header_filtering_and_sorting": "Filtrering og sortering",
       "enable_filtering": {
         "label": "Aktiver filtrering",
-        "info": "[Tilpas filtre](/admin/menus)"
+        "info": "[Tilpas filtre](\/admin\/menus)"
       },
       "enable_sorting": {
         "label": "Aktiver sortering"
@@ -379,7 +388,7 @@
       },
       "enable_color_swatch_filters": {
         "label": "Aktiver farveprøvefiltre",
-        "info": "[Lær, hvordan du opsætter farveprøver](https://support.switchthemes.co/article/232-color-swatches)"
+        "info": "[Lær, hvordan du opsætter farveprøver](https:\/\/support.switchthemes.co\/article\/232-color-swatches)"
       },
       "collection_menu": {
         "label": "Samling menu",
@@ -387,7 +396,7 @@
       },
       "default_image_shape": {
         "label": "Standard billedform",
-        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "number_of_products": {
         "label": "Antal produkter"
@@ -403,7 +412,7 @@
       "position": "Position",
       "shape": {
         "label": "Form",
-        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+        "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
       },
       "filtering_and_sorting": "Filtrering og sortering",
       "expand_filters_by_default": {
@@ -412,7 +421,7 @@
       "show_filter_counts": {
         "label": "Vis filterantal"
       },
-      "customers_who_subscribe_will_have_their_email_address_added_to_the_accepts_marketing_customer_listadmincustomersqueryaccepts_marketing1": "Kunder, der abonnerer, vil få deres e-mailadresse tilføjet til \"accepterer markedsføring\" [kundeliste](/admin/customers?query=&accepts_marketing=1).",
+      "customers_who_subscribe_will_have_their_email_address_added_to_the_accepts_marketing_customer_listadmincustomersqueryaccepts_marketing1": "Kunder, der abonnerer, vil få deres e-mailadresse tilføjet til \"accepterer markedsføring\" [kundeliste](\/admin\/customers?query=&accepts_marketing=1).",
       "height": {
         "label": "Højde"
       },
@@ -1281,7 +1290,7 @@
             "label": "Skjul etiketter for indstillinger"
           },
           "header_color_swatches": "Farveprøver",
-          "paragraph_learn_how_to": "[Lær, hvordan du opsætter farveprøver](https://help.switchthemes.co/)",
+          "paragraph_learn_how_to": "[Lær, hvordan du opsætter farveprøver](https:\/\/help.switchthemes.co\/)",
           "enable_color_swatches": {
             "label": "Aktiver farveskalaer"
           }
@@ -1295,15 +1304,15 @@
           },
           "enable_payment_button": {
             "label": "Vis dynamisk checkout-knap",
-            "info": "Hver kunde vil se sin foretrukne betalingsmetode blandt de tilgængelige i din butik, f.eks. PayPal eller Apple Pay. [Læs mere](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+            "info": "Hver kunde vil se sin foretrukne betalingsmetode blandt de tilgængelige i din butik, f.eks. PayPal eller Apple Pay. [Læs mere](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
           },
           "header_pickup_availability": "Pickup tilgængelighed",
           "show_pickup_availability": {
-            "label": "Vis tilgængelighed for afhentning [Læs mere](https://help.shopify.com/en/manual/sell-in-person/pos-classic/shopify-pos-from-admin/buy-online-pickup-in-store#show-pickup-availability-to-your-customers)"
+            "label": "Vis tilgængelighed for afhentning [Læs mere](https:\/\/help.shopify.com\/en\/manual\/sell-in-person\/pos-classic\/shopify-pos-from-admin\/buy-online-pickup-in-store#show-pickup-availability-to-your-customers)"
           },
           "show_gift_card_recipient": {
             "label": "Vis formular til modtageroplysninger for gavekortprodukter",
-            "info": "Gavekortprodukter kan sendes direkte til modtageren sammen med en personlig besked. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+            "info": "Gavekortprodukter kan sendes direkte til modtageren sammen med en personlig besked. [Få mere at vide](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
           }
         }
       },
@@ -1474,7 +1483,7 @@
           },
           "information": {
             "label": "Information",
-            "info": "Adskil etiket og værdi med et komma. Brug linjeskift til at tilføje en ny række. Brug en bindestreg til at indrykke rækker. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/nutritional-information.html)"
+            "info": "Adskil etiket og værdi med et komma. Brug linjeskift til at tilføje en ny række. Brug en bindestreg til at indrykke rækker. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/nutritional-information.html)"
           }
         }
       },
@@ -1489,7 +1498,7 @@
           },
           "value_alt": {
             "label": "Dynamisk værdi",
-            "info": "Tilsidesæt indstillingen ovenfor med dynamiske kilder. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/add-bar-charts.html#add-dynamic-sources-to-bar-charts)"
+            "info": "Tilsidesæt indstillingen ovenfor med dynamiske kilder. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/add-bar-charts.html#add-dynamic-sources-to-bar-charts)"
           }
         }
       },
@@ -1507,14 +1516,14 @@
           },
           "marker_position_alt": {
             "label": "Dynamisk markørposition",
-            "info": "Tilsidesæt indstillingen ovenfor med dynamiske kilder. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/add-comparative-scales.html#add-dynamic-sources-to-comparative-scales)"
+            "info": "Tilsidesæt indstillingen ovenfor med dynamiske kilder. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/add-comparative-scales.html#add-dynamic-sources-to-comparative-scales)"
           }
         }
       },
       "complementary_products": {
         "name": "Supplerende produkter",
         "settings": {
-          "paragraph_to_select_complementary": "For at vælge supplerende produkter skal du tilføje Search & Discovery-appen. [Få flere oplysninger](https://shopify.dev/themes/product-merchandising/recommendations)",
+          "paragraph_to_select_complementary": "For at vælge supplerende produkter skal du tilføje Search & Discovery-appen. [Få flere oplysninger](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)",
           "block_heading": {
             "label": "Overskrift"
           },
@@ -1528,7 +1537,7 @@
         "settings": {
           "target_section": {
             "label": "Målsektion",
-            "info": "Dette vil være den sektion, der forbinder til den lige side af skillevæggen. Det er bedst at bruge sektioner med en solid baggrundsfarve. [Få flere oplysninger](https://help.switchthemes.co/shapes/style-blocks/shape-divider.html)",
+            "info": "Dette vil være den sektion, der forbinder til den lige side af skillevæggen. Det er bedst at bruge sektioner med en solid baggrundsfarve. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/style-blocks\/shape-divider.html)",
             "options": {
               "section_above": {
                 "label": "Section above"
@@ -2062,7 +2071,7 @@
         },
         "product_tile_media_shape": {
           "label": "Billedform",
-          "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)",
+          "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)",
           "options": {
             "blobs": {
               "label": "Klatter"
@@ -2085,7 +2094,7 @@
         "header_metafield_badge": "Metafield badge",
         "product_tile_metafield_badge": {
           "label": "Metafield nøgle",
-          "info": "Tilføj metafeltnøgle med navneområdet shapes_theme. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/show-custom-badges.html)"
+          "info": "Tilføj metafeltnøgle med navneområdet shapes_theme. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/show-custom-badges.html)"
         },
         "metafield_badge_shape": {
           "label": "Metafield badge form"
@@ -2113,7 +2122,7 @@
       "settings": {
         "parallax_intensity": {
           "label": "Parallakse intensitet",
-          "info": "Juster niveauet af parallakse-animationer. [Få flere oplysninger](https://help.switchthemes.co/)"
+          "info": "Juster niveauet af parallakse-animationer. [Få flere oplysninger](https:\/\/help.switchthemes.co\/)"
         }
       }
     },
@@ -2175,63 +2184,63 @@
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "https://instagram.com/shopify"
+          "info": "https:\/\/instagram.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://www.facebook.com/shopify"
+          "info": "https:\/\/www.facebook.com\/shopify"
         },
         "social_twitter_link": {
           "label": "X (tidligere Twitter)",
-          "info": "https://www.twitter.com/shopify"
+          "info": "https:\/\/www.twitter.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://www.pinterest.com/shopify"
+          "info": "https:\/\/www.pinterest.com\/shopify"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://www.tiktok.com/@shopify"
+          "info": "https:\/\/www.tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/user/shopify"
+          "info": "https:\/\/www.youtube.com\/user\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         },
         "social_linkedin_link": {
           "label": "LinkedIn",
-          "info": "https://www.linkedin.com/in/shopify"
+          "info": "https:\/\/www.linkedin.com\/in\/shopify"
         },
         "social_threads_link": {
           "label": "Threads",
-          "info": "https://www.threads.net/@shopify"
+          "info": "https:\/\/www.threads.net\/@shopify"
         },
         "social_whatsapp_link": {
           "label": "WhatsApp",
-          "info": "https://wa.me/"
+          "info": "https:\/\/wa.me\/"
         },
         "social_discord_link": {
           "label": "Discord",
-          "info": "https://discord.com/"
+          "info": "https:\/\/discord.com\/"
         },
         "social_twitch_link": {
           "label": "Twitch",
-          "info": "https://www.twitch.tv/shopifydevs"
+          "info": "https:\/\/www.twitch.tv\/shopifydevs"
         },
         "social_messenger_link": {
           "label": "Messenger",
-          "info": "https://www.messenger.com/"
+          "info": "https:\/\/www.messenger.com\/"
         },
         "social_email_link": {
           "label": "Email adresse",
@@ -2258,7 +2267,7 @@
         },
         "enable_accelerated_checkout": {
           "label": "Aktiver accelereret udbetalingsknapper",
-          "info": "Deaktiver dette, hvis du ønsker, at knapperne skal vises på din betalingsside. [Få flere oplysninger](https://help.shopify.com/en/manual/payments/accelerated-checkouts)"
+          "info": "Deaktiver dette, hvis du ønsker, at knapperne skal vises på din betalingsside. [Få flere oplysninger](https:\/\/help.shopify.com\/en\/manual\/payments\/accelerated-checkouts)"
         },
         "cart_vendor_enable": {
           "label": "Vis produktleverandør"
@@ -2279,13 +2288,13 @@
           "info": "Læg i kurv-adfærd, når vogntype er indstillet til modal"
         },
         "header_free_shipping_progress": "Fortsæt med gratis fragt",
-        "paragraph_free_shipping_progress": "Denne funktion er kun en visuel hjælp, sørg for at [opsætte dine fragttakster](/admin/settings/shipping) for at afspejle den nedenfor angivne grænse.",
+        "paragraph_free_shipping_progress": "Denne funktion er kun en visuel hjælp, sørg for at [opsætte dine fragttakster](\/admin\/settings\/shipping) for at afspejle den nedenfor angivne grænse.",
         "enable_free_shipping_progress_in_cart": {
           "label": "Vis gratis fragt fremgang"
         },
         "free_shipping_threshold": {
           "label": "Gratis fragt grænse",
-          "info": "For at tilpasse grænsen for specifikke markeder, [se vores guide](https://help.switchthemes.co/shapes/guides/free-shipping-progress-bar.html)"
+          "info": "For at tilpasse grænsen for specifikke markeder, [se vores guide](https:\/\/help.switchthemes.co\/shapes\/guides\/free-shipping-progress-bar.html)"
         }
       }
     },
@@ -2725,7 +2734,7 @@
         },
         "image_shape": {
           "label": "Billedform",
-          "info": "Valg af visse former vil beskære billeder. Gælder ikke for videoer eller modeller. [Lær mere](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)"
+          "info": "Valg af visse former vil beskære billeder. Gælder ikke for videoer eller modeller. [Lær mere](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)"
         }
       }
     },
@@ -2738,9 +2747,9 @@
         "show_payment_icons": {
           "label": "Vis betalingsikoner"
         },
-        "header_countryregion_selector": "Lande-/områdevælger",
+        "header_countryregion_selector": "Lande-\/områdevælger",
         "show_country_selector": {
-          "label": "Vis lande-/områdevælger"
+          "label": "Vis lande-\/områdevælger"
         },
         "header_language_selector": "Sprogvælger",
         "show_locale_selector": {
@@ -2807,11 +2816,11 @@
         },
         "showcase_second_level_links": {
           "label": "Fremvis links på andet niveau",
-          "info": "Links på andet niveau til produkter eller samlinger vil blive vist, hvis de ikke har nogen underordnede links. [Lær mere](https://docs.switchthemes.co)"
+          "info": "Links på andet niveau til produkter eller samlinger vil blive vist, hvis de ikke har nogen underordnede links. [Lær mere](https:\/\/docs.switchthemes.co)"
         },
         "showcase_first_level_collections": {
           "label": "Vis kollektioner på første niveau",
-          "info": "Links på første niveau til samlinger uden underordnede links vil vise produkter i en rullemenu. Gælder ikke skuffenavigation. [Lær mere](https://help.switchthemes.co/shapes/guides/feature-collections-in-navigation.html)"
+          "info": "Links på første niveau til samlinger uden underordnede links vil vise produkter i en rullemenu. Gælder ikke skuffenavigation. [Lær mere](https:\/\/help.switchthemes.co\/shapes\/guides\/feature-collections-in-navigation.html)"
         },
         "show_collection_images": {
           "label": "Vis samlingsbilleder",
@@ -3085,11 +3094,11 @@
       "preset_name": "Video (indlejret) med tekst",
       "settings": {
         "intro_paragraph": {
-          "content": "Hvis du vil have flere muligheder, herunder muligheden for at indsætte videoer i figurer, kan du overveje at bruge en Shopify-hosted video og sektionen Video med tekst [Læs mere](https://help.switchthemes.co/shapes/sections/content/video-with-text.html)"
+          "content": "Hvis du vil have flere muligheder, herunder muligheden for at indsætte videoer i figurer, kan du overveje at bruge en Shopify-hosted video og sektionen Video med tekst [Læs mere](https:\/\/help.switchthemes.co\/shapes\/sections\/content\/video-with-text.html)"
         },
         "chromeless": {
           "label": "Bed om at rydde op",
-          "info": "Vi vil anmode om en indlejring med færre grænsefladeelementer. Det er op til videoudbyderen at efterkomme denne anmodning. Hvis du vil have fuld kontrol over de elementer, der er synlige i videoen, kan du overveje at bruge en Shopify-hosted video og afsnittet Video med tekst [Læs mere](https://help.switchthemes.co/shapes/sections/content/video-with-text.html)"
+          "info": "Vi vil anmode om en indlejring med færre grænsefladeelementer. Det er op til videoudbyderen at efterkomme denne anmodning. Hvis du vil have fuld kontrol over de elementer, der er synlige i videoen, kan du overveje at bruge en Shopify-hosted video og afsnittet Video med tekst [Læs mere](https:\/\/help.switchthemes.co\/shapes\/sections\/content\/video-with-text.html)"
         },
         "poster_image": {
           "label": "Billede af plakat"
@@ -3175,7 +3184,7 @@
           "label": "Vis delelinks"
         },
         "show_next_previous_links": {
-          "label": "Vis links til næste/tidligere artikler"
+          "label": "Vis links til næste\/tidligere artikler"
         }
       }
     },
@@ -3235,7 +3244,7 @@
         },
         "newsletter_form_heading": {
           "label": "Overskrift til nyhedsbrev tilmeldingsformular",
-          "info": "[Fortæl dine besøgende om en rabat på lanceringsdagen](https://www.shopify.com/blog/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
+          "info": "[Fortæl dine besøgende om en rabat på lanceringsdagen](https:\/\/www.shopify.com\/blog\/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
         }
       }
     },
@@ -3244,7 +3253,7 @@
       "settings": {
         "image_shape": {
           "label": "Billedform",
-          "info": "Valg af visse former vil beskære billeder. Gælder ikke for videoer eller modeller. [Lær mere](https://help.switchthemes.co/)"
+          "info": "Valg af visse former vil beskære billeder. Gælder ikke for videoer eller modeller. [Lær mere](https:\/\/help.switchthemes.co\/)"
         },
         "show_slideshow_arrows_on_desktop": {
           "label": "Vis diasshow-pile på skrivebordet"
@@ -3318,7 +3327,7 @@
           "settings": {
             "image_shape": {
               "label": "Billedform",
-              "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https://help.switchthemes.co/shapes/guides/style-images-with-shapes.html)",
+              "info": "Hvis du vælger nogle former, beskæres billedet. [Få flere oplysninger](https:\/\/help.switchthemes.co\/shapes\/guides\/style-images-with-shapes.html)",
               "options": {
                 "same_as_section": {
                   "label": "Samme som afsnit"
@@ -3379,7 +3388,7 @@
       "settings": {
         "show_product_recommendations": {
           "label": "Vis dynamiske anbefalinger",
-          "info": "Dynamiske anbefalinger ændres og forbedres med tiden. [Lær mere](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "Dynamiske anbefalinger ændres og forbedres med tiden. [Lær mere](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "product_recommendations_heading": {
           "label": "Titel"
@@ -3584,7 +3593,7 @@
         "show_progress_bar": {
           "label": "Vis fremgangslinje"
         },
-        "paragraph_configure_the_threshold": "Konfigurér tærsklen i [temaindstillinger](/editor?context=theme&category=cart)."
+        "paragraph_configure_the_threshold": "Konfigurér tærsklen i [temaindstillinger](\/editor?context=theme&category=cart)."
       }
     }
   }
