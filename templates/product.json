@@ -38,7 +38,7 @@
           "settings": {
             "display_on_card": true,
             "show_on_sale_sticker": false,
-            "text_align": "text-center"
+            "text_align": "text-left"
           }
         },
         "quantity_selector": {
