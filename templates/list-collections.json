@@ -18,7 +18,7 @@
         "no_products": 3,
         "show_collection_description": false,
         "show_view_all": true,
-        "display_on_card": true,
+        "display_on_card": false,
         "enable_quick_buy": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,

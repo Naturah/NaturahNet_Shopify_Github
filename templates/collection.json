@@ -13,12 +13,12 @@
       "type": "main-collection-banner",
       "settings": {
         "display_on_card": true,
-        "show_collection_title": true,
-        "show_collection_description": false,
+        "show_collection_title": false,
+        "show_collection_description": true,
         "show_collection_image": false,
         "collection_image_style": "inset",
-        "crop": "aspect-w-10 aspect-h-4",
-        "linklist": "",
+        "crop": "aspect-w-3 aspect-h-4",
+        "linklist": "art-products",
         "color_scheme": "primary",
         "use_gradient_background": false
       }
@@ -152,7 +152,7 @@
           "settings": {
             "icon": "box",
             "question": "What's inside ?",
-            "answer": "{{ collection.metafields.custom.collection_description | metafield_tag }}"
+            "answer": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>"
           }
         }
       },
