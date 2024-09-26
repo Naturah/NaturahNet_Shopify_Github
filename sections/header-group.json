@@ -16,7 +16,7 @@
       "settings": {
         "home_page_only": true,
         "display": "static",
-        "text": "20% and Free shipping discount 😍",
+        "text": "Use code Welcome20 for 20% discount at checkout. Auto free shipping discount on orders $35+ 😍",
         "link": "",
         "color_scheme": "primary",
         "use_gradient_background": true,
@@ -45,7 +45,7 @@
         "feature_desktop_link_JwJTgi"
       ],
       "settings": {
-        "logo": "shopify:\/\/shop_images\/Naturah-Logo-1024x422.png",
+        "logo": "shopify://shop_images/Naturah-Logo-1024x422.png",
         "logo_max_width": 200,
         "main_linklist": "main-menu",
         "show_all_navigation_links": true,
