@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_primary_text": "#272727",
@@ -110,10 +110,10 @@
     "share_facebook": false,
     "share_twitter": false,
     "social_style": "icons",
-    "social_instagram_link": "https:\/\/instagram.com\/qi_emma",
+    "social_instagram_link": "https://www.instagram.com/naturah_studio",
     "social_facebook_link": "",
     "social_twitter_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/NaturahArt",
+    "social_pinterest_link": "https://www.pinterest.com/NaturahWatercolor/",
     "social_tiktok_link": "",
     "social_youtube_link": "",
     "social_email_link": "info@naturah.net",
@@ -124,9 +124,9 @@
     "open_modal_on_add_to_cart": true,
     "enable_free_shipping_progress_in_cart": false,
     "free_shipping_threshold": "30",
-    "custom_cursor": "shopify:\/\/shop_images\/ArtbrushV3.svg",
-    "favicon": "shopify:\/\/shop_images\/NaturahIcon.svg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Naturah_Logo.svg",
+    "custom_cursor": "shopify://shop_images/ArtbrushV3.svg",
+    "favicon": "shopify://shop_images/NaturahIcon.svg",
+    "checkout_logo_image": "shopify://shop_images/Naturah_Logo.svg",
     "checkout_logo_position": "left",
     "checkout_input_background_color_mode": "white",
     "checkout_heading_font": "Open Sans",
@@ -267,7 +267,7 @@
           "enable": false,
           "logo_max_width": 100,
           "title": "Age verification",
-          "text": "<p>Are you over 21 years of age?<\/p>",
+          "text": "<p>Are you over 21 years of age?</p>",
           "display_on_card": true,
           "mode": "buttons",
           "yes_button_text": "Yes",
@@ -285,19 +285,19 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "17676059084223943535": {
-        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
@@ -527,7 +527,7 @@
             "enable": false,
             "logo_max_width": 100,
             "title": "Age verification",
-            "text": "<p>Are you over 21 years of age?<\/p>",
+            "text": "<p>Are you over 21 years of age?</p>",
             "display_on_card": true,
             "mode": "buttons",
             "yes_button_text": "Yes",
@@ -763,7 +763,7 @@
             "enable": false,
             "logo_max_width": 100,
             "title": "Age verification",
-            "text": "<p>Are you over 21 years of age?<\/p>",
+            "text": "<p>Are you over 21 years of age?</p>",
             "display_on_card": true,
             "mode": "buttons",
             "yes_button_text": "Yes",
@@ -1011,7 +1011,7 @@
             "enable": false,
             "logo_max_width": 100,
             "title": "Age verification",
-            "text": "<p>Are you over 21 years of age?<\/p>",
+            "text": "<p>Are you over 21 years of age?</p>",
             "display_on_card": true,
             "mode": "buttons",
             "yes_button_text": "Yes",
