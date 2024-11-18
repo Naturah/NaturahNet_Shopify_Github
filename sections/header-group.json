@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -16,7 +16,7 @@
       "settings": {
         "home_page_only": true,
         "display": "static",
-        "text": "Use code Welcome20 for 20% discount at checkout. Auto free shipping discount on orders $35+ 😍",
+        "text": "COZYWINTER 30% Discount on your order! Plus free shipping on orders $35+ 😍",
         "link": "",
         "color_scheme": "primary",
         "use_gradient_background": true,
