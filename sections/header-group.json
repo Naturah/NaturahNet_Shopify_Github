@@ -15,13 +15,13 @@
       "type": "announcement-bar",
       "settings": {
         "home_page_only": true,
-        "display": "static",
-        "text": "SUPERTHANKS 35% Discount on your order! +Free shipping on orders $35+ 😍",
+        "display": "marquee",
+        "text": "WinterHolidays! 30% Discount on your order! +Free shipping on orders $35+ 😍",
         "link": "",
         "color_scheme": "primary",
         "use_gradient_background": true,
         "repeat_text": true,
-        "shape_between_text": "10_point_star",
+        "shape_between_text": "flower",
         "animate_shape_between_text": true,
         "speed": 120,
         "direction": ""
