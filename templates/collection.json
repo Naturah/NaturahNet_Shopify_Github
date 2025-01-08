@@ -1,16 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "display_on_card": true,
         "show_collection_title": false,
@@ -57,7 +58,7 @@
       "disabled": true,
       "settings": {
         "title": "",
-        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
+        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> </div>",
         "full_width": true,
         "color_scheme": "primary"
       }
@@ -124,7 +125,7 @@
       "type": "custom-liquid",
       "settings": {
         "title": "",
-        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
+        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> </div>",
         "full_width": true,
         "color_scheme": "primary"
       }
@@ -137,7 +138,7 @@
         "heading_size": "heading-standard",
         "rich_text": "",
         "display_on_card": true,
-        "content_width_desktop": "lg:w-2\/3",
+        "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
         "color_scheme": "primary",
@@ -152,7 +153,7 @@
           "settings": {
             "icon": "box",
             "question": "What's inside ?",
-            "answer": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>"
+            "answer": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}</p>"
           }
         }
       },
