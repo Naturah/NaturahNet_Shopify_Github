@@ -1,19 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_liquid_w3z6iQ": {
       "type": "custom-liquid",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "custom_liquid": "",
@@ -24,9 +22,9 @@
     "image_with_text_overlay_pUXEPr": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Website_BannersWebsite_Desktop_1600x600_-_optimized.jpg",
-        "image_link": "shopify:\/\/collections\/watercolor-kits",
-        "image_mobile": "shopify:\/\/shop_images\/Website_BannersWebsite_Mobile_800x1200_-_optimized.jpg",
+        "image": "shopify://shop_images/Website_BannersWebsite_Desktop_1600x600_-_optimized.jpg",
+        "image_link": "shopify://collections/watercolor-kits",
+        "image_mobile": "shopify://shop_images/Website_BannersWebsite_Mobile_800x1200_-_optimized.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "style": "full",
@@ -36,7 +34,7 @@
         "title": "",
         "heading_size": "heading-standard",
         "richtext": "",
-        "cta_url": "shopify:\/\/collections\/watercolor-kits",
+        "cta_url": "shopify://collections/watercolor-kits",
         "cta_text": "",
         "color_scheme": "primary",
         "use_gradient_background": false,
@@ -103,7 +101,7 @@
             "shape": "star_1",
             "width": 170,
             "sticker_font_size": "1.25rem",
-            "image": "shopify:\/\/shop_images\/Emma-ProfilePic-Round.png",
+            "image": "shopify://shop_images/Emma-ProfilePic-Round.png",
             "half_image_width_on_mobile": true,
             "horizontal_position": 78,
             "vertical_position": 31,
@@ -169,7 +167,7 @@
       "disabled": true,
       "settings": {
         "display_on_card": true,
-        "image": "shopify:\/\/shop_images\/BirdsWaterColorKitDOF.jpg",
+        "image": "shopify://shop_images/BirdsWaterColorKitDOF.jpg",
         "crop": "",
         "image_shape": "scalloped_circle_1",
         "blob_type": 2,
@@ -179,9 +177,9 @@
         "disable_media_style": false,
         "title": "WaterColor Kits",
         "heading_size": "heading-standard",
-        "richtext": "<p><strong>Postcard-Sized Kits Include:<\/strong><\/p><p>🌈 Select Paint Themes on Embossed Color Palettes<\/p><p>🖼️ Fine Prints of designs on 300gsm Paper<\/p><p>🎨 Original Mini-Palette<\/p><p>🖌️ Fillable Watercolor Brush<\/p><p>📜 Color Mixing Chart & Watercolor Techniques Guide<\/p><p><\/p>",
+        "richtext": "<p><strong>Postcard-Sized Kits Include:</strong></p><p>🌈 Select Paint Themes on Embossed Color Palettes</p><p>🖼️ Fine Prints of designs on 300gsm Paper</p><p>🎨 Original Mini-Palette</p><p>🖌️ Fillable Watercolor Brush</p><p>📜 Color Mixing Chart & Watercolor Techniques Guide</p><p></p>",
         "text_alignment": "text-center",
-        "button_link": "shopify:\/\/collections\/watercolor-kits",
+        "button_link": "shopify://collections/watercolor-kits",
         "button_label": "View",
         "color_scheme": "primary",
         "use_gradient_background": false
@@ -309,7 +307,7 @@
         "f3086909-a9d2-48be-ab4f-01abd112ac9c"
       ],
       "custom_css": [
-
+        "#icon-list .iconfont {font-size: 14px;}"
       ],
       "settings": {
         "title": "",
@@ -350,9 +348,9 @@
         "d3fd69d6-0368-49b2-a1c4-1f8f4b2c46ba"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/PWK04-NaturahArt---Fish.jpg",
+        "image": "shopify://shop_images/PWK04-NaturahArt---Fish.jpg",
         "image_link": "",
-        "image_mobile": "shopify:\/\/shop_images\/Tropical-FishWaterColorFish.jpg",
+        "image_mobile": "shopify://shop_images/Tropical-FishWaterColorFish.jpg",
         "display_on_card": false,
         "display_content_below_image_on_mobile": false,
         "style": "full",
@@ -362,7 +360,7 @@
         "title": "~WaterColor Kits~",
         "heading_size": "heading-feature",
         "richtext": "",
-        "cta_url": "shopify:\/\/collections\/watercolor-kits",
+        "cta_url": "shopify://collections/watercolor-kits",
         "cta_text": "Shop Now",
         "color_scheme": "primary",
         "use_gradient_background": false,
@@ -433,7 +431,7 @@
           "type": "testimonial",
           "settings": {
             "rating": "5_stars",
-            "quote": "<p>SUBURB KIT! Very high quality, more than worth the price! Will be buying more!<\/p>",
+            "quote": "<p>SUBURB KIT! Very high quality, more than worth the price! Will be buying more!</p>",
             "source": "-Heather"
           }
         },
@@ -441,7 +439,7 @@
           "type": "testimonial",
           "settings": {
             "rating": "5_stars",
-            "quote": "<p>Amazing experience from purchase to delivery. This kit really does have everything you need and is great for beginners and seasoned watercolor artists and makes a great travel palette.<\/p>",
+            "quote": "<p>Amazing experience from purchase to delivery. This kit really does have everything you need and is great for beginners and seasoned watercolor artists and makes a great travel palette.</p>",
             "source": "- Kim"
           }
         },
@@ -449,7 +447,7 @@
           "type": "testimonial",
           "settings": {
             "rating": "5_stars",
-            "quote": "<p>Love it! So fun and has everything you need.<\/p>",
+            "quote": "<p>Love it! So fun and has everything you need.</p>",
             "source": "- Hlittlefield11"
           }
         },
@@ -457,7 +455,7 @@
           "type": "testimonial",
           "settings": {
             "rating": "5_stars",
-            "quote": "<p>This was a gift for my 10 year old niece on her birthday. Her eyes lit up and jaw dropped with joy when she opened the package. She painted all if the birds and fish by the next morning. She loves the bright and shiny colors. Such a great idea. Thank you!<\/p>",
+            "quote": "<p>This was a gift for my 10 year old niece on her birthday. Her eyes lit up and jaw dropped with joy when she opened the package. She painted all if the birds and fish by the next morning. She loves the bright and shiny colors. Such a great idea. Thank you!</p>",
             "source": "lmichellemc"
           }
         },
@@ -553,15 +551,14 @@
           }
         },
         "judge_me_reviews_featured_carousel_WzFLTw": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
         },
         "judge_me_reviews_all_reviews_text_ddyx7d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -597,7 +594,7 @@
       "type": "image-with-text",
       "settings": {
         "display_on_card": false,
-        "image": "shopify:\/\/shop_images\/TemporaryTattooscollectionphoto.jpg",
+        "image": "shopify://shop_images/TemporaryTattooscollectionphoto.jpg",
         "crop": "aspect-w-4 aspect-h-3",
         "image_shape": "blob",
         "blob_type": 3,
@@ -607,9 +604,9 @@
         "disable_media_style": false,
         "title": "And More!",
         "heading_size": "heading-feature",
-        "richtext": "<p>&lt;- Check out Temporary Tattoos!<\/p>",
+        "richtext": "<p>&lt;- Check out Temporary Tattoos!</p>",
         "text_alignment": "text-center",
-        "button_link": "shopify:\/\/products\/temporary-tattoos-set-of-14-animals",
+        "button_link": "shopify://products/temporary-tattoos-set-of-14-animals",
         "button_label": "Temp Tat Stickies",
         "color_scheme": "primary",
         "use_gradient_background": false
@@ -619,7 +616,7 @@
       "type": "custom-liquid",
       "settings": {
         "title": "",
-        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> <\/div>",
+        "custom_liquid": "<div style=\"\n    width: 67%;\n    height: 3px;\n    background: radial-gradient(#B4D455, #fff);\n    margin: 4px auto;\n\"> </div>",
         "full_width": true,
         "color_scheme": "primary"
       }
