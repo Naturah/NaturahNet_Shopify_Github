@@ -123,7 +123,7 @@
     "cart_type": "modal",
     "open_modal_on_add_to_cart": true,
     "enable_free_shipping_progress_in_cart": false,
-    "free_shipping_threshold": "30",
+    "free_shipping_threshold": "35",
     "custom_cursor": "shopify://shop_images/ArtbrushV3.svg",
     "favicon": "shopify://shop_images/NaturahIcon.svg",
     "checkout_logo_image": "shopify://shop_images/Naturah_Logo.svg",
