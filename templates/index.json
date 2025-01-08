@@ -307,7 +307,7 @@
         "f3086909-a9d2-48be-ab4f-01abd112ac9c"
       ],
       "custom_css": [
-        "#icon-list .iconfont {font-size: 14px;}"
+        "#icon-row-template--22504010776880__1650891303c44cb2d2 .feature-icon-list li {font-size: 14px; /* Adjust the size as needed */}"
       ],
       "settings": {
         "title": "",
