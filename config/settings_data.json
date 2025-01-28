@@ -35,7 +35,7 @@
     "color_quaternary_gradient": "linear-gradient(89deg, rgba(219, 149, 250, 1) 7%, rgba(148, 88, 255, 1) 94%)",
     "button_color": "accent-1",
     "color_border": "#1e1b21",
-    "base_font_size": 14,
+    "base_font_size": 16,
     "base_line_height": 1,
     "type_heading_font": "nunito_i9",
     "heading_uppercase": false,
