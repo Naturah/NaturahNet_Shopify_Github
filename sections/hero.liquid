@@ -1,0 +1,175 @@
+<section class="hero watercolor-bg">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 hero-content">
+        <h1 class="hero-title">{{ section.settings.heading }}</h1>
+        <div class="hero-description">{{ section.settings.description }}</div>
+        {% if section.settings.button_text != blank %}
+          <a href="{{ section.settings.button_link }}" class="btn hero-button">{{ section.settings.button_text }}</a>
+        {% endif %}
+        {% if section.settings.secondary_button_text != blank %}
+          <a href="{{ section.settings.secondary_button_link }}" class="btn btn-secondary hero-button">{{ section.settings.secondary_button_text }}</a>
+        {% endif %}
+      </div>
+      <div class="col-lg-6 hero-image-container">
+        {% if section.settings.image != blank %}
+          <div class="hero-image watercolor-border">
+            <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.heading }}">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  
+  <div class="hero-blob blob-1"></div>
+  <div class="hero-blob blob-2"></div>
+  <div class="hero-blob blob-3"></div>
+</section>
+
+<style>
+  .hero {
+    padding: var(--spacing-xl) 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: var(--spacing-md);
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text);
+    line-height: 1.2;
+  }
+  
+  .hero-description {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-light-text);
+    max-width: 500px;
+  }
+  
+  .hero-button {
+    margin-right: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .hero-image-container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-image {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .hero-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(50px);
+    z-index: 1;
+  }
+  
+  .blob-1 {
+    width: 300px;
+    height: 300px;
+    background-color: var(--watercolor-blue);
+    opacity: 0.2;
+    top: -100px;
+    right: -100px;
+  }
+  
+  .blob-2 {
+    width: 400px;
+    height: 400px;
+    background-color: var(--watercolor-pink);
+    opacity: 0.15;
+    bottom: -200px;
+    left: -150px;
+  }
+  
+  .blob-3 {
+    width: 200px;
+    height: 200px;
+    background-color: var(--watercolor-yellow);
+    opacity: 0.1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media (max-width: 992px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    
+    .hero-image-container {
+      margin-top: var(--spacing-md);
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Discover the Art of Watercolor"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Explore our premium watercolor supplies and unleash your creativity with high-quality paints, brushes, and papers designed for artists of all levels.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "secondary_button_text",
+      "label": "Secondary Button Text",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "secondary_button_link",
+      "label": "Secondary Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero",
+      "category": "Hero"
+    }
+  ]
+}
+{% endschema %} 

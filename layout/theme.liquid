@@ -5,8 +5,10 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta name="theme-color" content="">
+      <meta name="theme-color" content="#f8f5f2">
       <link rel="canonical" href="{{ canonical_url }}">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
       <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
       <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
@@ -109,58 +111,271 @@
       {% endif %}
       <style>
         :root {
-          --max-site-width: 1820px;
-          --watercolor-primary: #5a8ca8;
-          --watercolor-secondary: #e8c9b0;
-          --watercolor-accent: #d88373;
-          --watercolor-light: #f5f1e8;
-          --watercolor-dark: #2d4654;
+          /* Color Palette */
+          --color-primary: #5f8a8b;      /* Teal blue */
+          --color-secondary: #f4d6cc;    /* Soft peach */
+          --color-accent: #d16b54;       /* Terracotta */
+          --color-background: #f8f5f2;   /* Off-white */
+          --color-text: #333333;         /* Dark gray */
+          --color-light-text: #777777;   /* Light gray */
+          --color-white: #ffffff;        /* White */
+          
+          /* Watercolor Palette */
+          --watercolor-blue: #a5c8e1;
+          --watercolor-green: #c5dac1;
+          --watercolor-yellow: #f2e2ba;
+          --watercolor-pink: #f2d0d9;
+          --watercolor-purple: #d8c2e5;
+          
+          /* Typography */
+          --font-heading: 'Playfair Display', serif;
+          --font-body: 'Poppins', sans-serif;
+          
+          /* Spacing */
+          --spacing-xs: 0.5rem;
+          --spacing-sm: 1rem;
+          --spacing-md: 2rem;
+          --spacing-lg: 4rem;
+          --spacing-xl: 6rem;
+          
+          /* Border Radius */
+          --radius-sm: 4px;
+          --radius-md: 8px;
+          --radius-lg: 16px;
+          
+          /* Shadows */
+          --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.05);
+          --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+          --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+        
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        
+        html, body {
+          font-family: var(--font-body);
+          font-size: 16px;
+          line-height: 1.6;
+          color: var(--color-text);
+          background-color: var(--color-background);
+          overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-family: var(--font-heading);
+          font-weight: 500;
+          line-height: 1.3;
+          margin-bottom: var(--spacing-sm);
+        }
+        
+        h1 {
+          font-size: 3rem;
+        }
+        
+        h2 {
+          font-size: 2.5rem;
+        }
+        
+        h3 {
+          font-size: 2rem;
+        }
+        
+        p {
+          margin-bottom: var(--spacing-sm);
+        }
+        
+        a {
+          color: var(--color-primary);
+          text-decoration: none;
+          transition: color 0.3s ease;
+        }
+        
+        a:hover {
+          color: var(--color-accent);
+        }
+        
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        
+        .btn {
+          display: inline-block;
+          padding: 12px 24px;
+          background-color: var(--color-primary);
+          color: var(--color-white);
+          border: none;
+          border-radius: var(--radius-sm);
+          font-family: var(--font-body);
+          font-size: 1rem;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+          background-color: var(--color-accent);
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-sm);
+        }
+        
+        .btn-secondary {
+          background-color: transparent;
+          color: var(--color-primary);
+          border: 1px solid var(--color-primary);
+        }
+        
+        .btn-secondary:hover {
+          background-color: var(--color-primary);
+          color: var(--color-white);
+        }
+        
+        .container {
+          width: 100%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 var(--spacing-sm);
+        }
+        
+        .section {
+          padding: var(--spacing-lg) 0;
+        }
+        
+        .section-title {
+          text-align: center;
+          margin-bottom: var(--spacing-lg);
+          position: relative;
+        }
+        
+        .section-title::after {
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 3px;
+          background: linear-gradient(to right, var(--color-primary), var(--color-accent));
+          border-radius: 3px;
+        }
+        
+        /* Watercolor Effects */
+        .watercolor-border {
+          position: relative;
+        }
+        
+        .watercolor-border::before {
+          content: '';
+          position: absolute;
+          top: -10px;
+          left: -10px;
+          right: -10px;
+          bottom: -10px;
+          background: 
+            radial-gradient(circle at top left, var(--watercolor-pink), transparent 70%),
+            radial-gradient(circle at bottom right, var(--watercolor-blue), transparent 70%);
+          opacity: 0.3;
+          z-index: -1;
+          border-radius: var(--radius-md);
+        }
+        
+        .watercolor-bg {
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .watercolor-bg::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: 
+            radial-gradient(circle at 20% 30%, var(--watercolor-yellow), transparent 50%),
+            radial-gradient(circle at 80% 70%, var(--watercolor-green), transparent 50%),
+            radial-gradient(circle at 50% 50%, var(--watercolor-blue), transparent 60%);
+          opacity: 0.1;
+          z-index: -1;
+        }
+        
+        .splash-effect {
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .splash-effect img {
+          transition: transform 0.5s ease;
+        }
+        
+        .splash-effect:hover img {
+          transform: scale(1.05);
+        }
+        
+        .splash-effect::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: radial-gradient(circle at center, rgba(255,255,255,0.2), transparent 70%);
+          opacity: 0;
+          transition: opacity 0.5s ease;
+          z-index: 1;
+        }
+        
+        .splash-effect:hover::after {
+          opacity: 1;
+        }
+        
+        /* Skip to content */
+        .skip-link {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border-width: 0;
+        }
+        
+        .skip-link:focus {
+          width: auto;
+          height: auto;
+          clip: auto;
+          margin: 0;
+          padding: var(--spacing-sm);
+          background-color: var(--color-background);
+          color: var(--color-text);
+          text-decoration: underline;
+          z-index: 9999;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+          h1 {
+            font-size: 2.5rem;
+          }
+          
+          h2 {
+            font-size: 2rem;
+          }
+          
+          h3 {
+            font-size: 1.5rem;
+          }
+          
+          .section {
+            padding: var(--spacing-md) 0;
+          }
         }
       </style>
-      {% style %}
-        {{ main_font | font_face: font_display: 'swap' }}
-        {{ heading_font | font_face: font_display: 'swap' }}
-        {{ accent_font | font_face: font_display: 'swap' }}
-
-        {%- liquid
-          assign main_font_bolder = main_font | font_modify: 'weight', 'bolder'
-          assign main_font_italic = main_font | font_modify: 'style', 'italic'
-          assign main_font_bold_italic = main_font_bold | font_modify: 'style', 'italic'
-          if main_font_bold
-            echo main_font_bold | font_face: font_display: 'swap'
-          endif
-          if main_font_italic
-            echo main_font_italic | font_face: font_display: 'swap'
-          endif
-          if main_font_bold_italic
-            echo main_font_bold_italic | font_face: font_display: 'swap'
-          endif
-          if main_font_bolder
-            echo main_font_bolder | font_face: font_display: 'swap'
-          endif
-        -%}
-
-        {% if settings.heading_uppercase -%}
-          {%- capture heading_capitalize -%}uppercase{%- endcapture -%}
-        {% else -%}
-          {%- capture heading_capitalize -%}none{%- endcapture -%}
-        {% endif -%}
-        {%- capture heading_letterspacing -%}{{ settings.heading_letterspacing | divided_by: 1000.0 }}{% unless settings.heading_letterspacing == 0 -%}em{% endunless -%}{%- endcapture -%}
-
-        :root {
-          --heading-font-stack: {{ heading_font.family }}, {{ heading_font.fallback_families }};
-          --heading-font-weight: {{ heading_font.weight }};
-          --heading-font-style: {{ heading_font.style }};
-          --heading-letterspacing: {{ heading_letterspacing }};
-          --heading-capitalize: {{ heading_capitalize }};
-          --main-font-stack: {{ main_font.family }}, {{ main_font.fallback_families }};
-          --main-font-weight: {{ main_font.weight }};
-          --main-font-style: {{ main_font.style }};
-          --accent-font-stack: {{ accent_font.family }}, {{ accent_font.fallback_families }};
-          --accent-font-weight: {{ accent_font.weight }};
-          --accent-font-style: {{ accent_font.style }};
-        }
-      {% endstyle %}
       {%- render 'css-variables' %}
 
       {% comment %}theme-check-disable MissingTemplate{% endcomment %}
