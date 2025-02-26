@@ -1,0 +1,126 @@
+<div class="watercolor-featured-products">
+  <div class="container">
+    <h2 class="section-title watercolor-border">{{ section.settings.title }}</h2>
+    <div class="row">
+      {% for product in collections[section.settings.collection].products limit: section.settings.product_limit %}
+        <div class="col-md-4 col-sm-6 product-item">
+          <div class="product-card">
+            <div class="splash-container">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="product-image">
+              </a>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">
+                <a href="{{ product.url }}">{{ product.title }}</a>
+              </h3>
+              <div class="product-price">{{ product.price | money }}</div>
+              <a href="{{ product.url }}" class="btn product-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .watercolor-featured-products {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: var(--watercolor-dark);
+    padding-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .product-item {
+    margin-bottom: 30px;
+  }
+  
+  .product-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-title {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .product-title a {
+    color: var(--watercolor-dark);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .product-title a:hover {
+    color: var(--watercolor-accent);
+  }
+  
+  .product-price {
+    color: var(--watercolor-primary);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .product-btn {
+    margin-top: auto;
+    align-self: flex-start;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Watercolor Featured Products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Featured Watercolor Supplies"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "product_limit",
+      "min": 3,
+      "max": 12,
+      "step": 3,
+      "label": "Number of Products",
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+      "name": "Watercolor Featured Products",
+      "category": "Products"
+    }
+  ]
+}
+{% endschema %} 

@@ -1,0 +1,239 @@
+<footer class="watercolor-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="footer-about">
+          <h3 class="footer-title">{{ section.settings.about_title }}</h3>
+          <div class="footer-text">{{ section.settings.about_text }}</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-links">
+          <h3 class="footer-title">{{ section.settings.links_title }}</h3>
+          <ul class="footer-menu">
+            {% for link in linklists[section.settings.footer_menu].links %}
+              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-newsletter">
+          <h3 class="footer-title">{{ section.settings.newsletter_title }}</h3>
+          <div class="footer-text">{{ section.settings.newsletter_text }}</div>
+          {% form 'customer' %}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <div class="form-group">
+              <input type="email" name="contact[email]" class="form-control" placeholder="Your email address" required>
+            </div>
+            <button type="submit" class="btn newsletter-btn">{{ section.settings.button_label }}</button>
+          {% endform %}
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="copyright">{{ section.settings.copyright_text }}</div>
+      <div class="social-links">
+        {% if section.settings.facebook_url != blank %}
+          <a href="{{ section.settings.facebook_url }}" class="social-link" target="_blank">
+            {% include 'icon-facebook' %}
+          </a>
+        {% endif %}
+        {% if section.settings.instagram_url != blank %}
+          <a href="{{ section.settings.instagram_url }}" class="social-link" target="_blank">
+            {% include 'icon-instagram' %}
+          </a>
+        {% endif %}
+        {% if section.settings.pinterest_url != blank %}
+          <a href="{{ section.settings.pinterest_url }}" class="social-link" target="_blank">
+            {% include 'icon-pinterest' %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .watercolor-footer {
+    background-color: var(--watercolor-dark);
+    color: white;
+    padding: 60px 0 30px;
+  }
+  
+  .footer-title {
+    color: var(--watercolor-secondary);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .footer-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: var(--watercolor-accent);
+  }
+  
+  .footer-text {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    opacity: 0.8;
+  }
+  
+  .footer-menu a:hover {
+    color: var(--watercolor-secondary);
+    opacity: 1;
+  }
+  
+  .form-control {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255,255,255,0.5);
+  }
+  
+  .newsletter-btn {
+    background-color: var(--watercolor-accent);
+    color: white;
+  }
+  
+  .newsletter-btn:hover {
+    background-color: var(--watercolor-secondary);
+    color: var(--watercolor-dark);
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright {
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-link {
+    color: white;
+    margin-left: 15px;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+  
+  .social-link:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Watercolor Footer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "about_title",
+      "label": "About Title",
+      "default": "About Us"
+    },
+    {
+      "type": "richtext",
+      "id": "about_text",
+      "label": "About Text",
+      "default": "<p>We are passionate about watercolor art and dedicated to providing the highest quality supplies for artists of all levels.</p>"
+    },
+    {
+      "type": "text",
+      "id": "links_title",
+      "label": "Links Title",
+      "default": "Quick Links"
+    },
+    {
+      "type": "link_list",
+      "id": "footer_menu",
+      "label": "Footer Menu"
+    },
+    {
+      "type": "text",
+      "id": "newsletter_title",
+      "label": "Newsletter Title",
+      "default": "Stay Inspired"
+    },
+    {
+      "type": "richtext",
+      "id": "newsletter_text",
+      "label": "Newsletter Text",
+      "default": "<p>Subscribe to our newsletter for watercolor tips, tutorials, and exclusive offers.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Subscribe"
+    },
+    {
+      "type": "text",
+      "id": "copyright_text",
+      "label": "Copyright Text",
+      "default": "© 2023 Watercolor Supplies. All rights reserved."
+    },
+    {
+      "type": "url",
+      "id": "facebook_url",
+      "label": "Facebook URL"
+    },
+    {
+      "type": "url",
+      "id": "instagram_url",
+      "label": "Instagram URL"
+    },
+    {
+      "type": "url",
+      "id": "pinterest_url",
+      "label": "Pinterest URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Watercolor Footer",
+      "category": "Footer"
+    }
+  ]
+}
+{% endschema %} 

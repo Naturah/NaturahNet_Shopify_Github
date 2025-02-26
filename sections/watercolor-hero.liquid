@@ -1,0 +1,99 @@
+<div class="watercolor-hero" style="background-image: url({{ section.settings.background_image | img_url: 'master' }});">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">{{ section.settings.heading }}</h1>
+      <div class="hero-text">{{ section.settings.text }}</div>
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link }}" class="btn hero-button">{{ section.settings.button_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .watercolor-hero {
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .watercolor-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.4));
+  }
+  
+  .hero-content {
+    position: relative;
+    max-width: 600px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .hero-title {
+    color: var(--watercolor-dark);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .hero-button {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Watercolor Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Discover the Art of Watercolor"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Explore our premium watercolor kits and supplies for artists of all levels. From beginner sets to professional-grade paints, we have everything you need to bring your artistic vision to life.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Watercolor Hero",
+      "category": "Hero"
+    }
+  ]
+}
+{% endschema %} 

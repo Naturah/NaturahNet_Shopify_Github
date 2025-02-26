@@ -110,6 +110,11 @@
       <style>
         :root {
           --max-site-width: 1820px;
+          --watercolor-primary: #5a8ca8;
+          --watercolor-secondary: #e8c9b0;
+          --watercolor-accent: #d88373;
+          --watercolor-light: #f5f1e8;
+          --watercolor-dark: #2d4654;
         }
       </style>
       {% style %}
@@ -204,6 +209,105 @@
       </script>
       
       </script>
+      <style>
+        body {
+          background-color: var(--watercolor-light);
+          color: var(--watercolor-dark);
+          font-family: 'Cormorant Garamond', Georgia, serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+        }
+        
+        .btn, button {
+          background-color: var(--watercolor-primary);
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 3px;
+          transition: all 0.3s ease;
+        }
+        
+        .btn:hover, button:hover {
+          background-color: var(--watercolor-accent);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+          background: linear-gradient(to right, var(--watercolor-primary), var(--watercolor-secondary));
+          padding: 15px 0;
+        }
+        
+        .product-card {
+          border-radius: 8px;
+          overflow: hidden;
+          transition: all 0.3s ease;
+          background-color: white;
+          box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .product-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .watercolor-border {
+          position: relative;
+        }
+        
+        .watercolor-border::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 10%;
+          right: 10%;
+          height: 2px;
+          background: linear-gradient(to right, transparent, var(--watercolor-accent), transparent);
+        }
+        
+        .footer {
+          background-color: var(--watercolor-dark);
+          color: white;
+          padding: 40px 0;
+        }
+        
+        /* Watercolor splash effect for images */
+        .splash-container {
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .splash-container img {
+          transition: all 0.5s ease;
+        }
+        
+        .splash-container:hover img {
+          transform: scale(1.05);
+        }
+        
+        .splash-container::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: radial-gradient(circle at center, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%);
+          opacity: 0;
+          transition: opacity 0.5s ease;
+          z-index: 1;
+        }
+        
+        .splash-container:hover::before {
+          opacity: 1;
+        }
+      </style>
+      
+      <!-- Google Fonts for watercolor aesthetic -->
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     </head>
     
 

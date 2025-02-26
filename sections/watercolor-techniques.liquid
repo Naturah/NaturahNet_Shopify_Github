@@ -1,0 +1,145 @@
+<div class="watercolor-techniques">
+  <div class="container">
+    <h2 class="section-title watercolor-border">{{ section.settings.title }}</h2>
+    <div class="row">
+      {% for block in section.blocks %}
+        <div class="col-md-4 technique-item">
+          <div class="technique-card">
+            <div class="splash-container">
+              <img src="{{ block.settings.image | img_url: 'medium' }}" alt="{{ block.settings.title }}" class="technique-image">
+            </div>
+            <div class="technique-info">
+              <h3 class="technique-title">{{ block.settings.title }}</h3>
+              <div class="technique-description">{{ block.settings.description }}</div>
+              {% if block.settings.button_label != blank %}
+                <a href="{{ block.settings.button_link }}" class="btn technique-btn">{{ block.settings.button_label }}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .watercolor-techniques {
+    padding: 60px 0;
+    background-color: white;
+  }
+  
+  .technique-item {
+    margin-bottom: 30px;
+  }
+  
+  .technique-card {
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .technique-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  
+  .technique-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .technique-info {
+    padding: 25px;
+  }
+  
+  .technique-title {
+    margin-bottom: 15px;
+    color: var(--watercolor-dark);
+  }
+  
+  .technique-description {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .technique-btn {
+    background-color: var(--watercolor-secondary);
+    color: var(--watercolor-dark);
+  }
+  
+  .technique-btn:hover {
+    background-color: var(--watercolor-accent);
+    color: white;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Watercolor Techniques",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Watercolor Techniques"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "technique",
+      "name": "Technique",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Wet on Wet"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>The wet-on-wet technique involves applying paint to paper that is already wet, creating soft, diffused effects perfect for skies and backgrounds.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Label",
+          "default": "Learn More"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Watercolor Techniques",
+      "category": "Content",
+      "blocks": [
+        {
+          "type": "technique"
+        },
+        {
+          "type": "technique"
+        },
+        {
+          "type": "technique"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %} 
