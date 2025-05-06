@@ -627,6 +627,10 @@
   <script type="application/json" id="ModelJson-{{ section.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
+
+{% comment %} Google isReviewed review schema -> product.review-schema.liquid file  {% endcomment %}
+{% render 'product-review-schema' %}
+  
   <script>
     window.ProductModel = {
       loadShopifyXR() {
